@@ -1,7 +1,7 @@
 # hackage.nix
 
 This repository contains the index-state hashes of [[http://hackage.org][hackage.org]]
-needed for [[https://github.com/input-output-hk/haskell.nix][haskell.nix]].
+needed for [[https://github.com/ican-group/haskell.nix][haskell.nix]].
 
 It is periodically updated to stay in sync.
 

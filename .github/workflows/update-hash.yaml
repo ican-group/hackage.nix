@@ -11,6 +11,11 @@ on:
     - cron: '*/5 * * * *'
   workflow_dispatch: # Allow manual triggering
 
+# The default GITHUB_TOKEN is read-only in the ican-group org, so ask for
+# write access to push the new index state.
+permissions:
+  contents: write
+
 jobs:
   update-hackage-index-state:
     runs-on: ubuntu-latest
@@ -73,7 +78,7 @@ jobs:
           INDEX_STATE=$(date -u -r raw-01-index.tar.gz +"%Y-%m-%dT%H:%M:%SZ")
 
           # Run truncate-index on the index
-          nix run github:input-output-hk/haskell.nix#truncate-index -- \
+          nix run github:ican-group/haskell.nix#truncate-index -- \
             -o 01-index.tar.gz -i raw-01-index.tar.gz -s $INDEX_STATE
 
           # Calculate the SHA256 hash of the index
