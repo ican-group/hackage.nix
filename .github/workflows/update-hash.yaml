@@ -107,7 +107,7 @@ jobs:
 
           # Commit if there are changes
           if ! git diff --staged --quiet; then
-            INDEX_STATE=$(grep "index-state =" index-state.nix | cut -d'"' -f2)
+            INDEX_STATE=$(grep '" = "' index-state.nix | cut -d'"' -f2)
             git commit -m "Update Hackage index state to $INDEX_STATE"
             git push
           fi
