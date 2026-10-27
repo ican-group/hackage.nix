@@ -10,4 +10,15 @@
       default = "r0";
     };
   };
+  "0.2.0.0" = {
+    sha256 = "086f5013156845e47d3ffe4f4578fb391f3999b833f42857dd17d4473b5e03b9";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/salmon-ops-0.2.0.0-r0-c9d0da665ec47c9740f48e3af4a8a8c4976fd4d0c9b87fe50187129292475d12.nix;
+        revNum = 0;
+        sha256 = "c9d0da665ec47c9740f48e3af4a8a8c4976fd4d0c9b87fe50187129292475d12";
+      };
+      default = "r0";
+    };
+  };
 }

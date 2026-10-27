@@ -98,4 +98,15 @@
       default = "r0";
     };
   };
+  "1.1.0.0" = {
+    sha256 = "349530f8e1233efeb818784106b42b56bd6c7659bf698a1061f754327f525e87";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/ansiform-1.1.0.0-r0-36318486c1c8a6bdb290a61ec8efab93416a521873c7c5713e7e6ea323f62235.nix;
+        revNum = 0;
+        sha256 = "36318486c1c8a6bdb290a61ec8efab93416a521873c7c5713e7e6ea323f62235";
+      };
+      default = "r0";
+    };
+  };
 }

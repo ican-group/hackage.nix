@@ -54,4 +54,15 @@
       default = "r0";
     };
   };
+  "0.2.0.3" = {
+    sha256 = "35c216f2afb05d49117e1588d9b59a43ef7fcfcdbdff67b0ed5edb62b792c4a2";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/hstratus-auth-0.2.0.3-r0-cb68b25f8207679d25d1c24e506eb29297687a9e50c264c8879ae7ce539b5fd8.nix;
+        revNum = 0;
+        sha256 = "cb68b25f8207679d25d1c24e506eb29297687a9e50c264c8879ae7ce539b5fd8";
+      };
+      default = "r0";
+    };
+  };
 }

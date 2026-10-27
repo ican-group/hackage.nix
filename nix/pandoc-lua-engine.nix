@@ -337,4 +337,15 @@
       default = "r0";
     };
   };
+  "0.5.4.2" = {
+    sha256 = "2f28aad97d2e33c286e3253ca37c63ddafef1b50c1dfee5d0b687cb9622d6dec";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/pandoc-lua-engine-0.5.4.2-r0-dcdf901416fc613e7680811bba0318f3c171dbb7c3dccc9aec482f562b7af371.nix;
+        revNum = 0;
+        sha256 = "dcdf901416fc613e7680811bba0318f3c171dbb7c3dccc9aec482f562b7af371";
+      };
+      default = "r0";
+    };
+  };
 }

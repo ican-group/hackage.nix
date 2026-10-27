@@ -180,4 +180,48 @@
       default = "r0";
     };
   };
+  "0.4.1" = {
+    sha256 = "19e103e0059315ca048768ae5724ac53c80f589a0d142dab00506794cf1b412b";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/time-manager-0.4.1-r0-205a1077f97922c6ff92235b7f9f0e9bfaf6df46dba813b6f83683d5c0ee9903.nix;
+        revNum = 0;
+        sha256 = "205a1077f97922c6ff92235b7f9f0e9bfaf6df46dba813b6f83683d5c0ee9903";
+      };
+      default = "r0";
+    };
+  };
+  "0.5.0" = {
+    sha256 = "1a999dcb3b99d5826a4a6a46548bd322658e2a4aa165519ec89d7c148f0b53c2";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/time-manager-0.5.0-r0-d8974e7121385528dcbf315d3792e06a890face871e4f923a9ef9dbfe255c05f.nix;
+        revNum = 0;
+        sha256 = "d8974e7121385528dcbf315d3792e06a890face871e4f923a9ef9dbfe255c05f";
+      };
+      default = "r0";
+    };
+  };
+  "0.5.1" = {
+    sha256 = "840b1943ec696b5956730fe517ef7d9c26d2e956428b80b520d035f9c90e26a8";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/time-manager-0.5.1-r0-f053ec32bc79a14d74cf773631fd60ec89e98623047b1925447ed9c2632a1a1f.nix;
+        revNum = 0;
+        sha256 = "f053ec32bc79a14d74cf773631fd60ec89e98623047b1925447ed9c2632a1a1f";
+      };
+      default = "r0";
+    };
+  };
+  "0.5.2" = {
+    sha256 = "49f8a076ff6f179581a050d59fe7b3fa5a4ad4d7332d74a38c171a3b94f46687";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/time-manager-0.5.2-r0-06acb3c3f50d3078f1c5dda9af09a42d0bfdbcd5d8dcd520d45544028c08e02d.nix;
+        revNum = 0;
+        sha256 = "06acb3c3f50d3078f1c5dda9af09a42d0bfdbcd5d8dcd520d45544028c08e02d";
+      };
+      default = "r0";
+    };
+  };
 }

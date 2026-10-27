@@ -274,4 +274,26 @@
       default = "r0";
     };
   };
+  "0.7.0.0" = {
+    sha256 = "8b56e45db40d08909f87f335c5e730f9ddde326df7715554caf8b276e868a6ff";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/opencascade-hs-0.7.0.0-r0-82920c6b14d28133ee9346cf3f8024a00df971bcdf5b2a5376efef29c4f9b598.nix;
+        revNum = 0;
+        sha256 = "82920c6b14d28133ee9346cf3f8024a00df971bcdf5b2a5376efef29c4f9b598";
+      };
+      default = "r0";
+    };
+  };
+  "0.8.0.0" = {
+    sha256 = "bf47dc194da94f1373a7d490e87996a459ebad1f8f7d49ee488032433d5adf22";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/opencascade-hs-0.8.0.0-r0-77f3a86590e5c45f5197acb6806eec2d0950036cd5295936f6739f16e06a50d3.nix;
+        revNum = 0;
+        sha256 = "77f3a86590e5c45f5197acb6806eec2d0950036cd5295936f6739f16e06a50d3";
+      };
+      default = "r0";
+    };
+  };
 }

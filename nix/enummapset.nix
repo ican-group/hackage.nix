@@ -192,4 +192,15 @@
       default = "r2";
     };
   };
+  "0.7.4.0" = {
+    sha256 = "6c7448d6fa3e8837d159f0cebc568d3dace11e7db944c7f9b12851ae845ea849";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/enummapset-0.7.4.0-r0-2f108744d8d13e520668fe4af2b32f2af2da5f088ec5423fcd30308f8883442e.nix;
+        revNum = 0;
+        sha256 = "2f108744d8d13e520668fe4af2b32f2af2da5f088ec5423fcd30308f8883442e";
+      };
+      default = "r0";
+    };
+  };
 }

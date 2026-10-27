@@ -1450,6 +1450,8 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "acme-missiles" = import ./nix/acme-missiles.nix;
   "acme-mutable-package" = import ./nix/acme-mutable-package.nix;
   "acme-not-a-joke" = import ./nix/acme-not-a-joke.nix;
+  "acme-not-a-joke-wai" = import ./nix/acme-not-a-joke-wai.nix;
+  "acme-not-a-joke-warp" = import ./nix/acme-not-a-joke-warp.nix;
   "acme-now" = import ./nix/acme-now.nix;
   "acme-numbersystem" = import ./nix/acme-numbersystem.nix;
   "acme-omitted" = import ./nix/acme-omitted.nix;
@@ -2093,6 +2095,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "ansi-terminal-game" = import ./nix/ansi-terminal-game.nix;
   "ansi-terminal-types" = import ./nix/ansi-terminal-types.nix;
   "ansi-wl-pprint" = import ./nix/ansi-wl-pprint.nix;
+  "ansido" = import ./nix/ansido.nix;
   "ansiform" = import ./nix/ansiform.nix;
   "ansigraph" = import ./nix/ansigraph.nix;
   "antagonist" = import ./nix/antagonist.nix;
@@ -2341,6 +2344,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "async-refresh" = import ./nix/async-refresh.nix;
   "async-refresh-tokens" = import ./nix/async-refresh-tokens.nix;
   "async-timer" = import ./nix/async-timer.nix;
+  "asyncapi3" = import ./nix/asyncapi3.nix;
   "asynchronous-exceptions" = import ./nix/asynchronous-exceptions.nix;
   "atelier-core" = import ./nix/atelier-core.nix;
   "atelier-db" = import ./nix/atelier-db.nix;
@@ -2557,6 +2561,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "baikai-kit" = import ./nix/baikai-kit.nix;
   "baikai-openai" = import ./nix/baikai-openai.nix;
   "baikai-trace-otel" = import ./nix/baikai-trace-otel.nix;
+  "baikai-typesafe" = import ./nix/baikai-typesafe.nix;
   "bake" = import ./nix/bake.nix;
   "balkon" = import ./nix/balkon.nix;
   "ballast" = import ./nix/ballast.nix;
@@ -3440,6 +3445,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "cas-store" = import ./nix/cas-store.nix;
   "casa-abbreviations-and-acronyms" = import ./nix/casa-abbreviations-and-acronyms.nix;
   "casa-client" = import ./nix/casa-client.nix;
+  "casa-reoc" = import ./nix/casa-reoc.nix;
   "casa-types" = import ./nix/casa-types.nix;
   "casadi-bindings" = import ./nix/casadi-bindings.nix;
   "casadi-bindings-control" = import ./nix/casadi-bindings-control.nix;
@@ -5476,6 +5482,8 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "effectful-config-file-secretspec" = import ./nix/effectful-config-file-secretspec.nix;
   "effectful-core" = import ./nix/effectful-core.nix;
   "effectful-data-cache" = import ./nix/effectful-data-cache.nix;
+  "effectful-data-cache-memcache" = import ./nix/effectful-data-cache-memcache.nix;
+  "effectful-data-cache-opentelemetry" = import ./nix/effectful-data-cache-opentelemetry.nix;
   "effectful-opaleye" = import ./nix/effectful-opaleye.nix;
   "effectful-plugin" = import ./nix/effectful-plugin.nix;
   "effectful-poolboy" = import ./nix/effectful-poolboy.nix;
@@ -6058,6 +6066,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "fields-json" = import ./nix/fields-json.nix;
   "fieldwise" = import ./nix/fieldwise.nix;
   "fig" = import ./nix/fig.nix;
+  "figment" = import ./nix/figment.nix;
   "file-collection" = import ./nix/file-collection.nix;
   "file-command-qq" = import ./nix/file-command-qq.nix;
   "file-embed" = import ./nix/file-embed.nix;
@@ -8302,12 +8311,17 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "hen" = import ./nix/hen.nix;
   "henet" = import ./nix/henet.nix;
   "henforcer" = import ./nix/henforcer.nix;
+  "heni" = import ./nix/heni.nix;
+  "heni-cli" = import ./nix/heni-cli.nix;
+  "heni-hspec" = import ./nix/heni-hspec.nix;
+  "heni-tasty" = import ./nix/heni-tasty.nix;
   "hepevt" = import ./nix/hepevt.nix;
   "heph-aligned-storable" = import ./nix/heph-aligned-storable.nix;
   "heph-sparse-set" = import ./nix/heph-sparse-set.nix;
   "heptapod" = import ./nix/heptapod.nix;
   "her-lexer" = import ./nix/her-lexer.nix;
   "her-lexer-parsec" = import ./nix/her-lexer-parsec.nix;
+  "herald" = import ./nix/herald.nix;
   "herb" = import ./nix/herb.nix;
   "herbalizer" = import ./nix/herbalizer.nix;
   "hercules-ci-agent" = import ./nix/hercules-ci-agent.nix;
@@ -10128,6 +10142,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "jsonl-conduit" = import ./nix/jsonl-conduit.nix;
   "jsonlogic" = import ./nix/jsonlogic.nix;
   "jsonlogic-aeson" = import ./nix/jsonlogic-aeson.nix;
+  "jsonlogic-hs" = import ./nix/jsonlogic-hs.nix;
   "jsonnet" = import ./nix/jsonnet.nix;
   "jsonpatch" = import ./nix/jsonpatch.nix;
   "jsonpath" = import ./nix/jsonpath.nix;
@@ -10712,6 +10727,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "liblawless" = import ./nix/liblawless.nix;
   "liblinear-enumerator" = import ./nix/liblinear-enumerator.nix;
   "libltdl" = import ./nix/libltdl.nix;
+  "libmagic" = import ./nix/libmagic.nix;
   "libmdbx" = import ./nix/libmdbx.nix;
   "libmodbus" = import ./nix/libmodbus.nix;
   "libmolude" = import ./nix/libmolude.nix;
@@ -11760,6 +11776,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "monitor" = import ./nix/monitor.nix;
   "monky" = import ./nix/monky.nix;
   "mono-foldable" = import ./nix/mono-foldable.nix;
+  "mono-hash" = import ./nix/mono-hash.nix;
   "mono-traversable" = import ./nix/mono-traversable.nix;
   "mono-traversable-instances" = import ./nix/mono-traversable-instances.nix;
   "mono-traversable-keys" = import ./nix/mono-traversable-keys.nix;
@@ -13213,6 +13230,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "pgmq-core" = import ./nix/pgmq-core.nix;
   "pgmq-effectful" = import ./nix/pgmq-effectful.nix;
   "pgmq-hasql" = import ./nix/pgmq-hasql.nix;
+  "pgmq-inspect" = import ./nix/pgmq-inspect.nix;
   "pgmq-migration" = import ./nix/pgmq-migration.nix;
   "pgp-wordlist" = import ./nix/pgp-wordlist.nix;
   "pgqueuer-hs" = import ./nix/pgqueuer-hs.nix;
@@ -14389,6 +14407,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "rdf4h" = import ./nix/rdf4h.nix;
   "rdf4h-vocab-activitystreams" = import ./nix/rdf4h-vocab-activitystreams.nix;
   "rdioh" = import ./nix/rdioh.nix;
+  "rdkafka-hs" = import ./nix/rdkafka-hs.nix;
   "rds-data" = import ./nix/rds-data.nix;
   "rds-data-codecs" = import ./nix/rds-data-codecs.nix;
   "rds-data-polysemy" = import ./nix/rds-data-polysemy.nix;
@@ -17140,6 +17159,11 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "takedouble" = import ./nix/takedouble.nix;
   "takusen-oracle" = import ./nix/takusen-oracle.nix;
   "tal" = import ./nix/tal.nix;
+  "tala-compiler" = import ./nix/tala-compiler.nix;
+  "tala-core" = import ./nix/tala-core.nix;
+  "tala-frontend" = import ./nix/tala-frontend.nix;
+  "tala-syntax" = import ./nix/tala-syntax.nix;
+  "tala-tooling" = import ./nix/tala-tooling.nix;
   "talash" = import ./nix/talash.nix;
   "tamarin-prover" = import ./nix/tamarin-prover.nix;
   "tamarin-prover-term" = import ./nix/tamarin-prover-term.nix;
@@ -18092,6 +18116,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "typesafe-ai" = import ./nix/typesafe-ai.nix;
   "typesafe-ai-core" = import ./nix/typesafe-ai-core.nix;
   "typesafe-endian" = import ./nix/typesafe-endian.nix;
+  "typesafe-hs" = import ./nix/typesafe-hs.nix;
   "typesafe-precure" = import ./nix/typesafe-precure.nix;
   "typescript-docs" = import ./nix/typescript-docs.nix;
   "typical" = import ./nix/typical.nix;
@@ -19524,6 +19549,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "zigbee-znet25" = import ./nix/zigbee-znet25.nix;
   "zigzag" = import ./nix/zigzag.nix;
   "zim-parser" = import ./nix/zim-parser.nix;
+  "zim-to-markdown" = import ./nix/zim-to-markdown.nix;
   "zinza" = import ./nix/zinza.nix;
   "zio" = import ./nix/zio.nix;
   "zip" = import ./nix/zip.nix;

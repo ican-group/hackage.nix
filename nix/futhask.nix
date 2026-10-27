@@ -43,4 +43,15 @@
       default = "r0";
     };
   };
+  "1.1.1" = {
+    sha256 = "85fdde9f4fa4bf747e52c8ba669fd773b4912f587c37ae9096233c34e3189b7a";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/futhask-1.1.1-r0-711c381a3c1169345697d13d004ad88e75de7ecae68cef848a466e5a53b7aa08.nix;
+        revNum = 0;
+        sha256 = "711c381a3c1169345697d13d004ad88e75de7ecae68cef848a466e5a53b7aa08";
+      };
+      default = "r0";
+    };
+  };
 }

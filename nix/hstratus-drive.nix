@@ -32,4 +32,15 @@
       default = "r0";
     };
   };
+  "0.1.0.3" = {
+    sha256 = "112033a9f8504c66671796bc112577b1b04cdd75b0520d8cf27ba5ba4ccf9bff";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/hstratus-drive-0.1.0.3-r0-8f8b876668c51d13af5707717b2cf2d2da847c76e9f38cf687b93752dcc8e2ce.nix;
+        revNum = 0;
+        sha256 = "8f8b876668c51d13af5707717b2cf2d2da847c76e9f38cf687b93752dcc8e2ce";
+      };
+      default = "r0";
+    };
+  };
 }

@@ -835,4 +835,15 @@
       default = "r0";
     };
   };
+  "3.2.2" = {
+    sha256 = "885ba8367a5320dacd5149c5e59e3e087dae6627ef53943f1239397e4f809af8";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/wai-app-file-cgi-3.2.2-r0-da4e3e71db6231a060141127de9510f85c4f46fd416fe278e25602da34ba9712.nix;
+        revNum = 0;
+        sha256 = "da4e3e71db6231a060141127de9510f85c4f46fd416fe278e25602da34ba9712";
+      };
+      default = "r0";
+    };
+  };
 }

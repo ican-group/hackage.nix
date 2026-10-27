@@ -612,4 +612,15 @@
       default = "r0";
     };
   };
+  "2.5.1" = {
+    sha256 = "1b869b66c1b4e24f4246f8ab5d54c744a36fab90028747a59095d591c2f11d36";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/wai-logger-2.5.1-r0-b3de7fabd22920255ba9bb87a9dd4f0ba5b076bb8dac6841a8c4ce46b450433f.nix;
+        revNum = 0;
+        sha256 = "b3de7fabd22920255ba9bb87a9dd4f0ba5b076bb8dac6841a8c4ce46b450433f";
+      };
+      default = "r0";
+    };
+  };
 }

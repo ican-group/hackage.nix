@@ -65,4 +65,15 @@
       default = "r0";
     };
   };
+  "0.1.4" = {
+    sha256 = "335b2b95e991eee6ea9c0f03e5d3ae71cb109a07d1b23cf731683354bb87013b";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/concurrent-dns-cache-0.1.4-r0-492bd492508dd0d3c41de0099b2770aa03b14d03dc67d1c7c59686c42587116e.nix;
+        revNum = 0;
+        sha256 = "492bd492508dd0d3c41de0099b2770aa03b14d03dc67d1c7c59686c42587116e";
+      };
+      default = "r0";
+    };
+  };
 }

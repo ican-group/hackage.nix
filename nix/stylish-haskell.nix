@@ -241,7 +241,12 @@
         revNum = 0;
         sha256 = "46f5b2152f8f310c2a907449ab71a1aece788406df1e36cf2b27d9aadba322d4";
       };
-      default = "r0";
+      r1 = {
+        nix = import ../hackage/stylish-haskell-0.15.1.0-r1-6258d1d614408b6c3ff25e43cec2fadea89c9ece31f633bb8e9a9b140bd5bf26.nix;
+        revNum = 1;
+        sha256 = "6258d1d614408b6c3ff25e43cec2fadea89c9ece31f633bb8e9a9b140bd5bf26";
+      };
+      default = "r1";
     };
   };
   "0.2.0.0" = {

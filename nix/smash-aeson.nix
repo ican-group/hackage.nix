@@ -26,4 +26,15 @@
       default = "r0";
     };
   };
+  "0.3.0" = {
+    sha256 = "d4d3d225b2c276c2eaeda9d951c2a9f4efc199f8219ae29a0a5ddc91d23ce251";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/smash-aeson-0.3.0-r0-0007499c69ba1672b5831a59c3edf29c96cbac6cc53d0dc0cb933dcbe6cd1a85.nix;
+        revNum = 0;
+        sha256 = "0007499c69ba1672b5831a59c3edf29c96cbac6cc53d0dc0cb933dcbe6cd1a85";
+      };
+      default = "r0";
+    };
+  };
 }

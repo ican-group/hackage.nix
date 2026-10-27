@@ -21,4 +21,26 @@
       default = "r0";
     };
   };
+  "0.2.0.1" = {
+    sha256 = "9638cb2ee4aa8df3ec01b6fffebc478290e51a83cc64e401791f22294b2eae39";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/effectful-data-cache-0.2.0.1-r0-d84bb2bf49d405dcb863c839527dbf6ec512f81a723c73642f234992749fc5f8.nix;
+        revNum = 0;
+        sha256 = "d84bb2bf49d405dcb863c839527dbf6ec512f81a723c73642f234992749fc5f8";
+      };
+      default = "r0";
+    };
+  };
+  "0.2.1.0" = {
+    sha256 = "e47e06cbfd539f519c05f62b7acf80da112158e06274a42cbb80f16ef849b8a2";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/effectful-data-cache-0.2.1.0-r0-2b92c17d7cc0f58fc98ace38970a062085936a88ca37e3756128fd59f22b3317.nix;
+        revNum = 0;
+        sha256 = "2b92c17d7cc0f58fc98ace38970a062085936a88ca37e3756128fd59f22b3317";
+      };
+      default = "r0";
+    };
+  };
 }

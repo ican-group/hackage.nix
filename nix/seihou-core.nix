@@ -21,6 +21,28 @@
       default = "r0";
     };
   };
+  "0.11.0.0" = {
+    sha256 = "74735d715cce35888d5fee6b60ef389ff17f5482cab5281449027136dde890ff";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/seihou-core-0.11.0.0-r0-1c2bb8942a29c7b32b4380563664792e6a27f740b3cf4e0ed316b35ee14d0bf5.nix;
+        revNum = 0;
+        sha256 = "1c2bb8942a29c7b32b4380563664792e6a27f740b3cf4e0ed316b35ee14d0bf5";
+      };
+      default = "r0";
+    };
+  };
+  "0.11.0.1" = {
+    sha256 = "6e337156c354d93b9ad351b12a1c6c5f4fc8a2bdde23bac86007e3e697dcdaba";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/seihou-core-0.11.0.1-r0-08d657dacd9c87f356a368640cbb485dbb3165bc17aca90984887b380fa83996.nix;
+        revNum = 0;
+        sha256 = "08d657dacd9c87f356a368640cbb485dbb3165bc17aca90984887b380fa83996";
+      };
+      default = "r0";
+    };
+  };
   "0.4.0.0" = {
     sha256 = "da7b641824fe58cf124ec0ea67bd94422ecd31e3eba464a726ba8ef0597ae596";
     revisions = {

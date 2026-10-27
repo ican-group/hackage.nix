@@ -505,4 +505,15 @@
       default = "r0";
     };
   };
+  "0.5.1" = {
+    sha256 = "36545d501ae7ba75cb0ee51c21218d1ec35ec8b3195f6c7a48e351af6fc5cf64";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/unix-time-0.5.1-r0-08f1a6d5a6e6998f0b53bfc01a1dc0861bfb842485149eae3ccac897fbd46de0.nix;
+        revNum = 0;
+        sha256 = "08f1a6d5a6e6998f0b53bfc01a1dc0861bfb842485149eae3ccac897fbd46de0";
+      };
+      default = "r0";
+    };
+  };
 }

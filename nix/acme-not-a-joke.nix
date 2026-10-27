@@ -20,4 +20,15 @@
       default = "r2";
     };
   };
+  "0.2.0.0" = {
+    sha256 = "46656b7bee08b4f455e0b3a20366e39259c434c923dda6f39c1053ac356a9562";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/acme-not-a-joke-0.2.0.0-r0-8b65c076fa1b406a255912104f0e20f3c3cfdba9975b20880031d8b67c115eb8.nix;
+        revNum = 0;
+        sha256 = "8b65c076fa1b406a255912104f0e20f3c3cfdba9975b20880031d8b67c115eb8";
+      };
+      default = "r0";
+    };
+  };
 }

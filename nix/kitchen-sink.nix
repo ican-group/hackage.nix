@@ -10,4 +10,15 @@
       default = "r0";
     };
   };
+  "0.2.0.0" = {
+    sha256 = "f437c84ad94e1a8835101768ee39550ecf54899ab682da391052584ec645332d";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/kitchen-sink-0.2.0.0-r0-0a752e7f985edfdeced175be8b97aaf2dd830f2208dc9cafd02bad1532e9b171.nix;
+        revNum = 0;
+        sha256 = "0a752e7f985edfdeced175be8b97aaf2dd830f2208dc9cafd02bad1532e9b171";
+      };
+      default = "r0";
+    };
+  };
 }

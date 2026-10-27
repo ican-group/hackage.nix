@@ -32,4 +32,15 @@
       default = "r0";
     };
   };
+  "0.2.0" = {
+    sha256 = "b3fa63263675cc01db8e5d6e6ca5c0f3031b6ad5819935059cf80a83bea4be41";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/smash-lens-0.2.0-r0-664683f1dc3c8ec214f98e66627274c8fde4e66aa0b53d4257742e4d574d8fde.nix;
+        revNum = 0;
+        sha256 = "664683f1dc3c8ec214f98e66627274c8fde4e66aa0b53d4257742e4d574d8fde";
+      };
+      default = "r0";
+    };
+  };
 }

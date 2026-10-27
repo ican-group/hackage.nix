@@ -21,4 +21,15 @@
       default = "r0";
     };
   };
+  "0.5.0.0" = {
+    sha256 = "f7a51e7d49c0d28df5da197ef87a1013c9a5131f41e73961c18524b11578e3de";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/tramaj-hs-0.5.0.0-r0-9df3b73d54f8ff3512d736229654f77b9697ef4f40bd20e9d6cd0d053728f871.nix;
+        revNum = 0;
+        sha256 = "9df3b73d54f8ff3512d736229654f77b9697ef4f40bd20e9d6cd0d053728f871";
+      };
+      default = "r0";
+    };
+  };
 }

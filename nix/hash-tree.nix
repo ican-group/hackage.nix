@@ -37,4 +37,15 @@
       default = "r1";
     };
   };
+  "0.1.1" = {
+    sha256 = "b2dcb0ea3a00b6a987753d51398b03dc3511b2811d08fcbb8495d9e11ffe72c8";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/hash-tree-0.1.1-r0-f34f3bd947748a3352a9eba699e3cc8c01080a0b909c711165dc697eff00b0b0.nix;
+        revNum = 0;
+        sha256 = "f34f3bd947748a3352a9eba699e3cc8c01080a0b909c711165dc697eff00b0b0";
+      };
+      default = "r0";
+    };
+  };
 }

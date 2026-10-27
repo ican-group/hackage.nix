@@ -274,4 +274,26 @@
       default = "r0";
     };
   };
+  "0.7.0.0" = {
+    sha256 = "f72bf776a59e625fe5cc23f5d6619be738b8a9bc5e2baaa8189672293f7508e3";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/waterfall-cad-0.7.0.0-r0-014c527db9894b58ab55176c1284c5f67ea647fd1f06123f2021bb795fb0f86e.nix;
+        revNum = 0;
+        sha256 = "014c527db9894b58ab55176c1284c5f67ea647fd1f06123f2021bb795fb0f86e";
+      };
+      default = "r0";
+    };
+  };
+  "0.8.0.0" = {
+    sha256 = "6a14d084201094803128121db550f3cca11353634f968a675e98b85aab1af8bb";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/waterfall-cad-0.8.0.0-r0-f77b7a78b48b8989a6bfb37c031ff8909e433c99d912ce73cb629ea894e52a96.nix;
+        revNum = 0;
+        sha256 = "f77b7a78b48b8989a6bfb37c031ff8909e433c99d912ce73cb629ea894e52a96";
+      };
+      default = "r0";
+    };
+  };
 }

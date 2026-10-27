@@ -43,4 +43,15 @@
       default = "r0";
     };
   };
+  "0.1.0.4" = {
+    sha256 = "405d448dd56cafab0b2e6d0d86d485aef39975dda17d1a174954630a64a8d889";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/hstratus-notes-0.1.0.4-r0-cb4977a1f68aa5c7f308df5b1cd6ccf0cfd6af4e0bbb492a99ceeb8ad0026e75.nix;
+        revNum = 0;
+        sha256 = "cb4977a1f68aa5c7f308df5b1cd6ccf0cfd6af4e0bbb492a99ceeb8ad0026e75";
+      };
+      default = "r0";
+    };
+  };
 }
