@@ -1462,6 +1462,17 @@
       default = "r0";
     };
   };
+  "0.0.159" = {
+    sha256 = "67a1f12679bf0f02ebd436ea11d2db01c8d3cd154cf7b137015993df2632062b";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/phino-0.0.159-r0-27a89d288eb2245b478f97839b0848d4a6af1ad9d2eb8224ed6303a54ccedaa6.nix;
+        revNum = 0;
+        sha256 = "27a89d288eb2245b478f97839b0848d4a6af1ad9d2eb8224ed6303a54ccedaa6";
+      };
+      default = "r0";
+    };
+  };
   "0.0.76" = {
     sha256 = "cf0cef3469709fdd12f7242bed62068ef3ad893338be3e61f20e9ec8c9f4503a";
     revisions = {

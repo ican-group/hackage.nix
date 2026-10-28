@@ -131,4 +131,15 @@
       default = "r0";
     };
   };
+  "0.8.0.0" = {
+    sha256 = "12980cb6a30a57c04a2e1384df04c056c4e2c96eb45cfcb97b587b3ee43031ef";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/filepather-0.8.0.0-r0-66d4b75188d89242fcfd358c98392704fa6101d9259821a5e5e43cc48a9536f0.nix;
+        revNum = 0;
+        sha256 = "66d4b75188d89242fcfd358c98392704fa6101d9259821a5e5e43cc48a9536f0";
+      };
+      default = "r0";
+    };
+  };
 }

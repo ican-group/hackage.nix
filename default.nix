@@ -6187,6 +6187,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "flatbuffers-parser" = import ./nix/flatbuffers-parser.nix;
   "flatcv" = import ./nix/flatcv.nix;
   "flatparse" = import ./nix/flatparse.nix;
+  "flatrate-math" = import ./nix/flatrate-math.nix;
   "flay" = import ./nix/flay.nix;
   "flexible-defaults" = import ./nix/flexible-defaults.nix;
   "flexible-numeric-parsers" = import ./nix/flexible-numeric-parsers.nix;
@@ -7387,6 +7388,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "grafana" = import ./nix/grafana.nix;
   "grafdhall" = import ./nix/grafdhall.nix;
   "graflog" = import ./nix/graflog.nix;
+  "graft" = import ./nix/graft.nix;
   "grakn" = import ./nix/grakn.nix;
   "grammar-combinators" = import ./nix/grammar-combinators.nix;
   "grammatical-parsers" = import ./nix/grammatical-parsers.nix;
@@ -10275,6 +10277,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "keiro-dsl" = import ./nix/keiro-dsl.nix;
   "keiro-migrations" = import ./nix/keiro-migrations.nix;
   "keiro-ops" = import ./nix/keiro-ops.nix;
+  "keiro-ops-http" = import ./nix/keiro-ops-http.nix;
   "keiro-pgmq" = import ./nix/keiro-pgmq.nix;
   "keiro-test-support" = import ./nix/keiro-test-support.nix;
   "kempe" = import ./nix/kempe.nix;
@@ -15892,6 +15895,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "slack-progressbar" = import ./nix/slack-progressbar.nix;
   "slack-verify" = import ./nix/slack-verify.nix;
   "slack-web" = import ./nix/slack-web.nix;
+  "slackblocks" = import ./nix/slackblocks.nix;
   "slate" = import ./nix/slate.nix;
   "slave-thread" = import ./nix/slave-thread.nix;
   "sleep" = import ./nix/sleep.nix;
@@ -18587,6 +18591,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "vector-th-unbox" = import ./nix/vector-th-unbox.nix;
   "vectortiles" = import ./nix/vectortiles.nix;
   "vega-view" = import ./nix/vega-view.nix;
+  "vehicle" = import ./nix/vehicle.nix;
   "velma" = import ./nix/velma.nix;
   "venzone" = import ./nix/venzone.nix;
   "verbalexpressions" = import ./nix/verbalexpressions.nix;
