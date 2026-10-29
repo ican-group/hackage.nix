@@ -32,6 +32,28 @@
       default = "r0";
     };
   };
+  "0.12.0.0" = {
+    sha256 = "987b26029b83c0993d6cbac0ae481fd56da921ccc5fda014bde27bf61a09c410";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/kioku-core-0.12.0.0-r0-a767c23abc021b49997ef5038e0dd47d3de16f44931817941ef4c39c8423d1c4.nix;
+        revNum = 0;
+        sha256 = "a767c23abc021b49997ef5038e0dd47d3de16f44931817941ef4c39c8423d1c4";
+      };
+      default = "r0";
+    };
+  };
+  "0.12.0.1" = {
+    sha256 = "7b8d1b098d7a0a1fda907ae487d7f34af04476adf263ec3e0bac5c78298891f6";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/kioku-core-0.12.0.1-r0-1da53f191c7856d540853b03eb1cb3164313e35e0eedb6fab3782ba5e7fc88e2.nix;
+        revNum = 0;
+        sha256 = "1da53f191c7856d540853b03eb1cb3164313e35e0eedb6fab3782ba5e7fc88e2";
+      };
+      default = "r0";
+    };
+  };
   "0.2.0.0" = {
     sha256 = "ce90173fe9f2300be33a3b6acd5ae59ec196f7e5f3254a56d4fe0b2c1c0c6f87";
     revisions = {

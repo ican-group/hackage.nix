@@ -153,4 +153,15 @@
       default = "r0";
     };
   };
+  "0.4.0.1" = {
+    sha256 = "f3478fc4f8ca212010d665f6e3a755d8a5ed1185fad7fd38e5a148842d305929";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/kiroku-metrics-0.4.0.1-r0-76eac42689d18374280b40edd9e5a284fd44f7fd682ab056b89a8cc82328ff6a.nix;
+        revNum = 0;
+        sha256 = "76eac42689d18374280b40edd9e5a284fd44f7fd682ab056b89a8cc82328ff6a";
+      };
+      default = "r0";
+    };
+  };
 }

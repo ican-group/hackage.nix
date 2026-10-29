@@ -54,6 +54,17 @@
       default = "r0";
     };
   };
+  "0.13.0.0" = {
+    sha256 = "85f2648e86ea27280f1c67693d739e0625ba8004c6a3fbcea7c5c31a457994d1";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/kiroku-store-0.13.0.0-r0-3161bcb830272ef896813d13395f463bbec4e2bdd35b7f603d6f4238cc3cfeff.nix;
+        revNum = 0;
+        sha256 = "3161bcb830272ef896813d13395f463bbec4e2bdd35b7f603d6f4238cc3cfeff";
+      };
+      default = "r0";
+    };
+  };
   "0.2.0.0" = {
     sha256 = "38cfd35bc22d2ffc654275de3c5f7afbb41a9357344b15b845168bc521cce9ea";
     revisions = {

@@ -1635,6 +1635,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "aivika-realtime" = import ./nix/aivika-realtime.nix;
   "aivika-transformers" = import ./nix/aivika-transformers.nix;
   "ajhc" = import ./nix/ajhc.nix;
+  "ajmd" = import ./nix/ajmd.nix;
   "al" = import ./nix/al.nix;
   "alarmclock" = import ./nix/alarmclock.nix;
   "alea" = import ./nix/alea.nix;
@@ -11309,6 +11310,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "matplotlib" = import ./nix/matplotlib.nix;
   "matrices" = import ./nix/matrices.nix;
   "matrix" = import ./nix/matrix.nix;
+  "matrix-accelerate" = import ./nix/matrix-accelerate.nix;
   "matrix-as-xyz" = import ./nix/matrix-as-xyz.nix;
   "matrix-client" = import ./nix/matrix-client.nix;
   "matrix-lens" = import ./nix/matrix-lens.nix;
@@ -16048,6 +16050,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "sneathlane-haste" = import ./nix/sneathlane-haste.nix;
   "snelstart-import" = import ./nix/snelstart-import.nix;
   "snipcheck" = import ./nix/snipcheck.nix;
+  "snippet" = import ./nix/snippet.nix;
   "snippet-extractor" = import ./nix/snippet-extractor.nix;
   "snm" = import ./nix/snm.nix;
   "snmp" = import ./nix/snmp.nix;

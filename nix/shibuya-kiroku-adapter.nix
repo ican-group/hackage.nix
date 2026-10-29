@@ -175,4 +175,15 @@
       default = "r0";
     };
   };
+  "0.7.0.1" = {
+    sha256 = "56850756e5a0012fe578a6bfd003a3f27726a235645ed6f85993205aedc564f7";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/shibuya-kiroku-adapter-0.7.0.1-r0-5aed57d9c393dffe1404b302630cb868edd7d31344dbf1b1a9a290af534e18bd.nix;
+        revNum = 0;
+        sha256 = "5aed57d9c393dffe1404b302630cb868edd7d31344dbf1b1a9a290af534e18bd";
+      };
+      default = "r0";
+    };
+  };
 }

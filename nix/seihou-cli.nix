@@ -43,6 +43,39 @@
       default = "r0";
     };
   };
+  "0.12.0.0" = {
+    sha256 = "7d50c2d777e2c0332fde86936327a901ab5d1b2c196fe75991e9b264397bab99";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/seihou-cli-0.12.0.0-r0-636901b5c09359256ac7370b6b8f1f3a5ace25df7da551544fb7331308a303fb.nix;
+        revNum = 0;
+        sha256 = "636901b5c09359256ac7370b6b8f1f3a5ace25df7da551544fb7331308a303fb";
+      };
+      default = "r0";
+    };
+  };
+  "0.12.0.1" = {
+    sha256 = "bb3339e9df85593961f73d6043a542c0ea8e1639263d09d6da138065080983b5";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/seihou-cli-0.12.0.1-r0-14c20de7c2e77bd6f7eb605fbc00faab8e29c22641cc72a442076939d79831ab.nix;
+        revNum = 0;
+        sha256 = "14c20de7c2e77bd6f7eb605fbc00faab8e29c22641cc72a442076939d79831ab";
+      };
+      default = "r0";
+    };
+  };
+  "0.12.1.0" = {
+    sha256 = "14c2e32eedd22700793fc8f0363266a28b009c22fdb8cac3895a0ad04ee9bcc4";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/seihou-cli-0.12.1.0-r0-45731e25e0f6146f8a98d41dbb3daf67cf6133a763be2f461d98df3027e0a11e.nix;
+        revNum = 0;
+        sha256 = "45731e25e0f6146f8a98d41dbb3daf67cf6133a763be2f461d98df3027e0a11e";
+      };
+      default = "r0";
+    };
+  };
   "0.4.0.0" = {
     sha256 = "820708ce78dce7592b158bdd1e744dae8025b7b5b54dbad15b23c60a6b200ae0";
     revisions = {

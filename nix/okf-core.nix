@@ -43,6 +43,39 @@
       default = "r0";
     };
   };
+  "0.11.0.0" = {
+    sha256 = "53e7720b5bd2a9b133270fd099a769ac87ae69fb07634d3b4e82beb1daa793fb";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/okf-core-0.11.0.0-r0-d6c464cb41234ac0ff966ce644310fb3250e3b49d366a7eb350e2ba6fdc62773.nix;
+        revNum = 0;
+        sha256 = "d6c464cb41234ac0ff966ce644310fb3250e3b49d366a7eb350e2ba6fdc62773";
+      };
+      default = "r0";
+    };
+  };
+  "0.12.0.0" = {
+    sha256 = "d12821c859c2a681e77cbded382273e5772686041a7e9387b0aa7a6b14b0bb32";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/okf-core-0.12.0.0-r0-e3e75cf530b311b886a46d6760fd100b8db4d96ca97a74b4f21dbec7b608a583.nix;
+        revNum = 0;
+        sha256 = "e3e75cf530b311b886a46d6760fd100b8db4d96ca97a74b4f21dbec7b608a583";
+      };
+      default = "r0";
+    };
+  };
+  "0.12.0.1" = {
+    sha256 = "f510ec1c6a6ceb59379ecf1f39c75547e12427b2a58d5e7815f0d2f48c75c1b9";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/okf-core-0.12.0.1-r0-72b8d2cc4ae2a64486f4419e8a10dd74fd03a545c2b6d06ee5cb4543fc163450.nix;
+        revNum = 0;
+        sha256 = "72b8d2cc4ae2a64486f4419e8a10dd74fd03a545c2b6d06ee5cb4543fc163450";
+      };
+      default = "r0";
+    };
+  };
   "0.2.0.0" = {
     sha256 = "59c999256ead03e917e10770752a76b7d541e8c4cc481492b68a6091654433db";
     revisions = {
