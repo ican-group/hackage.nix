@@ -21,4 +21,15 @@
       default = "r0";
     };
   };
+  "0.3.1.0" = {
+    sha256 = "517345be436a4fc5addf4599b3cd541d69e027d27116e4bd41bad9f4f84965b9";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/zim-to-markdown-0.3.1.0-r0-aaf38fce6ef8fbb81ac6bdfd5fc6ae8226028ccab476eb3bffadfef589f1025a.nix;
+        revNum = 0;
+        sha256 = "aaf38fce6ef8fbb81ac6bdfd5fc6ae8226028ccab476eb3bffadfef589f1025a";
+      };
+      default = "r0";
+    };
+  };
 }

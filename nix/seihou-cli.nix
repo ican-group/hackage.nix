@@ -76,6 +76,17 @@
       default = "r0";
     };
   };
+  "0.13.0.0" = {
+    sha256 = "f8225cb82996e7d1355203100eed7f11a46c0c6add661c0094cb25a181b91ea1";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/seihou-cli-0.13.0.0-r0-1eb65934ac9fc605545d1ee461ee9150de097b3560312f641c6044525b8deac9.nix;
+        revNum = 0;
+        sha256 = "1eb65934ac9fc605545d1ee461ee9150de097b3560312f641c6044525b8deac9";
+      };
+      default = "r0";
+    };
+  };
   "0.4.0.0" = {
     sha256 = "820708ce78dce7592b158bdd1e744dae8025b7b5b54dbad15b23c60a6b200ae0";
     revisions = {

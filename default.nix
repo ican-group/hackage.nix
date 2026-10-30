@@ -8099,6 +8099,8 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "hasql" = import ./nix/hasql.nix;
   "hasql-auto" = import ./nix/hasql-auto.nix;
   "hasql-backend" = import ./nix/hasql-backend.nix;
+  "hasql-check" = import ./nix/hasql-check.nix;
+  "hasql-check-ghc" = import ./nix/hasql-check-ghc.nix;
   "hasql-class" = import ./nix/hasql-class.nix;
   "hasql-cursor-query" = import ./nix/hasql-cursor-query.nix;
   "hasql-cursor-transaction" = import ./nix/hasql-cursor-transaction.nix;

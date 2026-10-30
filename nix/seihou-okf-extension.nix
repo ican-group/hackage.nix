@@ -76,6 +76,17 @@
       default = "r0";
     };
   };
+  "0.13.0.0" = {
+    sha256 = "0ecf547a93e1412b1309888fcbdd553dd4708f51cefe8f3cd2096e03eaf22e98";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/seihou-okf-extension-0.13.0.0-r0-5013e61e1624995a382fde20dd58ae38224c90930f5c31e19e89800971484753.nix;
+        revNum = 0;
+        sha256 = "5013e61e1624995a382fde20dd58ae38224c90930f5c31e19e89800971484753";
+      };
+      default = "r0";
+    };
+  };
   "0.4.0.0" = {
     sha256 = "d3c7cf689e350bfa9d8934f90e36cef81efb07f71241c958f9748d58ff2ee3d0";
     revisions = {
