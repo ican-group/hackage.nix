@@ -8133,6 +8133,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "hasql-streams-streaming" = import ./nix/hasql-streams-streaming.nix;
   "hasql-streams-streamly" = import ./nix/hasql-streams-streamly.nix;
   "hasql-th" = import ./nix/hasql-th.nix;
+  "hasql-th-format" = import ./nix/hasql-th-format.nix;
   "hasql-transaction" = import ./nix/hasql-transaction.nix;
   "hasql-transaction-io" = import ./nix/hasql-transaction-io.nix;
   "hasql-url" = import ./nix/hasql-url.nix;

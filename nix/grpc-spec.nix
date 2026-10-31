@@ -21,4 +21,15 @@
       default = "r0";
     };
   };
+  "1.1.1" = {
+    sha256 = "f0cf6deb9fae8ae96a45f76012f99646df0c53ee841f9d3b8b128fe7e31962e4";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/grpc-spec-1.1.1-r0-3cab4dd8b18dc1885269acfcbd997a4d19084e56e870cf2f9cc725f8813bc8ba.nix;
+        revNum = 0;
+        sha256 = "3cab4dd8b18dc1885269acfcbd997a4d19084e56e870cf2f9cc725f8813bc8ba";
+      };
+      default = "r0";
+    };
+  };
 }

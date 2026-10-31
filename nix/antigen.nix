@@ -101,4 +101,15 @@
       default = "r0";
     };
   };
+  "0.5.0.0" = {
+    sha256 = "bd881ba87b3a325c9e2ed65a27214e87c0e9b6bbd938aebf29cc2cab42577e7b";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/antigen-0.5.0.0-r0-9cb4f73feae582ce6e4929bc858c3f12d94c42eaec38549e60ca8a6363a58d5f.nix;
+        revNum = 0;
+        sha256 = "9cb4f73feae582ce6e4929bc858c3f12d94c42eaec38549e60ca8a6363a58d5f";
+      };
+      default = "r0";
+    };
+  };
 }
