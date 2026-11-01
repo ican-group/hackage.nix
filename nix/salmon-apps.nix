@@ -21,4 +21,15 @@
       default = "r0";
     };
   };
+  "0.3.0.0" = {
+    sha256 = "08ae0f875092b0a1bb5fc32d736a510a23237efd2b6f628fc0a7bb4e36c96bdf";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/salmon-apps-0.3.0.0-r0-711147e6878df803a15ff51f39ab98d3bf7153efd4257499371b974785bea497.nix;
+        revNum = 0;
+        sha256 = "711147e6878df803a15ff51f39ab98d3bf7153efd4257499371b974785bea497";
+      };
+      default = "r0";
+    };
+  };
 }

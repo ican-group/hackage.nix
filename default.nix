@@ -11591,6 +11591,8 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "mixed-strategies" = import ./nix/mixed-strategies.nix;
   "mixed-types-num" = import ./nix/mixed-types-num.nix;
   "mixpanel-client" = import ./nix/mixpanel-client.nix;
+  "mjml" = import ./nix/mjml.nix;
+  "mjml-hamlet" = import ./nix/mjml-hamlet.nix;
   "mkbndl" = import ./nix/mkbndl.nix;
   "mkcabal" = import ./nix/mkcabal.nix;
   "ml-w" = import ./nix/ml-w.nix;

@@ -164,6 +164,17 @@
       default = "r0";
     };
   };
+  "0.23.0.0" = {
+    sha256 = "e525590e85cbb1a3963f24e8dfde65472e3f3bd474b296a8fb91ff3b8f8d5a16";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/keiro-dsl-0.23.0.0-r0-341b77f7c7002551fcff004b92f9580e4c8a60c1dae5035926ef83cfc517cd96.nix;
+        revNum = 0;
+        sha256 = "341b77f7c7002551fcff004b92f9580e4c8a60c1dae5035926ef83cfc517cd96";
+      };
+      default = "r0";
+    };
+  };
   "0.3.0.0" = {
     sha256 = "f39a22e02957c0a6f427f0e88624a7db6c9ad79ca3befd484f844bac0fae3b55";
     revisions = {

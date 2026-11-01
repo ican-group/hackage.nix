@@ -103,4 +103,15 @@
       default = "r1";
     };
   };
+  "0.0.3.3" = {
+    sha256 = "4915716d4eec5f2bbf031125910f27cdef3337f99530b7d01601bd35db6b1581";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/soxlib-0.0.3.3-r0-45781551f7aa88249a565b15e94b404b08c8f90447895eefd775bb9c6a5b45a0.nix;
+        revNum = 0;
+        sha256 = "45781551f7aa88249a565b15e94b404b08c8f90447895eefd775bb9c6a5b45a0";
+      };
+      default = "r0";
+    };
+  };
 }
