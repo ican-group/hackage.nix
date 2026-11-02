@@ -21,4 +21,15 @@
       default = "r0";
     };
   };
+  "0.2.2.1" = {
+    sha256 = "787cbe54a8fb4ad6703e6caf5f66a37039b178b0fca2bee61908e6a66f9127e8";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/plegg-0.2.2.1-r0-332462d536bb83efa70d831e5c204bc10e19b16bdf59030aa2b702f6bd75d6bf.nix;
+        revNum = 0;
+        sha256 = "332462d536bb83efa70d831e5c204bc10e19b16bdf59030aa2b702f6bd75d6bf";
+      };
+      default = "r0";
+    };
+  };
 }

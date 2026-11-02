@@ -1609,6 +1609,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "agreeing" = import ./nix/agreeing.nix;
   "agum" = import ./nix/agum.nix;
   "ai-agent-diff-patch" = import ./nix/ai-agent-diff-patch.nix;
+  "ai-serving-cost" = import ./nix/ai-serving-cost.nix;
   "aig" = import ./nix/aig.nix;
   "aihc-cabal-syntax" = import ./nix/aihc-cabal-syntax.nix;
   "aihc-cpp" = import ./nix/aihc-cpp.nix;
@@ -4300,6 +4301,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "coroutine-enumerator" = import ./nix/coroutine-enumerator.nix;
   "coroutine-iteratee" = import ./nix/coroutine-iteratee.nix;
   "coroutine-object" = import ./nix/coroutine-object.nix;
+  "cost-per-decade" = import ./nix/cost-per-decade.nix;
   "cot" = import ./nix/cot.nix;
   "couch-hs" = import ./nix/couch-hs.nix;
   "couch-simple" = import ./nix/couch-simple.nix;
@@ -6121,6 +6123,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "finite-table" = import ./nix/finite-table.nix;
   "finite-typelits" = import ./nix/finite-typelits.nix;
   "finito" = import ./nix/finito.nix;
+  "fire-number-calc" = import ./nix/fire-number-calc.nix;
   "firebase-database" = import ./nix/firebase-database.nix;
   "firebase-hs" = import ./nix/firebase-hs.nix;
   "firefly" = import ./nix/firefly.nix;
@@ -15138,6 +15141,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "satplus" = import ./nix/satplus.nix;
   "saturn" = import ./nix/saturn.nix;
   "satyros" = import ./nix/satyros.nix;
+  "sauna-vs-gym-cost" = import ./nix/sauna-vs-gym-cost.nix;
   "sauron" = import ./nix/sauron.nix;
   "savage" = import ./nix/savage.nix;
   "sax" = import ./nix/sax.nix;
@@ -15723,6 +15727,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "si-clock" = import ./nix/si-clock.nix;
   "si-timers" = import ./nix/si-timers.nix;
   "sibe" = import ./nix/sibe.nix;
+  "side-hustle-hourly" = import ./nix/side-hustle-hourly.nix;
   "sieve" = import ./nix/sieve.nix;
   "sifflet" = import ./nix/sifflet.nix;
   "sifflet-lib" = import ./nix/sifflet-lib.nix;

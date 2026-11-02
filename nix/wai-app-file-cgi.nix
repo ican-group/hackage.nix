@@ -846,4 +846,26 @@
       default = "r0";
     };
   };
+  "3.2.3" = {
+    sha256 = "850606ae44642bec0458bbbce682a829f45e3464d24245df5cf291c02ffbecdb";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/wai-app-file-cgi-3.2.3-r0-142e03843279ca35a722d7d2aa8a345f73db636b6ca628225b66d6219bb8ed86.nix;
+        revNum = 0;
+        sha256 = "142e03843279ca35a722d7d2aa8a345f73db636b6ca628225b66d6219bb8ed86";
+      };
+      default = "r0";
+    };
+  };
+  "3.3.0" = {
+    sha256 = "1fdc77f83099252f2c23906ed2cab3d339dde52859653990d36fbe1feead36c8";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/wai-app-file-cgi-3.3.0-r0-a727d4ec24c99178ba77819fd2f77594bac2bff1d357ff73dcb9db1f8c2af6a7.nix;
+        revNum = 0;
+        sha256 = "a727d4ec24c99178ba77819fd2f77594bac2bff1d357ff73dcb9db1f8c2af6a7";
+      };
+      default = "r0";
+    };
+  };
 }
