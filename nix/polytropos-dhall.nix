@@ -10,4 +10,15 @@
       default = "r0";
     };
   };
+  "0.1.0.3" = {
+    sha256 = "f9320919767c9cd43efe8bed64bb14ef75d321cd880090aebe129b3f3017351f";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/polytropos-dhall-0.1.0.3-r0-3cdea00849dfe6f4838084ea6d598d86446b3f06ab964bfcb94b91091df4e86f.nix;
+        revNum = 0;
+        sha256 = "3cdea00849dfe6f4838084ea6d598d86446b3f06ab964bfcb94b91091df4e86f";
+      };
+      default = "r0";
+    };
+  };
 }

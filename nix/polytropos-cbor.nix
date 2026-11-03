@@ -10,4 +10,15 @@
       default = "r0";
     };
   };
+  "0.1.0.3" = {
+    sha256 = "fb0595fac33a53c468aca91e8cb9f27b5eba85600dcc0df4e18b8f2629f267b1";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/polytropos-cbor-0.1.0.3-r0-42fcd4cab223e321ad39865158515be2d4e788b5ab11fee3c1c894aab915b4d6.nix;
+        revNum = 0;
+        sha256 = "42fcd4cab223e321ad39865158515be2d4e788b5ab11fee3c1c894aab915b4d6";
+      };
+      default = "r0";
+    };
+  };
 }

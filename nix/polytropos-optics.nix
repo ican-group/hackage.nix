@@ -10,4 +10,15 @@
       default = "r0";
     };
   };
+  "0.1.0.3" = {
+    sha256 = "99a7be18ee38d44f0415db086d66b61bcba78ffdcc0fe2cc435aa9c20c68e951";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/polytropos-optics-0.1.0.3-r0-0c0dc010f210dcc8461527cab371da3256a58fdcb4f71f5bdf31011b00ec9cae.nix;
+        revNum = 0;
+        sha256 = "0c0dc010f210dcc8461527cab371da3256a58fdcb4f71f5bdf31011b00ec9cae";
+      };
+      default = "r0";
+    };
+  };
 }

@@ -10,4 +10,15 @@
       default = "r0";
     };
   };
+  "0.1.0.3" = {
+    sha256 = "d13ba58a74834fb895a112a66ed88a245ae139f6b437e2b46fed205de3000f0d";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/polytropos-lens-0.1.0.3-r0-eafe9e73516ee77d13e4af6594c3430282a08f4d0c7473f0ec154fce76a62d45.nix;
+        revNum = 0;
+        sha256 = "eafe9e73516ee77d13e4af6594c3430282a08f4d0c7473f0ec154fce76a62d45";
+      };
+      default = "r0";
+    };
+  };
 }

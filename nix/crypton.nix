@@ -252,6 +252,17 @@
       default = "r0";
     };
   };
+  "2.1.12" = {
+    sha256 = "5fd2f533cfd8400fcdd3e5517c07dc5f05511eef1cc17efae0af68220bd77058";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/crypton-2.1.12-r0-ba04909fd488af79fbd4305af081b455b7bd50e291a3f055a88d0e40251c557b.nix;
+        revNum = 0;
+        sha256 = "ba04909fd488af79fbd4305af081b455b7bd50e291a3f055a88d0e40251c557b";
+      };
+      default = "r0";
+    };
+  };
   "2.1.2" = {
     sha256 = "f0f6bcabbe20ecf71e71ea53537c311caacdc1a601031549cf0623ec1444bafb";
     revisions = {
@@ -402,6 +413,17 @@
         nix = import ../hackage/crypton-2.2.5-r0-349adba669cf6f8c07e889fb069b91284f418b33cdeb53be65c59e39dc438398.nix;
         revNum = 0;
         sha256 = "349adba669cf6f8c07e889fb069b91284f418b33cdeb53be65c59e39dc438398";
+      };
+      default = "r0";
+    };
+  };
+  "2.2.6" = {
+    sha256 = "4ad40ea969f9a76ed89bc7b510e98cf212436d31522033b8d82e2801eac73ab6";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/crypton-2.2.6-r0-50cb658c2896cace37adaa3790c3ef991d85c30ff2286efe3eec8fdddc8cf663.nix;
+        revNum = 0;
+        sha256 = "50cb658c2896cace37adaa3790c3ef991d85c30ff2286efe3eec8fdddc8cf663";
       };
       default = "r0";
     };

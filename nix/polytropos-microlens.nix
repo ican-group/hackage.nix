@@ -10,4 +10,15 @@
       default = "r0";
     };
   };
+  "0.1.0.3" = {
+    sha256 = "88fb26a2228dce292d77ebf635e02c3e8d9b57ebb426bb78a5bc357a264c7743";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/polytropos-microlens-0.1.0.3-r0-5490dea3c31a09c3f40da6b50028574e199482ee61a211c6f30aff99fb085c0e.nix;
+        revNum = 0;
+        sha256 = "5490dea3c31a09c3f40da6b50028574e199482ee61a211c6f30aff99fb085c0e";
+      };
+      default = "r0";
+    };
+  };
 }

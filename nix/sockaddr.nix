@@ -21,4 +21,15 @@
       default = "r0";
     };
   };
+  "0.1.0" = {
+    sha256 = "13f2b5fa35478a0e9cf4b5b45b5c9c472b8dc8a4cda48715ad9412d09ea4e22f";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/sockaddr-0.1.0-r0-f5ae3bc22e07e31e5fc8343e8c251cb635aba1659eee92bf24a7e69992b8569e.nix;
+        revNum = 0;
+        sha256 = "f5ae3bc22e07e31e5fc8343e8c251cb635aba1659eee92bf24a7e69992b8569e";
+      };
+      default = "r0";
+    };
+  };
 }

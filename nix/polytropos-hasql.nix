@@ -10,4 +10,15 @@
       default = "r0";
     };
   };
+  "0.1.0.3" = {
+    sha256 = "364d9429503b57a0f3bfd677351b6e443b790f846e5c5e461a0fd6bece8fae9c";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/polytropos-hasql-0.1.0.3-r0-8da60f3dec674a07b603a9f297521a1a7d65450bf6685a5319258d1f9ab396ce.nix;
+        revNum = 0;
+        sha256 = "8da60f3dec674a07b603a9f297521a1a7d65450bf6685a5319258d1f9ab396ce";
+      };
+      default = "r0";
+    };
+  };
 }

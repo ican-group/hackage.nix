@@ -13133,6 +13133,9 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "pell" = import ./nix/pell.nix;
   "pem" = import ./nix/pem.nix;
   "pencil" = import ./nix/pencil.nix;
+  "penelope-core" = import ./nix/penelope-core.nix;
+  "penelope-effects" = import ./nix/penelope-effects.nix;
+  "penelope-static" = import ./nix/penelope-static.nix;
   "penn-treebank" = import ./nix/penn-treebank.nix;
   "penntreebank-megaparsec" = import ./nix/penntreebank-megaparsec.nix;
   "penny" = import ./nix/penny.nix;
@@ -17190,6 +17193,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "tangle" = import ./nix/tangle.nix;
   "tao" = import ./nix/tao.nix;
   "tao-example" = import ./nix/tao-example.nix;
+  "tap" = import ./nix/tap.nix;
   "tapioca" = import ./nix/tapioca.nix;
   "tar" = import ./nix/tar.nix;
   "tar-bytestring" = import ./nix/tar-bytestring.nix;
@@ -18996,6 +19000,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "wireform-core" = import ./nix/wireform-core.nix;
   "wireform-derive" = import ./nix/wireform-derive.nix;
   "wireform-proto" = import ./nix/wireform-proto.nix;
+  "wireform-yaml" = import ./nix/wireform-yaml.nix;
   "wireguard-hs" = import ./nix/wireguard-hs.nix;
   "wires" = import ./nix/wires.nix;
   "wiring" = import ./nix/wiring.nix;

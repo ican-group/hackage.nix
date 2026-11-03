@@ -10,4 +10,15 @@
       default = "r0";
     };
   };
+  "0.1.0.3" = {
+    sha256 = "e384bd446974814f1ca5ac9c4c32d7f49e2efda2493ac98edfe0ca10162e1c96";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/polytropos-reader-soup-0.1.0.3-r0-c2bc13f35e0f3cfbcc18b972a8272a580bbe1a1ed29cde79baefba2069137d78.nix;
+        revNum = 0;
+        sha256 = "c2bc13f35e0f3cfbcc18b972a8272a580bbe1a1ed29cde79baefba2069137d78";
+      };
+      default = "r0";
+    };
+  };
 }
