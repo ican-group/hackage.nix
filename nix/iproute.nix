@@ -447,4 +447,15 @@
       default = "r2";
     };
   };
+  "1.8.0" = {
+    sha256 = "8e656a1bc45ec358f1e1eb2bfd5b5d177dc15a475c95fe861e4d3b5e81068355";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/iproute-1.8.0-r0-66b4a53bcbd55b372fc0d487ccb808aece9772129ac04d524b64a3ab189948bc.nix;
+        revNum = 0;
+        sha256 = "66b4a53bcbd55b372fc0d487ccb808aece9772129ac04d524b64a3ab189948bc";
+      };
+      default = "r0";
+    };
+  };
 }

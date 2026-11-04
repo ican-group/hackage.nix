@@ -472,4 +472,15 @@
       default = "r0";
     };
   };
+  "0.8.6.5" = {
+    sha256 = "9507253af6b7c823b4f04525051914d2cca717e39eaf6f3bc3396ae288ab0b7b";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/net-mqtt-0.8.6.5-r0-2892c103ce4d914b57b6f3e4052d51e924734ad62dba547da0e405f2e4b96b65.nix;
+        revNum = 0;
+        sha256 = "2892c103ce4d914b57b6f3e4052d51e924734ad62dba547da0e405f2e4b96b65";
+      };
+      default = "r0";
+    };
+  };
 }

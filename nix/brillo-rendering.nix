@@ -21,4 +21,15 @@
       default = "r0";
     };
   };
+  "3.0.0" = {
+    sha256 = "3beae6428548459e6779cd8713f7910110458f45a408fd70a9bf16109a13a3fc";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/brillo-rendering-3.0.0-r0-72277d0c4ca062b4ce60a8dd9612970e0c700d48841bbbc5477e8159d75100bc.nix;
+        revNum = 0;
+        sha256 = "72277d0c4ca062b4ce60a8dd9612970e0c700d48841bbbc5477e8159d75100bc";
+      };
+      default = "r0";
+    };
+  };
 }

@@ -37,4 +37,26 @@
       default = "r0";
     };
   };
+  "0.2.0.0" = {
+    sha256 = "79ce72fc52735fade42913edfb74228f8ab28d77505f5ec2b25b4a9ccf4a453b";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/apecs-brillo-0.2.0.0-r0-3513fa8e5ffc85e1b20f6f15eb5c3787f3de8ff4bb26194e5603a9c2a5883cfb.nix;
+        revNum = 0;
+        sha256 = "3513fa8e5ffc85e1b20f6f15eb5c3787f3de8ff4bb26194e5603a9c2a5883cfb";
+      };
+      default = "r0";
+    };
+  };
+  "0.2.0.1" = {
+    sha256 = "d4e1ade09ba3edb7b7faf24da1f0683d45451c5bf6e14df1a4861dbbbbcb24c8";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/apecs-brillo-0.2.0.1-r0-6564f31aae84af61d41feeeeb89aa7c58e804efad058ad157d4d9032af98d020.nix;
+        revNum = 0;
+        sha256 = "6564f31aae84af61d41feeeeb89aa7c58e804efad058ad157d4d9032af98d020";
+      };
+      default = "r0";
+    };
+  };
 }

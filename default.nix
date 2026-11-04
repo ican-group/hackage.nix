@@ -6550,6 +6550,13 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "g3p-hash" = import ./nix/g3p-hash.nix;
   "g4ip" = import ./nix/g4ip.nix;
   "g4ip-prover" = import ./nix/g4ip-prover.nix;
+  "gachi-cli" = import ./nix/gachi-cli.nix;
+  "gachi-core" = import ./nix/gachi-core.nix;
+  "gachi-plan" = import ./nix/gachi-plan.nix;
+  "gachi-retrofit" = import ./nix/gachi-retrofit.nix;
+  "gachi-scaffold" = import ./nix/gachi-scaffold.nix;
+  "gachi-schema" = import ./nix/gachi-schema.nix;
+  "gachi-sync" = import ./nix/gachi-sync.nix;
   "gact" = import ./nix/gact.nix;
   "galois-fft" = import ./nix/galois-fft.nix;
   "galois-field" = import ./nix/galois-field.nix;
@@ -6563,6 +6570,17 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "gang-of-threads" = import ./nix/gang-of-threads.nix;
   "garepinoh" = import ./nix/garepinoh.nix;
   "garfield" = import ./nix/garfield.nix;
+  "gargamelle-core" = import ./nix/gargamelle-core.nix;
+  "gargamelle-effect" = import ./nix/gargamelle-effect.nix;
+  "gargamelle-equational" = import ./nix/gargamelle-equational.nix;
+  "gargamelle-evidence" = import ./nix/gargamelle-evidence.nix;
+  "gargamelle-fol" = import ./nix/gargamelle-fol.nix;
+  "gargamelle-logic" = import ./nix/gargamelle-logic.nix;
+  "gargamelle-model" = import ./nix/gargamelle-model.nix;
+  "gargamelle-persistence" = import ./nix/gargamelle-persistence.nix;
+  "gargamelle-sandbox" = import ./nix/gargamelle-sandbox.nix;
+  "gargamelle-sheaf" = import ./nix/gargamelle-sheaf.nix;
+  "gargamelle-workflow" = import ./nix/gargamelle-workflow.nix;
   "gargoyle" = import ./nix/gargoyle.nix;
   "gargoyle-postgresql" = import ./nix/gargoyle-postgresql.nix;
   "gargoyle-postgresql-connect" = import ./nix/gargoyle-postgresql-connect.nix;
@@ -7328,6 +7346,8 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "gogol-youtube-reporting" = import ./nix/gogol-youtube-reporting.nix;
   "goldplate" = import ./nix/goldplate.nix;
   "golds-gym" = import ./nix/golds-gym.nix;
+  "gongju" = import ./nix/gongju.nix;
+  "gongju-text" = import ./nix/gongju-text.nix;
   "gooey" = import ./nix/gooey.nix;
   "google-cloud" = import ./nix/google-cloud.nix;
   "google-cloud-common" = import ./nix/google-cloud-common.nix;
@@ -10541,6 +10561,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "language-typescript" = import ./nix/language-typescript.nix;
   "language-vhdl" = import ./nix/language-vhdl.nix;
   "language-webidl" = import ./nix/language-webidl.nix;
+  "language-wgsl" = import ./nix/language-wgsl.nix;
   "laop" = import ./nix/laop.nix;
   "lapack" = import ./nix/lapack.nix;
   "lapack-carray" = import ./nix/lapack-carray.nix;
@@ -10608,6 +10629,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "lazyio" = import ./nix/lazyio.nix;
   "lazyio-applicative" = import ./nix/lazyio-applicative.nix;
   "lazyppl" = import ./nix/lazyppl.nix;
+  "lazyppl-singlesite" = import ./nix/lazyppl-singlesite.nix;
   "lazyset" = import ./nix/lazyset.nix;
   "lazysmallcheck" = import ./nix/lazysmallcheck.nix;
   "lazysplines" = import ./nix/lazysplines.nix;
@@ -15958,6 +15980,10 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "smerdyakov" = import ./nix/smerdyakov.nix;
   "smh" = import ./nix/smh.nix;
   "smiles" = import ./nix/smiles.nix;
+  "smirk" = import ./nix/smirk.nix;
+  "smirk-effectful" = import ./nix/smirk-effectful.nix;
+  "smirk-penelope" = import ./nix/smirk-penelope.nix;
+  "smirk-polysemy" = import ./nix/smirk-polysemy.nix;
   "smith" = import ./nix/smith.nix;
   "smith-cli" = import ./nix/smith-cli.nix;
   "smith-client" = import ./nix/smith-client.nix;

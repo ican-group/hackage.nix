@@ -32,4 +32,15 @@
       default = "r0";
     };
   };
+  "2.1.0" = {
+    sha256 = "dcf23d0bc4b8759fc9a6930c7677b60522910552ff68b437e558d902ecc51f78";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/brillo-examples-2.1.0-r0-58dddbe5d07a4fa14034068f266e0a211c97bbc1571968f2f3af7c6740f7edc5.nix;
+        revNum = 0;
+        sha256 = "58dddbe5d07a4fa14034068f266e0a211c97bbc1571968f2f3af7c6740f7edc5";
+      };
+      default = "r0";
+    };
+  };
 }

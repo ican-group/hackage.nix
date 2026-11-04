@@ -21,4 +21,15 @@
       default = "r0";
     };
   };
+  "0.5.2.0" = {
+    sha256 = "5f2594de90982500faeb399b9b624778c5370b454aad31a75a0e09db835dd688";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/hasql-check-ghc-0.5.2.0-r0-fba259be34cf7944a6cd2e96a9ddccde0d3b56e8ac2999ad6475f48bce3265c6.nix;
+        revNum = 0;
+        sha256 = "fba259be34cf7944a6cd2e96a9ddccde0d3b56e8ac2999ad6475f48bce3265c6";
+      };
+      default = "r0";
+    };
+  };
 }

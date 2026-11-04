@@ -21,4 +21,15 @@
       default = "r0";
     };
   };
+  "0.3.1" = {
+    sha256 = "6e138c479826465c649df38292ed536105d5da7b02dc70bc11a9e9519172a9b1";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/brillo-juicy-0.3.1-r0-13d659e2ec9617e1ae8185d9d6f14f109d9080304f0e94e739be76b29390c5cf.nix;
+        revNum = 0;
+        sha256 = "13d659e2ec9617e1ae8185d9d6f14f109d9080304f0e94e739be76b29390c5cf";
+      };
+      default = "r0";
+    };
+  };
 }
