@@ -483,4 +483,26 @@
       default = "r0";
     };
   };
+  "0.8.7.0" = {
+    sha256 = "50fcd42d1b989185100e9c71ee290ccdf7bb7c4443d393f9b3fb2a510f4601e3";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/net-mqtt-0.8.7.0-r0-36854c1397172eedec6f1d08b99350e95fd53fb76fef23e69082086f5059327c.nix;
+        revNum = 0;
+        sha256 = "36854c1397172eedec6f1d08b99350e95fd53fb76fef23e69082086f5059327c";
+      };
+      default = "r0";
+    };
+  };
+  "0.8.7.1" = {
+    sha256 = "7df8584b88e2b68d6b8b47cbbcadb79a9f6907f2f0d8e77128fcc52ba48bbbb1";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/net-mqtt-0.8.7.1-r0-97a80cb806cd3c0734c9383d7135d70302a55cae66baf27f83aac74d985c7217.nix;
+        revNum = 0;
+        sha256 = "97a80cb806cd3c0734c9383d7135d70302a55cae66baf27f83aac74d985c7217";
+      };
+      default = "r0";
+    };
+  };
 }

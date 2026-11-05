@@ -54,4 +54,15 @@
       default = "r0";
     };
   };
+  "0.5.0.0" = {
+    sha256 = "d5500a224c61c30ba104e6d99e5c7261ce55d63a05a78b6001d2b7b02f33320e";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/cabal-buck2-0.5.0.0-r0-89c1d9bd898620b46c88dd3467e39d91bb6e012ed3f77a1bc7f57bd723520619.nix;
+        revNum = 0;
+        sha256 = "89c1d9bd898620b46c88dd3467e39d91bb6e012ed3f77a1bc7f57bd723520619";
+      };
+      default = "r0";
+    };
+  };
 }

@@ -43,4 +43,15 @@
       default = "r0";
     };
   };
+  "0.4.0" = {
+    sha256 = "58811718d6c78259924f8f659a0a2354010208b9af940b5e0eadf9a54e4f3576";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/synapse-cc-0.4.0-r0-ac439a884b948fd53e060919f7c6849019a01647626045cd1b9e73f4cdfff6b1.nix;
+        revNum = 0;
+        sha256 = "ac439a884b948fd53e060919f7c6849019a01647626045cd1b9e73f4cdfff6b1";
+      };
+      default = "r0";
+    };
+  };
 }

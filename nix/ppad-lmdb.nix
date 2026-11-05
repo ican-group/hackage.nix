@@ -10,4 +10,15 @@
       default = "r0";
     };
   };
+  "0.2.0" = {
+    sha256 = "101634613bea43d4ee4a90b85f14ce094908c4d302b431e964a82ace175354ec";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/ppad-lmdb-0.2.0-r0-c691d14bfe57355ac351ee3b8d45789f8e8389d217973246beab53a634324468.nix;
+        revNum = 0;
+        sha256 = "c691d14bfe57355ac351ee3b8d45789f8e8389d217973246beab53a634324468";
+      };
+      default = "r0";
+    };
+  };
 }

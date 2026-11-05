@@ -59,4 +59,15 @@
       default = "r0";
     };
   };
+  "0.6.0.0" = {
+    sha256 = "69f0c228be8c49f950a4538a74f14730d5566a33bbb5fe60244ff5a2c7cb12b2";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/plexus-protocol-0.6.0.0-r0-08050ad57ad401b79c5d5937faeb0e7f6ee86efd6a277d9f17f771c97351f4dc.nix;
+        revNum = 0;
+        sha256 = "08050ad57ad401b79c5d5937faeb0e7f6ee86efd6a277d9f17f771c97351f4dc";
+      };
+      default = "r0";
+    };
+  };
 }
