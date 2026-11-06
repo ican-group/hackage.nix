@@ -505,4 +505,37 @@
       default = "r0";
     };
   };
+  "0.8.7.2" = {
+    sha256 = "6b137cf3805ea67097c622acc4a242182eab7c212d9fde53cb0b72d1f917f4da";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/net-mqtt-0.8.7.2-r0-14321b9b655db2ef889b535fea0e419dcf8867863a633cce503d3dc59cf75fd9.nix;
+        revNum = 0;
+        sha256 = "14321b9b655db2ef889b535fea0e419dcf8867863a633cce503d3dc59cf75fd9";
+      };
+      default = "r0";
+    };
+  };
+  "0.8.7.3" = {
+    sha256 = "b2b3b22179d170bb73a3ccd51e944ea3490ca89b73f53b0d683bf350458fe561";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/net-mqtt-0.8.7.3-r0-9040899aea27181c2840e3ce8c3dde8215f4028b6ccbbe04a117d369babba2af.nix;
+        revNum = 0;
+        sha256 = "9040899aea27181c2840e3ce8c3dde8215f4028b6ccbbe04a117d369babba2af";
+      };
+      default = "r0";
+    };
+  };
+  "0.8.8.0" = {
+    sha256 = "362e834d4f4c33a3b5da8f54ef1b71e9f54e49489554de7e49d8f5a67c5b6af2";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/net-mqtt-0.8.8.0-r0-f45d5a91808209404fe2569e3310aad8d7c0c977dc77a8ccf28bd1dba0417c30.nix;
+        revNum = 0;
+        sha256 = "f45d5a91808209404fe2569e3310aad8d7c0c977dc77a8ccf28bd1dba0417c30";
+      };
+      default = "r0";
+    };
+  };
 }

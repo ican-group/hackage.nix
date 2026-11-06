@@ -10,4 +10,15 @@
       default = "r0";
     };
   };
+  "0.3.0.0" = {
+    sha256 = "11983de1cf536eb1ac6d992b18e88122afe93015f72f62036916b3a39c984021";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/shomei-postgres-0.3.0.0-r0-ae479536238c8cdc2fb3f9f1cee37126f4fb92ac1743f39de1ffc69a58df820b.nix;
+        revNum = 0;
+        sha256 = "ae479536238c8cdc2fb3f9f1cee37126f4fb92ac1743f39de1ffc69a58df820b";
+      };
+      default = "r0";
+    };
+  };
 }

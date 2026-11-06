@@ -15721,11 +15721,14 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "shine-varying" = import ./nix/shine-varying.nix;
   "shivers-cfg" = import ./nix/shivers-cfg.nix;
   "shoap" = import ./nix/shoap.nix;
+  "shomei-client" = import ./nix/shomei-client.nix;
   "shomei-core" = import ./nix/shomei-core.nix;
   "shomei-jwt" = import ./nix/shomei-jwt.nix;
   "shomei-migrations" = import ./nix/shomei-migrations.nix;
   "shomei-postgres" = import ./nix/shomei-postgres.nix;
   "shomei-servant" = import ./nix/shomei-servant.nix;
+  "shomei-server" = import ./nix/shomei-server.nix;
+  "shomei-webauthn" = import ./nix/shomei-webauthn.nix;
   "shopify" = import ./nix/shopify.nix;
   "short-vec" = import ./nix/short-vec.nix;
   "short-vec-lens" = import ./nix/short-vec-lens.nix;

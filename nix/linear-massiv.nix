@@ -54,4 +54,15 @@
       default = "r0";
     };
   };
+  "0.1.0.6" = {
+    sha256 = "9b0868566d0a87534e71a4893125835d517335da3e6dc7ad10922fc472efbf33";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/linear-massiv-0.1.0.6-r0-7ada60f14ce9ccb7389c380364b66b4ce819bfacde3a0685fd2a219dbce1be46.nix;
+        revNum = 0;
+        sha256 = "7ada60f14ce9ccb7389c380364b66b4ce819bfacde3a0685fd2a219dbce1be46";
+      };
+      default = "r0";
+    };
+  };
 }
