@@ -6123,6 +6123,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "finite-table" = import ./nix/finite-table.nix;
   "finite-typelits" = import ./nix/finite-typelits.nix;
   "finito" = import ./nix/finito.nix;
+  "fir" = import ./nix/fir.nix;
   "fire-number-calc" = import ./nix/fire-number-calc.nix;
   "firebase-database" = import ./nix/firebase-database.nix;
   "firebase-hs" = import ./nix/firebase-hs.nix;
@@ -19026,9 +19027,14 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "winery" = import ./nix/winery.nix;
   "winio" = import ./nix/winio.nix;
   "wire-streams" = import ./nix/wire-streams.nix;
+  "wireform-arrow" = import ./nix/wireform-arrow.nix;
+  "wireform-columnar-core" = import ./nix/wireform-columnar-core.nix;
   "wireform-core" = import ./nix/wireform-core.nix;
   "wireform-derive" = import ./nix/wireform-derive.nix;
+  "wireform-flatbuffers" = import ./nix/wireform-flatbuffers.nix;
+  "wireform-parquet" = import ./nix/wireform-parquet.nix;
   "wireform-proto" = import ./nix/wireform-proto.nix;
+  "wireform-thrift" = import ./nix/wireform-thrift.nix;
   "wireform-yaml" = import ./nix/wireform-yaml.nix;
   "wireguard-hs" = import ./nix/wireguard-hs.nix;
   "wires" = import ./nix/wires.nix;

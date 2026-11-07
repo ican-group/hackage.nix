@@ -21,4 +21,15 @@
       default = "r0";
     };
   };
+  "0.2.0.1" = {
+    sha256 = "cf508908daee38123eb0dcce2a7c164127cd9e11af67aac1c18e168a06cea23e";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/tala-tooling-0.2.0.1-r0-4db47dc24507b53fb0fae99cf684455eccc508285aeb7dc7afd9e81e530a5993.nix;
+        revNum = 0;
+        sha256 = "4db47dc24507b53fb0fae99cf684455eccc508285aeb7dc7afd9e81e530a5993";
+      };
+      default = "r0";
+    };
+  };
 }

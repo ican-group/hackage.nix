@@ -169,4 +169,15 @@
       default = "r0";
     };
   };
+  "0.4.3" = {
+    sha256 = "c4c1b9557c53edabec2984a8da173bfe116dd8056931b98852d10f157f2421e9";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/skeletest-0.4.3-r0-9c02f8912314d3004f1a28de07ebd79321c998d7fdd9e3584f248662aa060ae5.nix;
+        revNum = 0;
+        sha256 = "9c02f8912314d3004f1a28de07ebd79321c998d7fdd9e3584f248662aa060ae5";
+      };
+      default = "r0";
+    };
+  };
 }

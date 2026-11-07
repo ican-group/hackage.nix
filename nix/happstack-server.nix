@@ -1920,4 +1920,15 @@
       default = "r0";
     };
   };
+  "7.9.5" = {
+    sha256 = "37befee11c6d31a552a389deb5d43a340090ffb0e98d655475cac100a24c8906";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/happstack-server-7.9.5-r0-56d9731d8ee0685e1f984d256d6bd26099527f37b8491c72c1c88bd9fbea198c.nix;
+        revNum = 0;
+        sha256 = "56d9731d8ee0685e1f984d256d6bd26099527f37b8491c72c1c88bd9fbea198c";
+      };
+      default = "r0";
+    };
+  };
 }

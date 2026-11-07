@@ -65,4 +65,15 @@
       default = "r0";
     };
   };
+  "0.2.1.0" = {
+    sha256 = "8e98d0db0416a84222c2276ab8da8c8a0703a88c5f4ce4d5eb6a3859654d0745";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/agentic-openai-0.2.1.0-r0-e00424dfd8fb0f4c3a548c47eaf2a99af4ae8fcce7972910a6551e7d6ed729cd.nix;
+        revNum = 0;
+        sha256 = "e00424dfd8fb0f4c3a548c47eaf2a99af4ae8fcce7972910a6551e7d6ed729cd";
+      };
+      default = "r0";
+    };
+  };
 }

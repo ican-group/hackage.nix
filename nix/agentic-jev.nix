@@ -65,4 +65,15 @@
       default = "r0";
     };
   };
+  "0.2.1.0" = {
+    sha256 = "92a55a160b6d38913dca20159cb07e93eb02af07eb35ca05090e5835dd45aa7c";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/agentic-jev-0.2.1.0-r0-819f2bb0f4c932bcdb9be35daaa4d2f7529f5234b7afa9ba9da6cdba864b4097.nix;
+        revNum = 0;
+        sha256 = "819f2bb0f4c932bcdb9be35daaa4d2f7529f5234b7afa9ba9da6cdba864b4097";
+      };
+      default = "r0";
+    };
+  };
 }

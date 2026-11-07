@@ -21,4 +21,15 @@
       default = "r0";
     };
   };
+  "0.2.0.1" = {
+    sha256 = "70581bb9509b46415aed261db2f95df828c7563658df119bf69148583d59d2fd";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/tala-syntax-0.2.0.1-r0-2009b3ce68c194042f9fba716202438d631e9766aeaa8b35b11cbb4a2a448693.nix;
+        revNum = 0;
+        sha256 = "2009b3ce68c194042f9fba716202438d631e9766aeaa8b35b11cbb4a2a448693";
+      };
+      default = "r0";
+    };
+  };
 }

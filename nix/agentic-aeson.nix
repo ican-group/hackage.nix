@@ -65,4 +65,15 @@
       default = "r0";
     };
   };
+  "0.2.1.0" = {
+    sha256 = "369aca067316b9bb0272d28a56ea620651932835615a82d74d04616bf17bc63e";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/agentic-aeson-0.2.1.0-r0-2e450ba96534f4533d5d5150d872eb409d205160572a960f7f766b16c70654f1.nix;
+        revNum = 0;
+        sha256 = "2e450ba96534f4533d5d5150d872eb409d205160572a960f7f766b16c70654f1";
+      };
+      default = "r0";
+    };
+  };
 }

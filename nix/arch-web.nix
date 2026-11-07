@@ -80,4 +80,15 @@
       default = "r0";
     };
   };
+  "0.3.3" = {
+    sha256 = "383b959be954e1b432c08405947f58a51c5ff6dd35d6ed3d452991a5e95145da";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/arch-web-0.3.3-r0-4618a2211af232dab2dcd71eff0a9696ce43bf973e8a8d498cc0d5c736ee7bcb.nix;
+        revNum = 0;
+        sha256 = "4618a2211af232dab2dcd71eff0a9696ce43bf973e8a8d498cc0d5c736ee7bcb";
+      };
+      default = "r0";
+    };
+  };
 }

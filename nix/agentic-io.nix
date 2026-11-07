@@ -65,4 +65,15 @@
       default = "r0";
     };
   };
+  "0.2.1.0" = {
+    sha256 = "1d37c89956f0d921f505140d46c4826982bf0292dedc31486085b44a6cb2df1a";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/agentic-io-0.2.1.0-r0-9dce0731eb2f591e74dbd8bd86477b742f6c590730411dbd40042e5b606ceb2b.nix;
+        revNum = 0;
+        sha256 = "9dce0731eb2f591e74dbd8bd86477b742f6c590730411dbd40042e5b606ceb2b";
+      };
+      default = "r0";
+    };
+  };
 }

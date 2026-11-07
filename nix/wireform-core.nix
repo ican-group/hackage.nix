@@ -32,4 +32,15 @@
       default = "r0";
     };
   };
+  "0.3.0.0" = {
+    sha256 = "3dd9ac7be8b720bc8b7400e7ece46bfa5b9f365ae655145b5e852ee1060c5ae8";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/wireform-core-0.3.0.0-r0-74d589db804772ec5f088ce61023eae43c8fbf654715b51d36ff3632fff94f03.nix;
+        revNum = 0;
+        sha256 = "74d589db804772ec5f088ce61023eae43c8fbf654715b51d36ff3632fff94f03";
+      };
+      default = "r0";
+    };
+  };
 }
