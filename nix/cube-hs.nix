@@ -32,4 +32,15 @@
       default = "r0";
     };
   };
+  "0.5.1.0" = {
+    sha256 = "efd80e519f3b8e006a124b2706d6027585ffc6f97b337cb19e18db6ce0e12f8a";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/cube-hs-0.5.1.0-r0-ca5f9868f4521e463cc7664b83d518ea3349945228c1364d255a4baf5c18f3d8.nix;
+        revNum = 0;
+        sha256 = "ca5f9868f4521e463cc7664b83d518ea3349945228c1364d255a4baf5c18f3d8";
+      };
+      default = "r0";
+    };
+  };
 }

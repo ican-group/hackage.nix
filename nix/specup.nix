@@ -109,4 +109,15 @@
       default = "r0";
     };
   };
+  "0.2.0.7" = {
+    sha256 = "c6c021e3cd7bd241e75b1563f252f979082b888e41ca3286e47caf25e495f159";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/specup-0.2.0.7-r0-773cdff91d3e49f8644ef0b813a2e995e0111a666840d665cc6265087901ab8b.nix;
+        revNum = 0;
+        sha256 = "773cdff91d3e49f8644ef0b813a2e995e0111a666840d665cc6265087901ab8b";
+      };
+      default = "r0";
+    };
+  };
 }

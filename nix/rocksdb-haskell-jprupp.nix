@@ -164,4 +164,15 @@
       default = "r0";
     };
   };
+  "2.6.1" = {
+    sha256 = "fd16412d094d613c94311229b6ba6f3b126a6dffd3f61098fbab88541eba7d62";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/rocksdb-haskell-jprupp-2.6.1-r0-b97e92f311865e12242868ec8dcc53a66a96da489b4cd9996be3b5893c9d5e6a.nix;
+        revNum = 0;
+        sha256 = "b97e92f311865e12242868ec8dcc53a66a96da489b4cd9996be3b5893c9d5e6a";
+      };
+      default = "r0";
+    };
+  };
 }

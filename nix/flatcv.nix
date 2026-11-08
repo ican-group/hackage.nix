@@ -21,4 +21,15 @@
       default = "r0";
     };
   };
+  "0.3.1.0" = {
+    sha256 = "6be468d4647cdb6f0a50292150e36735001d0f7860d39be1e9cce3b9d4ac3faf";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/flatcv-0.3.1.0-r0-364688108315d383ca8ed9e6298c88c7212713183158ab3b623c2497b2406be9.nix;
+        revNum = 0;
+        sha256 = "364688108315d383ca8ed9e6298c88c7212713183158ab3b623c2497b2406be9";
+      };
+      default = "r0";
+    };
+  };
 }

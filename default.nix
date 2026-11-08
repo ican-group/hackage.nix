@@ -18870,6 +18870,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "warpZ-tls" = import ./nix/warp_Z-tls.nix;
   "warped" = import ./nix/warped.nix;
   "wasm" = import ./nix/wasm.nix;
+  "wasmedge-hs" = import ./nix/wasmedge-hs.nix;
   "watchdog" = import ./nix/watchdog.nix;
   "watcher" = import ./nix/watcher.nix;
   "watchit" = import ./nix/watchit.nix;

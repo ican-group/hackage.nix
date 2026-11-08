@@ -32,4 +32,15 @@
       default = "r0";
     };
   };
+  "1.1.0.1" = {
+    sha256 = "ddea16a70d20690acd64584648063e3c49cb75053203105b6ec2e27df2ef231b";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/lazyppl-1.1.0.1-r0-b20987af5b12612e6a6648ca4fa2b40e5cc53e6bde8ad758989adc23969869de.nix;
+        revNum = 0;
+        sha256 = "b20987af5b12612e6a6648ca4fa2b40e5cc53e6bde8ad758989adc23969869de";
+      };
+      default = "r0";
+    };
+  };
 }
