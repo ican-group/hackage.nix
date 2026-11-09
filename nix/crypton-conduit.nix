@@ -26,4 +26,15 @@
       default = "r0";
     };
   };
+  "0.3.1" = {
+    sha256 = "248392e29feef1e164ef6a5530d24566b9f4a23f4340d712383caa9b6c8c6350";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/crypton-conduit-0.3.1-r0-445f09abf496ba8a79a91e62cd8c3994102669532b2d8edd474a50fa7d54bd4f.nix;
+        revNum = 0;
+        sha256 = "445f09abf496ba8a79a91e62cd8c3994102669532b2d8edd474a50fa7d54bd4f";
+      };
+      default = "r0";
+    };
+  };
 }
