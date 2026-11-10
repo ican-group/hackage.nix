@@ -2141,6 +2141,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "apecs-gloss" = import ./nix/apecs-gloss.nix;
   "apecs-physics" = import ./nix/apecs-physics.nix;
   "apecs-physics-gloss" = import ./nix/apecs-physics-gloss.nix;
+  "apecs-roaring" = import ./nix/apecs-roaring.nix;
   "apecs-stm" = import ./nix/apecs-stm.nix;
   "apelsin" = import ./nix/apelsin.nix;
   "api-builder" = import ./nix/api-builder.nix;
@@ -4389,6 +4390,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "criu-rpc" = import ./nix/criu-rpc.nix;
   "criu-rpc-types" = import ./nix/criu-rpc-types.nix;
   "crjdt-haskell" = import ./nix/crjdt-haskell.nix;
+  "croaring-ffi" = import ./nix/croaring-ffi.nix;
   "crockford" = import ./nix/crockford.nix;
   "crocodile" = import ./nix/crocodile.nix;
   "cron" = import ./nix/cron.nix;
@@ -4828,6 +4830,22 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "dead-code-detection" = import ./nix/dead-code-detection.nix;
   "dead-simple-json" = import ./nix/dead-simple-json.nix;
   "dear-imgui" = import ./nix/dear-imgui.nix;
+  "dear-imgui-impl-glfw" = import ./nix/dear-imgui-impl-glfw.nix;
+  "dear-imgui-impl-glut" = import ./nix/dear-imgui-impl-glut.nix;
+  "dear-imgui-impl-null" = import ./nix/dear-imgui-impl-null.nix;
+  "dear-imgui-impl-opengl2" = import ./nix/dear-imgui-impl-opengl2.nix;
+  "dear-imgui-impl-opengl3" = import ./nix/dear-imgui-impl-opengl3.nix;
+  "dear-imgui-impl-sdl2" = import ./nix/dear-imgui-impl-sdl2.nix;
+  "dear-imgui-impl-sdl3" = import ./nix/dear-imgui-impl-sdl3.nix;
+  "dear-imgui-impl-sdlgpu3" = import ./nix/dear-imgui-impl-sdlgpu3.nix;
+  "dear-imgui-impl-sdlrenderer2" = import ./nix/dear-imgui-impl-sdlrenderer2.nix;
+  "dear-imgui-impl-sdlrenderer3" = import ./nix/dear-imgui-impl-sdlrenderer3.nix;
+  "dear-imgui-impl-vulkan" = import ./nix/dear-imgui-impl-vulkan.nix;
+  "dear-imgui-raw" = import ./nix/dear-imgui-raw.nix;
+  "dear-imgui-raw-imnodes" = import ./nix/dear-imgui-raw-imnodes.nix;
+  "dear-imgui-raw-implot" = import ./nix/dear-imgui-raw-implot.nix;
+  "dear-imgui-raw-internal" = import ./nix/dear-imgui-raw-internal.nix;
+  "dear-imgui-raw-knobs" = import ./nix/dear-imgui-raw-knobs.nix;
   "debian" = import ./nix/debian.nix;
   "debian-binary" = import ./nix/debian-binary.nix;
   "debian-build" = import ./nix/debian-build.nix;
@@ -6874,6 +6892,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "ghc-typenats-bits" = import ./nix/ghc-typenats-bits.nix;
   "ghc-usage" = import ./nix/ghc-usage.nix;
   "ghc-vis" = import ./nix/ghc-vis.nix;
+  "ghc-wasm-bindgen" = import ./nix/ghc-wasm-bindgen.nix;
   "ghcflags" = import ./nix/ghcflags.nix;
   "ghci" = import ./nix/ghci.nix;
   "ghci-dap" = import ./nix/ghci-dap.nix;
@@ -8092,6 +8111,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "haskseg" = import ./nix/haskseg.nix;
   "hasktags" = import ./nix/hasktags.nix;
   "hasktorch" = import ./nix/hasktorch.nix;
+  "hasktorch-CudaHashMap" = import ./nix/hasktorch-_Cuda_Hash_Map.nix;
   "hasktorch-codegen" = import ./nix/hasktorch-codegen.nix;
   "hasktorch-ffi-tests" = import ./nix/hasktorch-ffi-tests.nix;
   "hasktorch-ffi-th" = import ./nix/hasktorch-ffi-th.nix;
@@ -10910,6 +10930,8 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "lio-fs" = import ./nix/lio-fs.nix;
   "lio-simple" = import ./nix/lio-simple.nix;
   "lion" = import ./nix/lion.nix;
+  "lipstick" = import ./nix/lipstick.nix;
+  "lipstick-brick" = import ./nix/lipstick-brick.nix;
   "lipsum-gen" = import ./nix/lipsum-gen.nix;
   "liquid" = import ./nix/liquid.nix;
   "liquid-base" = import ./nix/liquid-base.nix;
@@ -11280,6 +11302,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "maquinitas-tidal" = import ./nix/maquinitas-tidal.nix;
   "marching-cubes" = import ./nix/marching-cubes.nix;
   "marching-cubes2" = import ./nix/marching-cubes2.nix;
+  "mariadb-haskell" = import ./nix/mariadb-haskell.nix;
   "marihana" = import ./nix/marihana.nix;
   "marionetta" = import ./nix/marionetta.nix;
   "marionette" = import ./nix/marionette.nix;
@@ -12584,6 +12607,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "oeis2" = import ./nix/oeis2.nix;
   "off-simple" = import ./nix/off-simple.nix;
   "ofx" = import ./nix/ofx.nix;
+  "oglyad" = import ./nix/oglyad.nix;
   "ogma-cli" = import ./nix/ogma-cli.nix;
   "ogma-core" = import ./nix/ogma-core.nix;
   "ogma-extra" = import ./nix/ogma-extra.nix;
@@ -14108,6 +14132,8 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "ptrdiff" = import ./nix/ptrdiff.nix;
   "pty-mcp-server" = import ./nix/pty-mcp-server.nix;
   "pub" = import ./nix/pub.nix;
+  "pubgrub" = import ./nix/pubgrub.nix;
+  "pubgrub-cabal" = import ./nix/pubgrub-cabal.nix;
   "publicsuffix" = import ./nix/publicsuffix.nix;
   "publicsuffixlist" = import ./nix/publicsuffixlist.nix;
   "publicsuffixlistcreate" = import ./nix/publicsuffixlistcreate.nix;
@@ -14257,6 +14283,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "quickcheck-enum-instances" = import ./nix/quickcheck-enum-instances.nix;
   "quickcheck-extras" = import ./nix/quickcheck-extras.nix;
   "quickcheck-groups" = import ./nix/quickcheck-groups.nix;
+  "quickcheck-helpers" = import ./nix/quickcheck-helpers.nix;
   "quickcheck-higherorder" = import ./nix/quickcheck-higherorder.nix;
   "quickcheck-instances" = import ./nix/quickcheck-instances.nix;
   "quickcheck-io" = import ./nix/quickcheck-io.nix;

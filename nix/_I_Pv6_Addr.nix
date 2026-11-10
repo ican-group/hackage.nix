@@ -399,4 +399,15 @@
       default = "r0";
     };
   };
+  "3.0.0.1" = {
+    sha256 = "179a8ea47be8a7257da2203cd71d86ea6204eb126fd5e192c83cfde41b69a170";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/IPv6Addr-3.0.0.1-r0-5a189c0bbce669d957043a83dcae91d7e142aebb83335061d1643a9265aab4e8.nix;
+        revNum = 0;
+        sha256 = "5a189c0bbce669d957043a83dcae91d7e142aebb83335061d1643a9265aab4e8";
+      };
+      default = "r0";
+    };
+  };
 }

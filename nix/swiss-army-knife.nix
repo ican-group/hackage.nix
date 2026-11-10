@@ -43,4 +43,15 @@
       default = "r0";
     };
   };
+  "1.2.0.0" = {
+    sha256 = "7d102c1382e67708c5b5818eabef8af14e455ead37d82e313bc40796fd4ee008";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/swiss-army-knife-1.2.0.0-r0-d2c2b3c21b73b194ca995e452afbdf7941165f1fb94a850e045e3eee478d1a90.nix;
+        revNum = 0;
+        sha256 = "d2c2b3c21b73b194ca995e452afbdf7941165f1fb94a850e045e3eee478d1a90";
+      };
+      default = "r0";
+    };
+  };
 }
