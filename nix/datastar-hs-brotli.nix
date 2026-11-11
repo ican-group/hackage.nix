@@ -10,4 +10,15 @@
       default = "r0";
     };
   };
+  "1.0.1.0" = {
+    sha256 = "3eba2d53fc4be51ff4eac632a31878d448305b2ce2c896ce10204a1a9491f274";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/datastar-hs-brotli-1.0.1.0-r0-ec682e08bc5d9c490b81859555e5ad41a0eb889cca0f576906b1aaede02b4e39.nix;
+        revNum = 0;
+        sha256 = "ec682e08bc5d9c490b81859555e5ad41a0eb889cca0f576906b1aaede02b4e39";
+      };
+      default = "r0";
+    };
+  };
 }

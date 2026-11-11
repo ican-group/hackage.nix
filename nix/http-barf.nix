@@ -21,4 +21,15 @@
       default = "r0";
     };
   };
+  "0.1.2.0" = {
+    sha256 = "8fb84d101c637e8a45195f54c54801bdbae37a4f8785fd531984c744b06ffec5";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/http-barf-0.1.2.0-r0-b3a2a8ee73f9d67e299693ddbb514893f2601bf4001d6416f82e85abe7254569.nix;
+        revNum = 0;
+        sha256 = "b3a2a8ee73f9d67e299693ddbb514893f2601bf4001d6416f82e85abe7254569";
+      };
+      default = "r0";
+    };
+  };
 }

@@ -131,4 +131,15 @@
       default = "r0";
     };
   };
+  "1.1.2.0" = {
+    sha256 = "0163b1bddfaa5ec7c7e1a838703525262b2965f8e6c5b6f47417e60e882fdb4e";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/datastar-hs-1.1.2.0-r0-80efe253c194dcf47785c4f82b0cc7b46d1fafc30544ebb36ed52d3ce0fcbf35.nix;
+        revNum = 0;
+        sha256 = "80efe253c194dcf47785c4f82b0cc7b46d1fafc30544ebb36ed52d3ce0fcbf35";
+      };
+      default = "r0";
+    };
+  };
 }

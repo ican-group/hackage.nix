@@ -132,6 +132,8 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "Bookshelf" = import ./nix/_Bookshelf.nix;
   "Boolean" = import ./nix/_Boolean.nix;
   "BoundedChan" = import ./nix/_Bounded_Chan.nix;
+  "Box2D" = import ./nix/_Box2_D.nix;
+  "Box3D" = import ./nix/_Box3_D.nix;
   "Bravo" = import ./nix/_Bravo.nix;
   "BufferedSocket" = import ./nix/_Buffered_Socket.nix;
   "Buster" = import ./nix/_Buster.nix;
@@ -3553,6 +3555,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "cfn-flip" = import ./nix/cfn-flip.nix;
   "cfopu" = import ./nix/cfopu.nix;
   "cfuture" = import ./nix/cfuture.nix;
+  "cfv" = import ./nix/cfv.nix;
   "cg" = import ./nix/cg.nix;
   "cgen" = import ./nix/cgen.nix;
   "cgi" = import ./nix/cgi.nix;
