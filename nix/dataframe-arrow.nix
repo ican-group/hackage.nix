@@ -21,4 +21,15 @@
       default = "r0";
     };
   };
+  "1.0.3.1" = {
+    sha256 = "1319c00849103f2a61f19a0c420a7b4418393ac6b6f46167589707da60cf50bd";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/dataframe-arrow-1.0.3.1-r0-6c845a4077184425a9a29f1032dc667d99b26052b7e7ca0b0e4df22e02ec6119.nix;
+        revNum = 0;
+        sha256 = "6c845a4077184425a9a29f1032dc667d99b26052b7e7ca0b0e4df22e02ec6119";
+      };
+      default = "r0";
+    };
+  };
 }

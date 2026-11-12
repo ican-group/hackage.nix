@@ -6964,6 +6964,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "gi-ggit" = import ./nix/gi-ggit.nix;
   "gi-gio" = import ./nix/gi-gio.nix;
   "gi-gio-hs-list-model" = import ./nix/gi-gio-hs-list-model.nix;
+  "gi-giounix" = import ./nix/gi-giounix.nix;
   "gi-girepository" = import ./nix/gi-girepository.nix;
   "gi-glib" = import ./nix/gi-glib.nix;
   "gi-gmodule" = import ./nix/gi-gmodule.nix;
@@ -9101,6 +9102,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "hsinspect" = import ./nix/hsinspect.nix;
   "hsinspect-lsp" = import ./nix/hsinspect-lsp.nix;
   "hsinstall" = import ./nix/hsinstall.nix;
+  "hsjuiz" = import ./nix/hsjuiz.nix;
   "hskeleton" = import ./nix/hskeleton.nix;
   "hslackbuilder" = import ./nix/hslackbuilder.nix;
   "hslibsvm" = import ./nix/hslibsvm.nix;
@@ -11124,6 +11126,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "lorentz" = import ./nix/lorentz.nix;
   "loris" = import ./nix/loris.nix;
   "loshadka" = import ./nix/loshadka.nix;
+  "lossy-chan" = import ./nix/lossy-chan.nix;
   "lostcities" = import ./nix/lostcities.nix;
   "louis" = import ./nix/louis.nix;
   "loup" = import ./nix/loup.nix;
@@ -13850,6 +13853,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "praglude" = import ./nix/praglude.nix;
   "pragmatic-show" = import ./nix/pragmatic-show.nix;
   "prairie" = import ./nix/prairie.nix;
+  "praxo-core" = import ./nix/praxo-core.nix;
   "preamble" = import ./nix/preamble.nix;
   "precis" = import ./nix/precis.nix;
   "precursor" = import ./nix/precursor.nix;

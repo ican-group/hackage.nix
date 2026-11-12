@@ -1,4 +1,15 @@
 {
+  "0.10.0.0" = {
+    sha256 = "77c871e647cde8133c7744b757b7d82620ea824a2bc9dc7ba28a37927862ac3f";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/ghcjs-dom-jsaddle-0.10.0.0-r0-c05fe9f9172bb75df887a5ee2c7042f6e251da3ab28e2ff0917ed1f73e0f9fb9.nix;
+        revNum = 0;
+        sha256 = "c05fe9f9172bb75df887a5ee2c7042f6e251da3ab28e2ff0917ed1f73e0f9fb9";
+      };
+      default = "r0";
+    };
+  };
   "0.3.1.0" = {
     sha256 = "82ab76c520ad821755c6343d66977cdf7ac728be888717621a03fd999ccaf02e";
     revisions = {

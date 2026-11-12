@@ -21,4 +21,15 @@
       default = "r0";
     };
   };
+  "0.3.0.0" = {
+    sha256 = "f69a14bda8e0bb42aed22564f40718838dc95c891341ce53e69ab8e920f8f086";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/canontra-0.3.0.0-r0-d43e42d618acb7c88e0adca876023853fba27a509bd20854ec8955ce1c074f70.nix;
+        revNum = 0;
+        sha256 = "d43e42d618acb7c88e0adca876023853fba27a509bd20854ec8955ce1c074f70";
+      };
+      default = "r0";
+    };
+  };
 }

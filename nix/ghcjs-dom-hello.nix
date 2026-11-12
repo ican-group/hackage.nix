@@ -98,4 +98,20 @@
       default = "r0";
     };
   };
+  "6.0.0.2" = {
+    sha256 = "1dbd7275fa305d2a83c6df2ee88685c3e1b9a37ac06a39cd16f758e36137f06e";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/ghcjs-dom-hello-6.0.0.2-r0-1be0f42ec354492ba3b41bc13fcaad3c9509adc2737c4070a81db31cb46bc4ef.nix;
+        revNum = 0;
+        sha256 = "1be0f42ec354492ba3b41bc13fcaad3c9509adc2737c4070a81db31cb46bc4ef";
+      };
+      r1 = {
+        nix = import ../hackage/ghcjs-dom-hello-6.0.0.2-r1-877290f6b03d59e1032faa5bf1536de85cb395bdf0e2275bce99881bc6a8a2bf.nix;
+        revNum = 1;
+        sha256 = "877290f6b03d59e1032faa5bf1536de85cb395bdf0e2275bce99881bc6a8a2bf";
+      };
+      default = "r1";
+    };
+  };
 }

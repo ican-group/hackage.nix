@@ -32,6 +32,17 @@
       default = "r0";
     };
   };
+  "0.10.0.0" = {
+    sha256 = "d35749cce8528bcc3123232a9847241ce8174710bcceb476c5d8fe4f521a886a";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/jsaddle-dom-0.10.0.0-r0-a58b6c005d631e030908f8aa9f39bb4786112e2a42497f85b84735acf89d0eb9.nix;
+        revNum = 0;
+        sha256 = "a58b6c005d631e030908f8aa9f39bb4786112e2a42497f85b84735acf89d0eb9";
+      };
+      default = "r0";
+    };
+  };
   "0.2.0.0" = {
     sha256 = "7c9bbf02c33e0ef074633f9ae023a375db775c5445a138956b27ffd2aed76446";
     revisions = {

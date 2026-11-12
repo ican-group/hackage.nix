@@ -389,4 +389,37 @@
       default = "r0";
     };
   };
+  "1.4.0" = {
+    sha256 = "d63fb8f3e0d8bfc7906169cc5e43c3c616204a7e7f61b4568a0849ad8c8fb77b";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/mysql-haskell-1.4.0-r0-4e925b04cd4aeb89804b14cba4bbd7951b6c4edfe135b4b3b15509380d97a74a.nix;
+        revNum = 0;
+        sha256 = "4e925b04cd4aeb89804b14cba4bbd7951b6c4edfe135b4b3b15509380d97a74a";
+      };
+      default = "r0";
+    };
+  };
+  "1.4.1" = {
+    sha256 = "03c5538aa638c7094f89e182c1609069a235b8429721ae10f43a550f26b63dc8";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/mysql-haskell-1.4.1-r0-df9f7de5362433844ab2e916236be4c5b72aad2fdf25843631ed8351a3620693.nix;
+        revNum = 0;
+        sha256 = "df9f7de5362433844ab2e916236be4c5b72aad2fdf25843631ed8351a3620693";
+      };
+      default = "r0";
+    };
+  };
+  "1.5.0" = {
+    sha256 = "c8c3ee32b9a03dbf06557ffeaf55eff14e3fa24117d18f6c83ea62ce95350df2";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/mysql-haskell-1.5.0-r0-6f82b401c33e01d4da6a13ae43b29760776ca745f5b367c46b3da9bdd9bddf56.nix;
+        revNum = 0;
+        sha256 = "6f82b401c33e01d4da6a13ae43b29760776ca745f5b367c46b3da9bdd9bddf56";
+      };
+      default = "r0";
+    };
+  };
 }

@@ -1,4 +1,15 @@
 {
+  "0.10.0.0" = {
+    sha256 = "78e4ea39758b519ea869835ee330b40a7941d9337f39e68f60fe0ab7f62bb830";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/jsaddle-webkitgtk-0.10.0.0-r0-3db2dd92e7fd0d203f5e98e47ff2daf143fccc604cdf921b4be25023627477fb.nix;
+        revNum = 0;
+        sha256 = "3db2dd92e7fd0d203f5e98e47ff2daf143fccc604cdf921b4be25023627477fb";
+      };
+      default = "r0";
+    };
+  };
   "0.8.0.0" = {
     sha256 = "235a11fe753651172e0ed39178f5f225c5a59e4385a3c1a122a5147e42d41894";
     revisions = {
