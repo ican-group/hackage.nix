@@ -1338,6 +1338,17 @@
       default = "r0";
     };
   };
+  "3.2.13.0" = {
+    sha256 = "a45d54f19f17de2945b4ee126082cac147c6d2fa9ca40460ca2afa8427f5046c";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/network-3.2.13.0-r0-2cad57093c4137b5d86f4608fb6d049e1d4ca1374f9862ed97689de7c68788df.nix;
+        revNum = 0;
+        sha256 = "2cad57093c4137b5d86f4608fb6d049e1d4ca1374f9862ed97689de7c68788df";
+      };
+      default = "r0";
+    };
+  };
   "3.2.2.0" = {
     sha256 = "efb04947946f52cccba802c2a8fc2f4259f0bdfd0bce95094c84e71583647f0c";
     revisions = {

@@ -1605,4 +1605,26 @@
       default = "r0";
     };
   };
+  "2.0.0" = {
+    sha256 = "c0d546db26d789e3176878358382e99786cd6888766d7050b4b1027dda36d761";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/haskoin-store-data-2.0.0-r0-b015535220e94259f35c4906e49efede9727426322cc46a380e2f8cf61e75019.nix;
+        revNum = 0;
+        sha256 = "b015535220e94259f35c4906e49efede9727426322cc46a380e2f8cf61e75019";
+      };
+      default = "r0";
+    };
+  };
+  "2.0.1" = {
+    sha256 = "0878aba8afb533270d5bcbb0dfd9d853c10cefed1aa74986ded17277c9bdd98b";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/haskoin-store-data-2.0.1-r0-638d701513a5cf9068905efb89cb176c5cbcd38203caa1691dabe04fa7493c1d.nix;
+        revNum = 0;
+        sha256 = "638d701513a5cf9068905efb89cb176c5cbcd38203caa1691dabe04fa7493c1d";
+      };
+      default = "r0";
+    };
+  };
 }

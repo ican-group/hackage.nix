@@ -131,4 +131,15 @@
       default = "r0";
     };
   };
+  "6.0.0.0" = {
+    sha256 = "32cef9acdbb418cde5844d9e7dc8333459123e3ca8693081c391df5fb5952a81";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/aihc-parser-6.0.0.0-r0-7c741f9db98f44fdef5171e427fe931f451a05e5aaf3b1c83b1367de717694ad.nix;
+        revNum = 0;
+        sha256 = "7c741f9db98f44fdef5171e427fe931f451a05e5aaf3b1c83b1367de717694ad";
+      };
+      default = "r0";
+    };
+  };
 }

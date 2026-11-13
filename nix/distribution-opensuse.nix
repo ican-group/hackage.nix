@@ -65,4 +65,15 @@
       default = "r0";
     };
   };
+  "1.2.0" = {
+    sha256 = "3c7465fd85f8f56e1c3bc56884554c2cd2a08d865ca610ecceb07c199ca87146";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/distribution-opensuse-1.2.0-r0-713fbed195763f0237cfe2b6051028ada71c7011b94899a1aa505aac2ff803a5.nix;
+        revNum = 0;
+        sha256 = "713fbed195763f0237cfe2b6051028ada71c7011b94899a1aa505aac2ff803a5";
+      };
+      default = "r0";
+    };
+  };
 }
