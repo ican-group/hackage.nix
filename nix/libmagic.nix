@@ -43,4 +43,15 @@
       default = "r0";
     };
   };
+  "1.3.3" = {
+    sha256 = "10d9907ac74bfef76ce2a7dde63f6faa6ac20ed43d5b5b595680c13ceb59bfb8";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/libmagic-1.3.3-r0-f6f9bb38f322f50910a47f3572f9bb79bcfce9bcbf41e7c70537db151229bda8.nix;
+        revNum = 0;
+        sha256 = "f6f9bb38f322f50910a47f3572f9bb79bcfce9bcbf41e7c70537db151229bda8";
+      };
+      default = "r0";
+    };
+  };
 }

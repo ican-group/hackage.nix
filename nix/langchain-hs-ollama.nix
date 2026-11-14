@@ -21,4 +21,15 @@
       default = "r0";
     };
   };
+  "0.0.6.2" = {
+    sha256 = "dc94bc3397a3f6554bfc32556dbec07d1465dc2defb371138f2301df4df576d5";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/langchain-hs-ollama-0.0.6.2-r0-1d4ed7328c417866c2dc2143c5e993ae6c3f06bfe6734e1ed8e44a55bee1d136.nix;
+        revNum = 0;
+        sha256 = "1d4ed7328c417866c2dc2143c5e993ae6c3f06bfe6734e1ed8e44a55bee1d136";
+      };
+      default = "r0";
+    };
+  };
 }

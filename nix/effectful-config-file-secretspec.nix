@@ -87,4 +87,15 @@
       default = "r0";
     };
   };
+  "0.1.2.3" = {
+    sha256 = "09a27560cb8e306353ec44775b5670b6c244ee95acfd0ea6a35e755f7f317f2c";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/effectful-config-file-secretspec-0.1.2.3-r0-2c8a0a4d0c24c638c41e0faae8b8cf7f131d68510c3e0c59523f5cce664c2ffe.nix;
+        revNum = 0;
+        sha256 = "2c8a0a4d0c24c638c41e0faae8b8cf7f131d68510c3e0c59523f5cce664c2ffe";
+      };
+      default = "r0";
+    };
+  };
 }

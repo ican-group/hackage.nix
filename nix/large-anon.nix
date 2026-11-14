@@ -113,4 +113,15 @@
       default = "r0";
     };
   };
+  "0.4.0" = {
+    sha256 = "5459ab69903bf4c5227d9fcf9d4ab26bad57cf097a4129f2354aa8e126fc15d2";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/large-anon-0.4.0-r0-00a0408b633924ae0f10ff07b4b8214a67456721ddfb3637b48e701573f82369.nix;
+        revNum = 0;
+        sha256 = "00a0408b633924ae0f10ff07b4b8214a67456721ddfb3637b48e701573f82369";
+      };
+      default = "r0";
+    };
+  };
 }

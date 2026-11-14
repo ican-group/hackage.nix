@@ -26,4 +26,15 @@
       default = "r0";
     };
   };
+  "0.3.0.0" = {
+    sha256 = "dfd66fc5ae0c204b10b9b5a71c1f09f269348b9faaadd99cfc3363b1f99049b4";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/scxml-statecharts-0.3.0.0-r0-07ad9b5f424ff728e43171a51c7fe353b4d91a747d3d36a80a43ea486f9702fb.nix;
+        revNum = 0;
+        sha256 = "07ad9b5f424ff728e43171a51c7fe353b4d91a747d3d36a80a43ea486f9702fb";
+      };
+      default = "r0";
+    };
+  };
 }

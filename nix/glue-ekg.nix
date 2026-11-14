@@ -164,4 +164,15 @@
       default = "r0";
     };
   };
+  "0.8.0.0" = {
+    sha256 = "347029f884fd2cd1bf1d491a63bea65ad261cfcf3f76e78257f98770ba51ee81";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/glue-ekg-0.8.0.0-r0-93e7f8c2091748671efef03a1dded633ccc74493d61341b8d942b399e4e80874.nix;
+        revNum = 0;
+        sha256 = "93e7f8c2091748671efef03a1dded633ccc74493d61341b8d942b399e4e80874";
+      };
+      default = "r0";
+    };
+  };
 }

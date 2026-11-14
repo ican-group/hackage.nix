@@ -175,4 +175,15 @@
       default = "r0";
     };
   };
+  "0.8.0.0" = {
+    sha256 = "144a6dd9573aef2e720eb6f245e6ac4b5e247a7646c769bd34f5385235d8d5d5";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/glue-example-0.8.0.0-r0-8722706ba4d2d9ce2636aa939b25c05c2ae58438d2c3d9b47dd3b0a25b7ea76d.nix;
+        revNum = 0;
+        sha256 = "8722706ba4d2d9ce2636aa939b25c05c2ae58438d2c3d9b47dd3b0a25b7ea76d";
+      };
+      default = "r0";
+    };
+  };
 }
