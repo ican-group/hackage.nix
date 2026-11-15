@@ -54,4 +54,15 @@
       default = "r0";
     };
   };
+  "0.1.8" = {
+    sha256 = "0ff7b822ae3b65aed00ca5d98790b1f8b78193340f53a34226a6fd22b8a928b6";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/gi-gtk-layer-shell-0.1.8-r0-70376417c5458276055d3d5a6f5f2abb1e7e10fac77be71462dad7e2a39e265e.nix;
+        revNum = 0;
+        sha256 = "70376417c5458276055d3d5a6f5f2abb1e7e10fac77be71462dad7e2a39e265e";
+      };
+      default = "r0";
+    };
+  };
 }

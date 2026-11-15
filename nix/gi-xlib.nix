@@ -65,6 +65,17 @@
       default = "r0";
     };
   };
+  "2.0.15" = {
+    sha256 = "899115622c8f3718e4286083aba8134ba55e2b4a8f4a587d7435893f57a79ca1";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/gi-xlib-2.0.15-r0-d6ddf267027a51af286f593ab319ac8d619437f9bf3e507d4c0d9bfde6b5a910.nix;
+        revNum = 0;
+        sha256 = "d6ddf267027a51af286f593ab319ac8d619437f9bf3e507d4c0d9bfde6b5a910";
+      };
+      default = "r0";
+    };
+  };
   "2.0.2" = {
     sha256 = "42dcaae6ca35539482935f2466ff4cfd910b514444713d2c0e1026759ae52d71";
     revisions = {

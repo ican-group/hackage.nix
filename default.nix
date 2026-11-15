@@ -6940,6 +6940,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "ghostscript-parallel" = import ./nix/ghostscript-parallel.nix;
   "ght" = import ./nix/ght.nix;
   "gi-adwaita" = import ./nix/gi-adwaita.nix;
+  "gi-astal-network" = import ./nix/gi-astal-network.nix;
   "gi-atk" = import ./nix/gi-atk.nix;
   "gi-ayatana-appindicator3" = import ./nix/gi-ayatana-appindicator3.nix;
   "gi-cairo" = import ./nix/gi-cairo.nix;
@@ -11630,7 +11631,13 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "mintty" = import ./nix/mintty.nix;
   "mios" = import ./nix/mios.nix;
   "mirror-tweet" = import ./nix/mirror-tweet.nix;
+  "mischief" = import ./nix/mischief.nix;
+  "mischief-assets" = import ./nix/mischief-assets.nix;
   "mischief-ecs" = import ./nix/mischief-ecs.nix;
+  "mischief-input" = import ./nix/mischief-input.nix;
+  "mischief-math" = import ./nix/mischief-math.nix;
+  "mischief-render" = import ./nix/mischief-render.nix;
+  "mischief-sdl" = import ./nix/mischief-sdl.nix;
   "misfortune" = import ./nix/misfortune.nix;
   "mismi-core" = import ./nix/mismi-core.nix;
   "mismi-kernel" = import ./nix/mismi-kernel.nix;
@@ -13841,6 +13848,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "ppad-lmdb" = import ./nix/ppad-lmdb.nix;
   "ppad-pbkdf" = import ./nix/ppad-pbkdf.nix;
   "ppad-poly1305" = import ./nix/ppad-poly1305.nix;
+  "ppad-random" = import ./nix/ppad-random.nix;
   "ppad-ripemd160" = import ./nix/ppad-ripemd160.nix;
   "ppad-script" = import ./nix/ppad-script.nix;
   "ppad-secp256k1" = import ./nix/ppad-secp256k1.nix;
@@ -19221,6 +19229,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "xcb-types" = import ./nix/xcb-types.nix;
   "xcffib" = import ./nix/xcffib.nix;
   "xcframework" = import ./nix/xcframework.nix;
+  "xch" = import ./nix/xch.nix;
   "xchat-plugin" = import ./nix/xchat-plugin.nix;
   "xcodec" = import ./nix/xcodec.nix;
   "xcp" = import ./nix/xcp.nix;

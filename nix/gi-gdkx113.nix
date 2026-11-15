@@ -10,4 +10,15 @@
       default = "r0";
     };
   };
+  "3.0.18" = {
+    sha256 = "ce24c239928ef0a0299a26dfe9256a3753590c34b78ccea6007e69c85f1c0a3f";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/gi-gdkx113-3.0.18-r0-a435c88eff85a7e1fe75a43cea44b63c6ec3fcac370beb96338741db7b220f78.nix;
+        revNum = 0;
+        sha256 = "a435c88eff85a7e1fe75a43cea44b63c6ec3fcac370beb96338741db7b220f78";
+      };
+      default = "r0";
+    };
+  };
 }

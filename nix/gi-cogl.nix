@@ -43,4 +43,15 @@
       default = "r0";
     };
   };
+  "1.0.7" = {
+    sha256 = "8a916310234aad28ed877654b387cc8b17136a6080c405d6de7ae705bfb91ab8";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/gi-cogl-1.0.7-r0-e146edd46f50ac812a42a9bd54d1e50e3c8538c57d6c4389d7f7cad37a7ceadf.nix;
+        revNum = 0;
+        sha256 = "e146edd46f50ac812a42a9bd54d1e50e3c8538c57d6c4389d7f7cad37a7ceadf";
+      };
+      default = "r0";
+    };
+  };
 }

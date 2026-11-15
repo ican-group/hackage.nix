@@ -3321,6 +3321,39 @@
       default = "r0";
     };
   };
+  "1.14.0" = {
+    sha256 = "581506008ba9be44117e49bd0e43680b7f030f54ff56df1ed0021a2a88861835";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/haskoin-store-1.14.0-r0-17c974917fbf441b01a0edb4977cb62616838a626ec380c134b923ea9bdc1e3d.nix;
+        revNum = 0;
+        sha256 = "17c974917fbf441b01a0edb4977cb62616838a626ec380c134b923ea9bdc1e3d";
+      };
+      default = "r0";
+    };
+  };
+  "1.15.0" = {
+    sha256 = "38e53e3b4c907f216d8c8d0a38c37d4c858e48fb60d66d32f5e1b373751943f5";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/haskoin-store-1.15.0-r0-bd7638daca6d8c6dc5c3e41a8d8b4051967690badd550ea46d0cf3f7e81a4d4d.nix;
+        revNum = 0;
+        sha256 = "bd7638daca6d8c6dc5c3e41a8d8b4051967690badd550ea46d0cf3f7e81a4d4d";
+      };
+      default = "r0";
+    };
+  };
+  "1.15.1" = {
+    sha256 = "def06585b10e733c2e2d1ad14a7ac760213d171ade749938e0a0db3503cdd333";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/haskoin-store-1.15.1-r0-f3b7a320f3e40da22acb4202567cf0d66814ede70b8402428430d2e564806827.nix;
+        revNum = 0;
+        sha256 = "f3b7a320f3e40da22acb4202567cf0d66814ede70b8402428430d2e564806827";
+      };
+      default = "r0";
+    };
+  };
   "1.2.0" = {
     sha256 = "261111c9d97804460f5b924ec44f15720943d0e65bc9ebfd571936b2a6008c3c";
     revisions = {

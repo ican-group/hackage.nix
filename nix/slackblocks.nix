@@ -21,4 +21,15 @@
       default = "r0";
     };
   };
+  "4.0.0" = {
+    sha256 = "5da87b0b711e95ab3798c6cae3760ac272d30919e2f0c8370ffa551fa1ea773a";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/slackblocks-4.0.0-r0-0b69cf3b129422e4f38e684653f8005789af2f578818d3bba6dabc3bf83e7adc.nix;
+        revNum = 0;
+        sha256 = "0b69cf3b129422e4f38e684653f8005789af2f578818d3bba6dabc3bf83e7adc";
+      };
+      default = "r0";
+    };
+  };
 }

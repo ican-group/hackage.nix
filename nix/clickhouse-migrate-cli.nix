@@ -21,4 +21,15 @@
       default = "r0";
     };
   };
+  "0.2.1.0" = {
+    sha256 = "0b09585b0c6fa63515bd9ffcfb8b3e748280cfeef91d68f3a3dbd112430636fa";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/clickhouse-migrate-cli-0.2.1.0-r0-908fd273a2707c38f0ae11fd9abc1139aa57d7bd6c5265ada45d8e39197fb170.nix;
+        revNum = 0;
+        sha256 = "908fd273a2707c38f0ae11fd9abc1139aa57d7bd6c5265ada45d8e39197fb170";
+      };
+      default = "r0";
+    };
+  };
 }

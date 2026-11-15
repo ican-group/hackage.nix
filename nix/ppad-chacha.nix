@@ -65,4 +65,37 @@
       default = "r0";
     };
   };
+  "0.3.2" = {
+    sha256 = "9da681dd69a2131a01d03865ba3a99a0b28851a9ede88ed054c5eca54224a524";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/ppad-chacha-0.3.2-r0-403bfd75412aa67f9073dd5d83d6909060d04c9b232dd170bb6405fe23a38e71.nix;
+        revNum = 0;
+        sha256 = "403bfd75412aa67f9073dd5d83d6909060d04c9b232dd170bb6405fe23a38e71";
+      };
+      default = "r0";
+    };
+  };
+  "0.3.3" = {
+    sha256 = "2d1969e2b6e9f64512e458d1b8248961ffc9e20ef59f48860a93d45930773bd7";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/ppad-chacha-0.3.3-r0-33f58a7e29991fa4aa25409708d1fc565245ac7d861b68df76661f6987f57528.nix;
+        revNum = 0;
+        sha256 = "33f58a7e29991fa4aa25409708d1fc565245ac7d861b68df76661f6987f57528";
+      };
+      default = "r0";
+    };
+  };
+  "0.3.4" = {
+    sha256 = "fc2cfa51014ff3ab69df5ebce958b859f4d24c6b674aa1b3cbb86e4d4ec0484c";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/ppad-chacha-0.3.4-r0-8197db07780fbe312057d1f9fb03cbcd283a5db12e04efbb442eb291f04c5d55.nix;
+        revNum = 0;
+        sha256 = "8197db07780fbe312057d1f9fb03cbcd283a5db12e04efbb442eb291f04c5d55";
+      };
+      default = "r0";
+    };
+  };
 }

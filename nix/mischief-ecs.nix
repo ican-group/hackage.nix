@@ -20,4 +20,26 @@
       default = "r2";
     };
   };
+  "0.2.0.0" = {
+    sha256 = "447548aeca0be3b02e601a9a82cd77e9b70dbc870952e5fecc285e49b71cbdb8";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/mischief-ecs-0.2.0.0-r0-053e061826e77662a15e869c0101a5fc80b042bc3f38b8a31a9687cff293f2e3.nix;
+        revNum = 0;
+        sha256 = "053e061826e77662a15e869c0101a5fc80b042bc3f38b8a31a9687cff293f2e3";
+      };
+      default = "r0";
+    };
+  };
+  "0.2.1.0" = {
+    sha256 = "ded7fc79dd34db9b5d91d0612fb10ea037b43f8fd98b23647835c7754b9fc237";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/mischief-ecs-0.2.1.0-r0-f516bcfba9d5376c8c9e2a4e346d71e7bb94fd83682b020afd686662a3b20fa6.nix;
+        revNum = 0;
+        sha256 = "f516bcfba9d5376c8c9e2a4e346d71e7bb94fd83682b020afd686662a3b20fa6";
+      };
+      default = "r0";
+    };
+  };
 }

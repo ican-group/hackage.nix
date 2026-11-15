@@ -10,4 +10,15 @@
       default = "r0";
     };
   };
+  "0.3.0.0" = {
+    sha256 = "1d48718f9bad5617856b4ade1b7731936e9e3d1cdcf4e40f89afe95aa9e0108b";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/kansoku-client-0.3.0.0-r0-a67d44cc9010ee5d87a53c67b71e7c2aad4f6bb85ca251c148f213f4c7521c19.nix;
+        revNum = 0;
+        sha256 = "a67d44cc9010ee5d87a53c67b71e7c2aad4f6bb85ca251c148f213f4c7521c19";
+      };
+      default = "r0";
+    };
+  };
 }

@@ -21,4 +21,15 @@
       default = "r0";
     };
   };
+  "1.0.30" = {
+    sha256 = "667d5a458aa81cba8970b4577d09eecbbcd033a53f855f44141d436cf302d89f";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/gi-gstapp-1.0.30-r0-2674ec3c56b3d745411bf0fd81dff98e34168d353044fd00d7e240737802deaa.nix;
+        revNum = 0;
+        sha256 = "2674ec3c56b3d745411bf0fd81dff98e34168d353044fd00d7e240737802deaa";
+      };
+      default = "r0";
+    };
+  };
 }

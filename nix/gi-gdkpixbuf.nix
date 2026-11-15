@@ -373,6 +373,17 @@
       default = "r0";
     };
   };
+  "2.0.33" = {
+    sha256 = "fa9979feee5394b739727acc065be1e89e983cad060f2e535bb1f7d4051f03de";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/gi-gdkpixbuf-2.0.33-r0-27ae9f7f3961b828b58a4bb8e98a9970d789f7498ec63f828fe9c0c72bb9dcc4.nix;
+        revNum = 0;
+        sha256 = "27ae9f7f3961b828b58a4bb8e98a9970d789f7498ec63f828fe9c0c72bb9dcc4";
+      };
+      default = "r0";
+    };
+  };
   "2.0.4" = {
     sha256 = "434c75e7e200869c084d661f0fcf7c22526ef59fcbf9c2bab6aaae8611cdb9cf";
     revisions = {

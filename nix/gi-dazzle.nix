@@ -32,4 +32,15 @@
       default = "r0";
     };
   };
+  "1.0.4" = {
+    sha256 = "697ae29bf0ff48fcbd1a43c32843f51ed24d31edac1b409640d15c1efc1188c0";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/gi-dazzle-1.0.4-r0-72d7c24eac8d3e7d29711da8722614e5bfb138de277e7ad3e0dc51e4e189c863.nix;
+        revNum = 0;
+        sha256 = "72d7c24eac8d3e7d29711da8722614e5bfb138de277e7ad3e0dc51e4e189c863";
+      };
+      default = "r0";
+    };
+  };
 }

@@ -43,4 +43,15 @@
       default = "r0";
     };
   };
+  "1.0.6" = {
+    sha256 = "a3f9db119832f7e9eca1a0f6ed9b9b96be0761bbc5d4cae7f87e370c459fcccd";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/gi-ges-1.0.6-r0-7e9556f43f59f751f53b29427ed0c258fd5480e41d7398498090a4a20e739d1a.nix;
+        revNum = 0;
+        sha256 = "7e9556f43f59f751f53b29427ed0c258fd5480e41d7398498090a4a20e739d1a";
+      };
+      default = "r0";
+    };
+  };
 }

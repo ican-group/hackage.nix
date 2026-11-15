@@ -48,4 +48,15 @@
       default = "r0";
     };
   };
+  "0.3.1.3" = {
+    sha256 = "139c38172be9933363cca84afb58cc86e0a84f336aba7674e622860a64799c85";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/FULE-0.3.1.3-r0-2099682b84ef9179dc4b1de738312ae473a34897fd841112c575291548acdf51.nix;
+        revNum = 0;
+        sha256 = "2099682b84ef9179dc4b1de738312ae473a34897fd841112c575291548acdf51";
+      };
+      default = "r0";
+    };
+  };
 }

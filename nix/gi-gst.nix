@@ -252,6 +252,17 @@
       default = "r0";
     };
   };
+  "1.0.31" = {
+    sha256 = "94291767ef13f3b4c8e939315e9ffa47e704f83382c0be263b622b760adde21c";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/gi-gst-1.0.31-r0-6efadec2c4c65cd3c27fa70c2e580bde4696b1ab4a45df6e3a7a785fb6063814.nix;
+        revNum = 0;
+        sha256 = "6efadec2c4c65cd3c27fa70c2e580bde4696b1ab4a45df6e3a7a785fb6063814";
+      };
+      default = "r0";
+    };
+  };
   "1.0.4" = {
     sha256 = "6bf1d0d2e85e1c999d7e3ed14e9ff53f1f84ecf61555767db4e09499b95b025c";
     revisions = {

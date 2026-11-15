@@ -241,6 +241,17 @@
       default = "r0";
     };
   };
+  "1.0.30" = {
+    sha256 = "706bb1b8f28b6b65dbd66c5532636284ce9fc5689ce752cf4d32a704cd61abdf";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/gi-gstvideo-1.0.30-r0-d84713203185ab1c31ac5c8b0a3d3303dbf56c61f1bb51f492ace531ee1f1150.nix;
+        revNum = 0;
+        sha256 = "d84713203185ab1c31ac5c8b0a3d3303dbf56c61f1bb51f492ace531ee1f1150";
+      };
+      default = "r0";
+    };
+  };
   "1.0.4" = {
     sha256 = "cf02df311648bcedeb377ed386237d0f0695365d09d6be9ec6ae4f26ff74f894";
     revisions = {

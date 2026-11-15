@@ -450,6 +450,17 @@
       default = "r0";
     };
   };
+  "2.0.39" = {
+    sha256 = "91d4a40a4ae2e0f12633492ac06a3581453e1fb528a853ab804c0cffd835c8cd";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/gi-gio-2.0.39-r0-cea9b1d96fa23771ece242ad0bca099de16ad852eea336e49f7c7bbcb6497bd5.nix;
+        revNum = 0;
+        sha256 = "cea9b1d96fa23771ece242ad0bca099de16ad852eea336e49f7c7bbcb6497bd5";
+      };
+      default = "r0";
+    };
+  };
   "2.0.4" = {
     sha256 = "197f50d604ccd56dd6610d699657f1926189d5da7685018ef4c1ad33642bcb94";
     revisions = {

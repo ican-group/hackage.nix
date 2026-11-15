@@ -296,6 +296,17 @@
       default = "r0";
     };
   };
+  "0.18.31" = {
+    sha256 = "110e10e0fecb896c7591e0158ceb1d48a8e30381b3f799caf356fd5c6bf30275";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/gi-poppler-0.18.31-r0-8e14e7a07f7e1e78c662ab4b0d5cfb834f12bb275bfdd6b947d2e70e449bd57e.nix;
+        revNum = 0;
+        sha256 = "8e14e7a07f7e1e78c662ab4b0d5cfb834f12bb275bfdd6b947d2e70e449bd57e";
+      };
+      default = "r0";
+    };
+  };
   "0.18.4" = {
     sha256 = "01bc646881b6275d22ef6633fb95dd5fc49c44738e7c1cc27284fceb4c8ca74d";
     revisions = {

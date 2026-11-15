@@ -10,4 +10,15 @@
       default = "r0";
     };
   };
+  "0.1.1.0" = {
+    sha256 = "2271556602f8aac27950629537d9f3300ed09ec4c3b7f44bbcc61d13f6e57e8f";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/Box2D-0.1.1.0-r0-bff65e88946eab3c8f7e7d93cec1ac76475e15d795819f769de00102e67ddb00.nix;
+        revNum = 0;
+        sha256 = "bff65e88946eab3c8f7e7d93cec1ac76475e15d795819f769de00102e67ddb00";
+      };
+      default = "r0";
+    };
+  };
 }

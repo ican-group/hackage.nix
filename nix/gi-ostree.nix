@@ -120,6 +120,17 @@
       default = "r0";
     };
   };
+  "1.0.20" = {
+    sha256 = "53988341419252897e0bfc8a2111a7dda8a133bbe9550244120d0131c5fe3481";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/gi-ostree-1.0.20-r0-538a0bec9750686666a24342bc470a5c3c16bfd878cf29c32a5fa26d18f3e45f.nix;
+        revNum = 0;
+        sha256 = "538a0bec9750686666a24342bc470a5c3c16bfd878cf29c32a5fa26d18f3e45f";
+      };
+      default = "r0";
+    };
+  };
   "1.0.3" = {
     sha256 = "d2b55fa13cc668e45a042a4096563b595581cb74e30ac6f7e2c270b40d3f3d2d";
     revisions = {

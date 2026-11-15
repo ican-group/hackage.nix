@@ -633,7 +633,12 @@
         revNum = 1;
         sha256 = "1a7e3cfdf25d316d66bc9cddd96f5621b0670573c0704679d56e0fd36279a1c3";
       };
-      default = "r1";
+      r2 = {
+        nix = import ../hackage/gi-gtk-4.0.12-r2-13188ccddbf19de852a3ff6aff457e8f759027e703059862eda4ac62502a3b7a.nix;
+        revNum = 2;
+        sha256 = "13188ccddbf19de852a3ff6aff457e8f759027e703059862eda4ac62502a3b7a";
+      };
+      default = "r2";
     };
   };
   "4.0.2" = {

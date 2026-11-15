@@ -10,4 +10,15 @@
       default = "r0";
     };
   };
+  "6.0.6" = {
+    sha256 = "e6ea20ce5933883bd85b4125aa4f3b3b9ef8f8e0280600e1d0e9549d47874ecb";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/gi-javascriptcore6-6.0.6-r0-ed46d1daa76dfa88370780c781c98abd23e19cb0661f806b656f13879c63df94.nix;
+        revNum = 0;
+        sha256 = "ed46d1daa76dfa88370780c781c98abd23e19cb0661f806b656f13879c63df94";
+      };
+      default = "r0";
+    };
+  };
 }

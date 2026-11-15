@@ -21,4 +21,15 @@
       default = "r0";
     };
   };
+  "0.2.1.0" = {
+    sha256 = "51c07f562adca2ac8c11196ab7a8b6c4362a0ed214377e2416b2e4a34f1cd35e";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/clickhouse-migrate-test-support-0.2.1.0-r0-ef45f141de058fe020eb407fc1330b2970a4b38c8b39f7689269a6b77fa89c40.nix;
+        revNum = 0;
+        sha256 = "ef45f141de058fe020eb407fc1330b2970a4b38c8b39f7689269a6b77fa89c40";
+      };
+      default = "r0";
+    };
+  };
 }
