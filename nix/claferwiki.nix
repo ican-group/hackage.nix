@@ -164,4 +164,15 @@
       default = "r0";
     };
   };
+  "0.5.8" = {
+    sha256 = "83da6257b197ea1f6dc7d51e4e2e13960489ebc3f546bccfa32f9a2b27749c33";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/claferwiki-0.5.8-r0-495c36d4e7ce4af719d34ea3445b96a83a590bbdcec879c5e0254f858ec2d18f.nix;
+        revNum = 0;
+        sha256 = "495c36d4e7ce4af719d34ea3445b96a83a590bbdcec879c5e0254f858ec2d18f";
+      };
+      default = "r0";
+    };
+  };
 }

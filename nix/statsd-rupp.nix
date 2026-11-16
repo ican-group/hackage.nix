@@ -131,4 +131,15 @@
       default = "r0";
     };
   };
+  "0.6.0" = {
+    sha256 = "e873c9ffac1f8d4d69f034a11952a817142769bf9047644f7d7e076cab684e2c";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/statsd-rupp-0.6.0-r0-50f07fdc10ad8da355f8e63b30a9af21de13b7818b58cd0a1722967bb73cb093.nix;
+        revNum = 0;
+        sha256 = "50f07fdc10ad8da355f8e63b30a9af21de13b7818b58cd0a1722967bb73cb093";
+      };
+      default = "r0";
+    };
+  };
 }

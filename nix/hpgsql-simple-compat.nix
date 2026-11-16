@@ -32,4 +32,15 @@
       default = "r0";
     };
   };
+  "0.4.0" = {
+    sha256 = "8fd89eb2fc6e6542da5f27ddbc1b014550572a05d6f420333cab0aec03f85bd7";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/hpgsql-simple-compat-0.4.0-r0-581dbd50a95dcf893c63db8f02b90dee1541b34c5003f1108bc1758e6a66c75d.nix;
+        revNum = 0;
+        sha256 = "581dbd50a95dcf893c63db8f02b90dee1541b34c5003f1108bc1758e6a66c75d";
+      };
+      default = "r0";
+    };
+  };
 }

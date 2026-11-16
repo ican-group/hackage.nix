@@ -186,6 +186,17 @@
       default = "r0";
     };
   };
+  "0.25.0.0" = {
+    sha256 = "ce66c118375967fb9f22b86acac8ab37004bcb8d7cd7f1f0daf5f2c74b449c26";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/keiro-pgmq-0.25.0.0-r0-6e1481ee705280db472104eb6c5f05e1e3f3090fa23184346b43bc455549c43a.nix;
+        revNum = 0;
+        sha256 = "6e1481ee705280db472104eb6c5f05e1e3f3090fa23184346b43bc455549c43a";
+      };
+      default = "r0";
+    };
+  };
   "0.3.0.0" = {
     sha256 = "c38c5d5a9816be996b62e9c5fef1474cdb28185e6dd93540af4ae904e72c1cbc";
     revisions = {

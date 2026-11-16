@@ -21,4 +21,15 @@
       default = "r0";
     };
   };
+  "0.3.0" = {
+    sha256 = "e7ee7760495caf2e802843565bf39c0bc2058ba20498533c25b9b35117c9cdca";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/network-address-0.3.0-r0-f2ab157b7cea69db9447f75bbb489768e648153f20bdaff094a115cc944aec8a.nix;
+        revNum = 0;
+        sha256 = "f2ab157b7cea69db9447f75bbb489768e648153f20bdaff094a115cc944aec8a";
+      };
+      default = "r0";
+    };
+  };
 }

@@ -189,4 +189,15 @@
       default = "r0";
     };
   };
+  "0.5.8" = {
+    sha256 = "3ee7943f8da5151441ecea14823e22e8e40db6789f7d564067cca1ef09968c32";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/clafer-0.5.8-r0-8df53c5dd3f84310c6baeea6adc6c833ccf73d7371a5c91d88bfd4a83fca46d3.nix;
+        revNum = 0;
+        sha256 = "8df53c5dd3f84310c6baeea6adc6c833ccf73d7371a5c91d88bfd4a83fca46d3";
+      };
+      default = "r0";
+    };
+  };
 }

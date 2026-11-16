@@ -2256,6 +2256,17 @@
       default = "r0";
     };
   };
+  "2.4.15" = {
+    sha256 = "6f8c589bdca6b1a95c8fb8c48cdbd0df03b52afeaeaa7c8cb917e3af8732d472";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/tls-2.4.15-r0-edaf65eaeb2e6860301c67f86a2c52ba0a4e329cb60987d6d5d364e980e68a0e.nix;
+        revNum = 0;
+        sha256 = "edaf65eaeb2e6860301c67f86a2c52ba0a4e329cb60987d6d5d364e980e68a0e";
+      };
+      default = "r0";
+    };
+  };
   "2.4.2" = {
     sha256 = "73048212a6b0e31599ed28e766ceb68a191c62435e76ffc4089f3517701ee880";
     revisions = {
@@ -2377,6 +2388,17 @@
         nix = import ../hackage/tls-2.5.1-r0-37335960e3c8549e12c2446f6e44576a62d67d77d4e617fd8d8ee20e4fe323ca.nix;
         revNum = 0;
         sha256 = "37335960e3c8549e12c2446f6e44576a62d67d77d4e617fd8d8ee20e4fe323ca";
+      };
+      default = "r0";
+    };
+  };
+  "2.5.2" = {
+    sha256 = "aa901772226c4a921dbee9583fa9bc69eb5c7a3450863b55b8330f62153c8991";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/tls-2.5.2-r0-67a901b894ba3177338889562dfc0170cb457390616a1839974200efb71017ba.nix;
+        revNum = 0;
+        sha256 = "67a901b894ba3177338889562dfc0170cb457390616a1839974200efb71017ba";
       };
       default = "r0";
     };

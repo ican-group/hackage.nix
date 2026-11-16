@@ -98,4 +98,37 @@
       default = "r0";
     };
   };
+  "0.5.2" = {
+    sha256 = "b8938644314a8f40b388401847ae43eb471dead21a5ecd78194c37d64250060b";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/ppad-eproc-0.5.2-r0-2133001b701245a03ffbd6ae037b5d8a06196728a4cf6d58bc948f52ea282258.nix;
+        revNum = 0;
+        sha256 = "2133001b701245a03ffbd6ae037b5d8a06196728a4cf6d58bc948f52ea282258";
+      };
+      default = "r0";
+    };
+  };
+  "0.5.3" = {
+    sha256 = "65232619021df8adcbb31415c2c3a66e1a89d3f38d786e1ae4633e013998dcef";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/ppad-eproc-0.5.3-r0-6de23889aed26550d9fcea72a12f7b8053006dfd5fc5b9edb46bae2ebd66959b.nix;
+        revNum = 0;
+        sha256 = "6de23889aed26550d9fcea72a12f7b8053006dfd5fc5b9edb46bae2ebd66959b";
+      };
+      default = "r0";
+    };
+  };
+  "0.5.4" = {
+    sha256 = "4c86555343c999c153e90a952c4ba2b6d42b14441ce8ac62637748d3a4d6de18";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/ppad-eproc-0.5.4-r0-bfcdeed33b2d7c04c0e39d894e5189a0039f4af3e7bf58755a6a4cf7a6c9ffb4.nix;
+        revNum = 0;
+        sha256 = "bfcdeed33b2d7c04c0e39d894e5189a0039f4af3e7bf58755a6a4cf7a6c9ffb4";
+      };
+      default = "r0";
+    };
+  };
 }
