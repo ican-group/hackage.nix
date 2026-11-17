@@ -21,4 +21,15 @@
       default = "r0";
     };
   };
+  "1.0.0.2" = {
+    sha256 = "ac8a0840b3f8b940c2d40dbee13d5c39881c899b8254f1162dbc87787cadf7cf";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/yamlet-1.0.0.2-r0-fc9654d427a0f21efaaf54a4b41618202d6699f33aec1518f1fd6a5d7acdd188.nix;
+        revNum = 0;
+        sha256 = "fc9654d427a0f21efaaf54a4b41618202d6699f33aec1518f1fd6a5d7acdd188";
+      };
+      default = "r0";
+    };
+  };
 }

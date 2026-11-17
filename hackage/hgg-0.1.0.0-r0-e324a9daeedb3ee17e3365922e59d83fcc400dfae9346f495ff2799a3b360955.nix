@@ -8,7 +8,7 @@
   , config
   , ... }:
   {
-    flags = { pdf = false; png = false; latex = false; 3d = false; };
+    flags = { pdf = false; png = false; latex = false; "3d" = false; };
     package = {
       specVersion = "3.0";
       identifier = { name = "hgg"; version = "0.1.0.0"; };
@@ -29,7 +29,7 @@
           (hsPkgs."hgg-core" or (errorHandler.buildDepError "hgg-core"))
           (hsPkgs."hgg-frame" or (errorHandler.buildDepError "hgg-frame"))
           (hsPkgs."hgg-svg" or (errorHandler.buildDepError "hgg-svg"))
-        ] ++ pkgs.lib.optional (flags.pdf) (hsPkgs."hgg-pdf" or (errorHandler.buildDepError "hgg-pdf"))) ++ pkgs.lib.optional (flags.png) (hsPkgs."hgg-rasterific" or (errorHandler.buildDepError "hgg-rasterific"))) ++ pkgs.lib.optional (flags.latex) (hsPkgs."hgg-latex" or (errorHandler.buildDepError "hgg-latex"))) ++ pkgs.lib.optional (flags.3d) (hsPkgs."hgg-3d" or (errorHandler.buildDepError "hgg-3d"));
+        ] ++ pkgs.lib.optional (flags.pdf) (hsPkgs."hgg-pdf" or (errorHandler.buildDepError "hgg-pdf"))) ++ pkgs.lib.optional (flags.png) (hsPkgs."hgg-rasterific" or (errorHandler.buildDepError "hgg-rasterific"))) ++ pkgs.lib.optional (flags.latex) (hsPkgs."hgg-latex" or (errorHandler.buildDepError "hgg-latex"))) ++ pkgs.lib.optional (flags."3d") (hsPkgs."hgg-3d" or (errorHandler.buildDepError "hgg-3d"));
         buildable = true;
       };
     };

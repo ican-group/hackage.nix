@@ -8,7 +8,7 @@
   , config
   , ... }:
   {
-    flags = { llvm = false; 64bit = false; outbound-network = false; };
+    flags = { llvm = false; "64bit" = false; outbound-network = false; };
     package = {
       specVersion = "1.8";
       identifier = { name = "EtaMOO"; version = "0.2.0.0"; };

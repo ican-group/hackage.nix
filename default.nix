@@ -4783,6 +4783,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "dates" = import ./nix/dates.nix;
   "datetime" = import ./nix/datetime.nix;
   "datetime-sb" = import ./nix/datetime-sb.nix;
+  "datomlite" = import ./nix/datomlite.nix;
   "dawdle" = import ./nix/dawdle.nix;
   "dawg" = import ./nix/dawg.nix;
   "dawg-ord" = import ./nix/dawg-ord.nix;
@@ -18749,6 +18750,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "vivid-supercollider" = import ./nix/vivid-supercollider.nix;
   "vk-aws-route53" = import ./nix/vk-aws-route53.nix;
   "vk-posix-pty" = import ./nix/vk-posix-pty.nix;
+  "vmodel" = import ./nix/vmodel.nix;
   "vocabulary-kadma" = import ./nix/vocabulary-kadma.nix;
   "vocoder" = import ./nix/vocoder.nix;
   "vocoder-audio" = import ./nix/vocoder-audio.nix;

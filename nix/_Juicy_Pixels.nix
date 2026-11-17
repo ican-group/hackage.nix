@@ -856,6 +856,17 @@
       default = "r1";
     };
   };
+  "3.3.10" = {
+    sha256 = "9e255e036b30964a5ec374dca372d0610bcefa5630e1de845f2b2569cc01028a";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/JuicyPixels-3.3.10-r0-179a31a89e3e2ae046bf97eeeb4aaec71ba7aae0679059ef976f49fbd78eada6.nix;
+        revNum = 0;
+        sha256 = "179a31a89e3e2ae046bf97eeeb4aaec71ba7aae0679059ef976f49fbd78eada6";
+      };
+      default = "r0";
+    };
+  };
   "3.3.2" = {
     sha256 = "dfc8ce4e76e41e2497a765fd98b70bfda5d47d34d42fde9a17231ec571a61288";
     revisions = {

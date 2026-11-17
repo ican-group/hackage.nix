@@ -1017,6 +1017,17 @@
       default = "r0";
     };
   };
+  "1.10.4" = {
+    sha256 = "f5e91985f6371a401b9e4a41fb92fc0d116dbb9890badbe3f1c5cb11b0593c66";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/clash-ghc-1.10.4-r0-c15d708fd0df3f6ceee695ab925e6ae0e56e0a6bd07ab245f14ba9c2499c2a71.nix;
+        revNum = 0;
+        sha256 = "c15d708fd0df3f6ceee695ab925e6ae0e56e0a6bd07ab245f14ba9c2499c2a71";
+      };
+      default = "r0";
+    };
+  };
   "1.2.0" = {
     sha256 = "f6d685684ac74dc6012babeb36205b2098706d4b46663648c9880d53b45c68e7";
     revisions = {

@@ -8,7 +8,7 @@
   , config
   , ... }:
   {
-    flags = { 32bit = false; };
+    flags = { "32bit" = false; };
     package = {
       specVersion = "1.6";
       identifier = { name = "mathlink"; version = "1.1.0.2"; };
@@ -30,7 +30,7 @@
           (hsPkgs."mtl" or (errorHandler.buildDepError "mtl"))
           (hsPkgs."array" or (errorHandler.buildDepError "array"))
         ];
-        libs = if system.isI386 || flags.32bit
+        libs = if system.isI386 || flags."32bit"
           then [ (pkgs."ML32i3" or (errorHandler.sysDepError "ML32i3")) ]
           else [ (pkgs."ML64i3" or (errorHandler.sysDepError "ML64i3")) ];
         buildable = true;
