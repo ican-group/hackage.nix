@@ -54,4 +54,15 @@
       default = "r0";
     };
   };
+  "0.2.2.2" = {
+    sha256 = "4841291275e43602d043ffece419b1eddf485ec673da1c57ba5bdad5923110eb";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/effectful-data-cache-0.2.2.2-r0-740ba00359e4f1b3bbcc0469a8f8f4fd7f178acff5a76aa563a8d9c2130e68f2.nix;
+        revNum = 0;
+        sha256 = "740ba00359e4f1b3bbcc0469a8f8f4fd7f178acff5a76aa563a8d9c2130e68f2";
+      };
+      default = "r0";
+    };
+  };
 }

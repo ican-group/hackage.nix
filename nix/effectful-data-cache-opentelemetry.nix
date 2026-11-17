@@ -32,4 +32,15 @@
       default = "r0";
     };
   };
+  "0.2.2.2" = {
+    sha256 = "0d4a97d8513eea6752cfaf37e347cfb5a1c47deb70091dce36fe124fd0c42863";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/effectful-data-cache-opentelemetry-0.2.2.2-r0-c821879d293e7e8e2c48d95b5509df0b9dba4b986a8c99278e6627578afc269a.nix;
+        revNum = 0;
+        sha256 = "c821879d293e7e8e2c48d95b5509df0b9dba4b986a8c99278e6627578afc269a";
+      };
+      default = "r0";
+    };
+  };
 }

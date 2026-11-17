@@ -1405,6 +1405,17 @@
       default = "r0";
     };
   };
+  "0.29.1" = {
+    sha256 = "faaa5ec0929da491ab6b52e18f6c42da12df8d829916fba55574f112686f29a4";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/futhark-0.29.1-r0-634dfdb11d2abccd23403bf389639fb0fac7f7b546d2ef14b5962fe0ceee210a.nix;
+        revNum = 0;
+        sha256 = "634dfdb11d2abccd23403bf389639fb0fac7f7b546d2ef14b5962fe0ceee210a";
+      };
+      default = "r0";
+    };
+  };
   "0.7.3" = {
     sha256 = "d2bca3837d8503e4bab41e06a36205e86b88f6a8f508d5066219528d79dc11c0";
     revisions = {

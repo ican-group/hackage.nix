@@ -21,4 +21,15 @@
       default = "r0";
     };
   };
+  "0.2.2.2" = {
+    sha256 = "dcfcfc1389b7d6c417811087cf7f80bd6050bb9a1e8e28dfc28818f98e8be166";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/effectful-data-cache-memcache-0.2.2.2-r0-71ae9f4057f89192fa16dab719662cba6b709b678150d90caa45aefbaba80460.nix;
+        revNum = 0;
+        sha256 = "71ae9f4057f89192fa16dab719662cba6b709b678150d90caa45aefbaba80460";
+      };
+      default = "r0";
+    };
+  };
 }
