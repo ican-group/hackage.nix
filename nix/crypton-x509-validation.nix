@@ -32,6 +32,17 @@
       default = "r0";
     };
   };
+  "1.10.3" = {
+    sha256 = "edaa833db96f6a9925e497a046d923f81c0ea82fe3aa93dda2c66044db4e6e0a";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/crypton-x509-validation-1.10.3-r0-1a93f7587e41a267d8d510e61c6ebae92ab8f0b7fe680cb1686d4d12fd251aad.nix;
+        revNum = 0;
+        sha256 = "1a93f7587e41a267d8d510e61c6ebae92ab8f0b7fe680cb1686d4d12fd251aad";
+      };
+      default = "r0";
+    };
+  };
   "1.6.12" = {
     sha256 = "0e60b7e237a4fd5e7e6e7200018c7947314292ef63751cbb51877836ebe650f6";
     revisions = {

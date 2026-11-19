@@ -844,4 +844,15 @@
       default = "r0";
     };
   };
+  "2.0.1" = {
+    sha256 = "1a3fd527f3e19bebafbc22a7e52f4d380aa71e40dd3684ca557b6370750c3899";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/haskoin-core-2.0.1-r0-1a12d9a856296425ad182fbc7ce9296507f4c9e608ee54f3c450ab36ce646909.nix;
+        revNum = 0;
+        sha256 = "1a12d9a856296425ad182fbc7ce9296507f4c9e608ee54f3c450ab36ce646909";
+      };
+      default = "r0";
+    };
+  };
 }

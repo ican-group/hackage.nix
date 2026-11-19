@@ -42,4 +42,15 @@
       default = "r0";
     };
   };
+  "1.9.2" = {
+    sha256 = "de1ca8fecebef3487440f4c6c3696e007299a37d1cdc6efd5e1370198720699c";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/crypton-x509-util-1.9.2-r0-d6321264717e7cc02ed696deced55ea3087489624513a857da4f40da2ec93063.nix;
+        revNum = 0;
+        sha256 = "d6321264717e7cc02ed696deced55ea3087489624513a857da4f40da2ec93063";
+      };
+      default = "r0";
+    };
+  };
 }

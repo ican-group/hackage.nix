@@ -130,4 +130,26 @@
       default = "r0";
     };
   };
+  "0.4.2.1" = {
+    sha256 = "b10ecddf1c20a46613ed5c69fffbb021f45759b5dedc7efe72f310ef96fd7220";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/memcache-0.4.2.1-r0-4658cd8dfd90d3818e2395a1f16f076bf3866b1b6c5f68184f4dfc000faced21.nix;
+        revNum = 0;
+        sha256 = "4658cd8dfd90d3818e2395a1f16f076bf3866b1b6c5f68184f4dfc000faced21";
+      };
+      default = "r0";
+    };
+  };
+  "0.5.0.0" = {
+    sha256 = "cf58a09b08326ebd6f0a0ffcb2017b7b758e28d27550a62a30bb857338be0286";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/memcache-0.5.0.0-r0-4bde7c34e8af1ed3e5e4dd71d81edcf25496e5459691241de293ea5c04398ee4.nix;
+        revNum = 0;
+        sha256 = "4bde7c34e8af1ed3e5e4dd71d81edcf25496e5459691241de293ea5c04398ee4";
+      };
+      default = "r0";
+    };
+  };
 }
