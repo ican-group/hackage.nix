@@ -1,0 +1,311 @@
+{ system
+  , compiler
+  , flags
+  , pkgs
+  , hsPkgs
+  , pkgconfPkgs
+  , errorHandler
+  , config
+  , ... }:
+  {
+    flags = {};
+    package = {
+      specVersion = "2.0";
+      identifier = { name = "haskoin-store"; version = "1.16.6"; };
+      license = "MIT";
+      copyright = "(c) Haskoin Developers";
+      maintainer = "jprupp@protonmail.ch";
+      author = "JP Rupp";
+      homepage = "https://github.com/jprupp/haskoin-store#readme";
+      url = "";
+      synopsis = "Storage and index for Bitcoin and Bitcoin Cash";
+      description = "An indexer for Bitcoin and Bitcoin Cash. It downloads blocks and mempool\ntransactions from the peer-to-peer network, indexes the chain in RocksDB and\nthe mempool in Redis, and serves a REST API with balances, transactions and\nunspent outputs of addresses and extended public keys, a Blockchain.info\ncompatible API, and events over WebSockets. Redis also holds the balances of\nextended public keys, and lets several stores answer as one. See the README\nfor installation and configuration.";
+      buildType = "Simple";
+    };
+    components = {
+      "library" = {
+        depends = [
+          (hsPkgs."aeson" or (errorHandler.buildDepError "aeson"))
+          (hsPkgs."async" or (errorHandler.buildDepError "async"))
+          (hsPkgs."base" or (errorHandler.buildDepError "base"))
+          (hsPkgs."base16" or (errorHandler.buildDepError "base16"))
+          (hsPkgs."bytes" or (errorHandler.buildDepError "bytes"))
+          (hsPkgs."bytestring" or (errorHandler.buildDepError "bytestring"))
+          (hsPkgs."case-insensitive" or (errorHandler.buildDepError "case-insensitive"))
+          (hsPkgs."cereal" or (errorHandler.buildDepError "cereal"))
+          (hsPkgs."conduit" or (errorHandler.buildDepError "conduit"))
+          (hsPkgs."containers" or (errorHandler.buildDepError "containers"))
+          (hsPkgs."data-default" or (errorHandler.buildDepError "data-default"))
+          (hsPkgs."deepseq" or (errorHandler.buildDepError "deepseq"))
+          (hsPkgs."directory" or (errorHandler.buildDepError "directory"))
+          (hsPkgs."file-embed" or (errorHandler.buildDepError "file-embed"))
+          (hsPkgs."hashable" or (errorHandler.buildDepError "hashable"))
+          (hsPkgs."hashtables" or (errorHandler.buildDepError "hashtables"))
+          (hsPkgs."haskoin-core" or (errorHandler.buildDepError "haskoin-core"))
+          (hsPkgs."haskoin-node" or (errorHandler.buildDepError "haskoin-node"))
+          (hsPkgs."haskoin-store-data" or (errorHandler.buildDepError "haskoin-store-data"))
+          (hsPkgs."hedis" or (errorHandler.buildDepError "hedis"))
+          (hsPkgs."http-types" or (errorHandler.buildDepError "http-types"))
+          (hsPkgs."lens" or (errorHandler.buildDepError "lens"))
+          (hsPkgs."monad-control" or (errorHandler.buildDepError "monad-control"))
+          (hsPkgs."mtl" or (errorHandler.buildDepError "mtl"))
+          (hsPkgs."network" or (errorHandler.buildDepError "network"))
+          (hsPkgs."nqe" or (errorHandler.buildDepError "nqe"))
+          (hsPkgs."random" or (errorHandler.buildDepError "random"))
+          (hsPkgs."rocksdb-haskell-jprupp" or (errorHandler.buildDepError "rocksdb-haskell-jprupp"))
+          (hsPkgs."rocksdb-query" or (errorHandler.buildDepError "rocksdb-query"))
+          (hsPkgs."statsd-rupp" or (errorHandler.buildDepError "statsd-rupp"))
+          (hsPkgs."stm" or (errorHandler.buildDepError "stm"))
+          (hsPkgs."string-conversions" or (errorHandler.buildDepError "string-conversions"))
+          (hsPkgs."text" or (errorHandler.buildDepError "text"))
+          (hsPkgs."time" or (errorHandler.buildDepError "time"))
+          (hsPkgs."time-manager" or (errorHandler.buildDepError "time-manager"))
+          (hsPkgs."transformers" or (errorHandler.buildDepError "transformers"))
+          (hsPkgs."unix" or (errorHandler.buildDepError "unix"))
+          (hsPkgs."unordered-containers" or (errorHandler.buildDepError "unordered-containers"))
+          (hsPkgs."vault" or (errorHandler.buildDepError "vault"))
+          (hsPkgs."wai" or (errorHandler.buildDepError "wai"))
+          (hsPkgs."wai-extra" or (errorHandler.buildDepError "wai-extra"))
+          (hsPkgs."wai-websockets" or (errorHandler.buildDepError "wai-websockets"))
+          (hsPkgs."warp" or (errorHandler.buildDepError "warp"))
+          (hsPkgs."warp-tls" or (errorHandler.buildDepError "warp-tls"))
+          (hsPkgs."websockets" or (errorHandler.buildDepError "websockets"))
+          (hsPkgs."wreq" or (errorHandler.buildDepError "wreq"))
+        ];
+        buildable = true;
+      };
+      sublibs = {
+        "integration" = {
+          depends = [
+            (hsPkgs."aeson" or (errorHandler.buildDepError "aeson"))
+            (hsPkgs."async" or (errorHandler.buildDepError "async"))
+            (hsPkgs."base" or (errorHandler.buildDepError "base"))
+            (hsPkgs."base16" or (errorHandler.buildDepError "base16"))
+            (hsPkgs."bytes" or (errorHandler.buildDepError "bytes"))
+            (hsPkgs."bytestring" or (errorHandler.buildDepError "bytestring"))
+            (hsPkgs."case-insensitive" or (errorHandler.buildDepError "case-insensitive"))
+            (hsPkgs."cereal" or (errorHandler.buildDepError "cereal"))
+            (hsPkgs."conduit" or (errorHandler.buildDepError "conduit"))
+            (hsPkgs."containers" or (errorHandler.buildDepError "containers"))
+            (hsPkgs."data-default" or (errorHandler.buildDepError "data-default"))
+            (hsPkgs."deepseq" or (errorHandler.buildDepError "deepseq"))
+            (hsPkgs."directory" or (errorHandler.buildDepError "directory"))
+            (hsPkgs."file-embed" or (errorHandler.buildDepError "file-embed"))
+            (hsPkgs."hashable" or (errorHandler.buildDepError "hashable"))
+            (hsPkgs."hashtables" or (errorHandler.buildDepError "hashtables"))
+            (hsPkgs."haskoin-core" or (errorHandler.buildDepError "haskoin-core"))
+            (hsPkgs."haskoin-node" or (errorHandler.buildDepError "haskoin-node"))
+            (hsPkgs."haskoin-store" or (errorHandler.buildDepError "haskoin-store"))
+            (hsPkgs."haskoin-store-data" or (errorHandler.buildDepError "haskoin-store-data"))
+            (hsPkgs."hedis" or (errorHandler.buildDepError "hedis"))
+            (hsPkgs."http-types" or (errorHandler.buildDepError "http-types"))
+            (hsPkgs."lens" or (errorHandler.buildDepError "lens"))
+            (hsPkgs."monad-control" or (errorHandler.buildDepError "monad-control"))
+            (hsPkgs."mtl" or (errorHandler.buildDepError "mtl"))
+            (hsPkgs."network" or (errorHandler.buildDepError "network"))
+            (hsPkgs."nqe" or (errorHandler.buildDepError "nqe"))
+            (hsPkgs."process" or (errorHandler.buildDepError "process"))
+            (hsPkgs."random" or (errorHandler.buildDepError "random"))
+            (hsPkgs."rocksdb-haskell-jprupp" or (errorHandler.buildDepError "rocksdb-haskell-jprupp"))
+            (hsPkgs."rocksdb-query" or (errorHandler.buildDepError "rocksdb-query"))
+            (hsPkgs."statsd-rupp" or (errorHandler.buildDepError "statsd-rupp"))
+            (hsPkgs."stm" or (errorHandler.buildDepError "stm"))
+            (hsPkgs."string-conversions" or (errorHandler.buildDepError "string-conversions"))
+            (hsPkgs."temporary" or (errorHandler.buildDepError "temporary"))
+            (hsPkgs."text" or (errorHandler.buildDepError "text"))
+            (hsPkgs."time" or (errorHandler.buildDepError "time"))
+            (hsPkgs."time-manager" or (errorHandler.buildDepError "time-manager"))
+            (hsPkgs."transformers" or (errorHandler.buildDepError "transformers"))
+            (hsPkgs."unix" or (errorHandler.buildDepError "unix"))
+            (hsPkgs."unordered-containers" or (errorHandler.buildDepError "unordered-containers"))
+            (hsPkgs."vault" or (errorHandler.buildDepError "vault"))
+            (hsPkgs."wai" or (errorHandler.buildDepError "wai"))
+            (hsPkgs."wai-extra" or (errorHandler.buildDepError "wai-extra"))
+            (hsPkgs."wai-websockets" or (errorHandler.buildDepError "wai-websockets"))
+            (hsPkgs."warp" or (errorHandler.buildDepError "warp"))
+            (hsPkgs."warp-tls" or (errorHandler.buildDepError "warp-tls"))
+            (hsPkgs."websockets" or (errorHandler.buildDepError "websockets"))
+            (hsPkgs."wreq" or (errorHandler.buildDepError "wreq"))
+          ];
+          buildable = true;
+        };
+      };
+      exes = {
+        "haskoin-store" = {
+          depends = [
+            (hsPkgs."aeson" or (errorHandler.buildDepError "aeson"))
+            (hsPkgs."async" or (errorHandler.buildDepError "async"))
+            (hsPkgs."base" or (errorHandler.buildDepError "base"))
+            (hsPkgs."base16" or (errorHandler.buildDepError "base16"))
+            (hsPkgs."bytes" or (errorHandler.buildDepError "bytes"))
+            (hsPkgs."bytestring" or (errorHandler.buildDepError "bytestring"))
+            (hsPkgs."case-insensitive" or (errorHandler.buildDepError "case-insensitive"))
+            (hsPkgs."cereal" or (errorHandler.buildDepError "cereal"))
+            (hsPkgs."conduit" or (errorHandler.buildDepError "conduit"))
+            (hsPkgs."containers" or (errorHandler.buildDepError "containers"))
+            (hsPkgs."data-default" or (errorHandler.buildDepError "data-default"))
+            (hsPkgs."deepseq" or (errorHandler.buildDepError "deepseq"))
+            (hsPkgs."directory" or (errorHandler.buildDepError "directory"))
+            (hsPkgs."file-embed" or (errorHandler.buildDepError "file-embed"))
+            (hsPkgs."filepath" or (errorHandler.buildDepError "filepath"))
+            (hsPkgs."hashable" or (errorHandler.buildDepError "hashable"))
+            (hsPkgs."hashtables" or (errorHandler.buildDepError "hashtables"))
+            (hsPkgs."haskoin-core" or (errorHandler.buildDepError "haskoin-core"))
+            (hsPkgs."haskoin-node" or (errorHandler.buildDepError "haskoin-node"))
+            (hsPkgs."haskoin-store" or (errorHandler.buildDepError "haskoin-store"))
+            (hsPkgs."haskoin-store-data" or (errorHandler.buildDepError "haskoin-store-data"))
+            (hsPkgs."hedis" or (errorHandler.buildDepError "hedis"))
+            (hsPkgs."http-types" or (errorHandler.buildDepError "http-types"))
+            (hsPkgs."lens" or (errorHandler.buildDepError "lens"))
+            (hsPkgs."monad-control" or (errorHandler.buildDepError "monad-control"))
+            (hsPkgs."mtl" or (errorHandler.buildDepError "mtl"))
+            (hsPkgs."network" or (errorHandler.buildDepError "network"))
+            (hsPkgs."nqe" or (errorHandler.buildDepError "nqe"))
+            (hsPkgs."optparse-applicative" or (errorHandler.buildDepError "optparse-applicative"))
+            (hsPkgs."random" or (errorHandler.buildDepError "random"))
+            (hsPkgs."rocksdb-haskell-jprupp" or (errorHandler.buildDepError "rocksdb-haskell-jprupp"))
+            (hsPkgs."rocksdb-query" or (errorHandler.buildDepError "rocksdb-query"))
+            (hsPkgs."statsd-rupp" or (errorHandler.buildDepError "statsd-rupp"))
+            (hsPkgs."stm" or (errorHandler.buildDepError "stm"))
+            (hsPkgs."string-conversions" or (errorHandler.buildDepError "string-conversions"))
+            (hsPkgs."text" or (errorHandler.buildDepError "text"))
+            (hsPkgs."time" or (errorHandler.buildDepError "time"))
+            (hsPkgs."time-manager" or (errorHandler.buildDepError "time-manager"))
+            (hsPkgs."transformers" or (errorHandler.buildDepError "transformers"))
+            (hsPkgs."unix" or (errorHandler.buildDepError "unix"))
+            (hsPkgs."unordered-containers" or (errorHandler.buildDepError "unordered-containers"))
+            (hsPkgs."vault" or (errorHandler.buildDepError "vault"))
+            (hsPkgs."wai" or (errorHandler.buildDepError "wai"))
+            (hsPkgs."wai-extra" or (errorHandler.buildDepError "wai-extra"))
+            (hsPkgs."wai-websockets" or (errorHandler.buildDepError "wai-websockets"))
+            (hsPkgs."warp" or (errorHandler.buildDepError "warp"))
+            (hsPkgs."warp-tls" or (errorHandler.buildDepError "warp-tls"))
+            (hsPkgs."websockets" or (errorHandler.buildDepError "websockets"))
+            (hsPkgs."wreq" or (errorHandler.buildDepError "wreq"))
+          ];
+          buildable = true;
+        };
+      };
+      tests = {
+        "spec" = {
+          depends = [
+            (hsPkgs."QuickCheck" or (errorHandler.buildDepError "QuickCheck"))
+            (hsPkgs."aeson" or (errorHandler.buildDepError "aeson"))
+            (hsPkgs."async" or (errorHandler.buildDepError "async"))
+            (hsPkgs."base" or (errorHandler.buildDepError "base"))
+            (hsPkgs."base16" or (errorHandler.buildDepError "base16"))
+            (hsPkgs."base64" or (errorHandler.buildDepError "base64"))
+            (hsPkgs."bytes" or (errorHandler.buildDepError "bytes"))
+            (hsPkgs."bytestring" or (errorHandler.buildDepError "bytestring"))
+            (hsPkgs."case-insensitive" or (errorHandler.buildDepError "case-insensitive"))
+            (hsPkgs."cereal" or (errorHandler.buildDepError "cereal"))
+            (hsPkgs."conduit" or (errorHandler.buildDepError "conduit"))
+            (hsPkgs."containers" or (errorHandler.buildDepError "containers"))
+            (hsPkgs."data-default" or (errorHandler.buildDepError "data-default"))
+            (hsPkgs."deepseq" or (errorHandler.buildDepError "deepseq"))
+            (hsPkgs."directory" or (errorHandler.buildDepError "directory"))
+            (hsPkgs."fast-logger" or (errorHandler.buildDepError "fast-logger"))
+            (hsPkgs."file-embed" or (errorHandler.buildDepError "file-embed"))
+            (hsPkgs."filepath" or (errorHandler.buildDepError "filepath"))
+            (hsPkgs."hashable" or (errorHandler.buildDepError "hashable"))
+            (hsPkgs."hashtables" or (errorHandler.buildDepError "hashtables"))
+            (hsPkgs."haskoin-core" or (errorHandler.buildDepError "haskoin-core"))
+            (hsPkgs."haskoin-node" or (errorHandler.buildDepError "haskoin-node"))
+            (hsPkgs."haskoin-store" or (errorHandler.buildDepError "haskoin-store"))
+            (hsPkgs."haskoin-store-data" or (errorHandler.buildDepError "haskoin-store-data"))
+            (hsPkgs."hedis" or (errorHandler.buildDepError "hedis"))
+            (hsPkgs."hspec" or (errorHandler.buildDepError "hspec"))
+            (hsPkgs."http-types" or (errorHandler.buildDepError "http-types"))
+            (hsPkgs."haskoin-store".components.sublibs.integration or (errorHandler.buildDepError "haskoin-store:integration"))
+            (hsPkgs."lens" or (errorHandler.buildDepError "lens"))
+            (hsPkgs."monad-control" or (errorHandler.buildDepError "monad-control"))
+            (hsPkgs."mtl" or (errorHandler.buildDepError "mtl"))
+            (hsPkgs."network" or (errorHandler.buildDepError "network"))
+            (hsPkgs."nqe" or (errorHandler.buildDepError "nqe"))
+            (hsPkgs."process" or (errorHandler.buildDepError "process"))
+            (hsPkgs."random" or (errorHandler.buildDepError "random"))
+            (hsPkgs."rocksdb-haskell-jprupp" or (errorHandler.buildDepError "rocksdb-haskell-jprupp"))
+            (hsPkgs."rocksdb-query" or (errorHandler.buildDepError "rocksdb-query"))
+            (hsPkgs."statsd-rupp" or (errorHandler.buildDepError "statsd-rupp"))
+            (hsPkgs."stm" or (errorHandler.buildDepError "stm"))
+            (hsPkgs."string-conversions" or (errorHandler.buildDepError "string-conversions"))
+            (hsPkgs."text" or (errorHandler.buildDepError "text"))
+            (hsPkgs."time" or (errorHandler.buildDepError "time"))
+            (hsPkgs."time-manager" or (errorHandler.buildDepError "time-manager"))
+            (hsPkgs."transformers" or (errorHandler.buildDepError "transformers"))
+            (hsPkgs."unix" or (errorHandler.buildDepError "unix"))
+            (hsPkgs."unordered-containers" or (errorHandler.buildDepError "unordered-containers"))
+            (hsPkgs."vault" or (errorHandler.buildDepError "vault"))
+            (hsPkgs."wai" or (errorHandler.buildDepError "wai"))
+            (hsPkgs."wai-extra" or (errorHandler.buildDepError "wai-extra"))
+            (hsPkgs."wai-websockets" or (errorHandler.buildDepError "wai-websockets"))
+            (hsPkgs."warp" or (errorHandler.buildDepError "warp"))
+            (hsPkgs."warp-tls" or (errorHandler.buildDepError "warp-tls"))
+            (hsPkgs."websockets" or (errorHandler.buildDepError "websockets"))
+            (hsPkgs."wreq" or (errorHandler.buildDepError "wreq"))
+          ];
+          build-tools = [
+            (hsPkgs.pkgsBuildBuild.hspec-discover.components.exes.hspec-discover or (pkgs.pkgsBuildBuild.hspec-discover or (errorHandler.buildToolDepError "hspec-discover:hspec-discover")))
+          ];
+          buildable = true;
+        };
+      };
+      benchmarks = {
+        "haskoin-store-bench" = {
+          depends = [
+            (hsPkgs."aeson" or (errorHandler.buildDepError "aeson"))
+            (hsPkgs."async" or (errorHandler.buildDepError "async"))
+            (hsPkgs."base" or (errorHandler.buildDepError "base"))
+            (hsPkgs."base16" or (errorHandler.buildDepError "base16"))
+            (hsPkgs."bytes" or (errorHandler.buildDepError "bytes"))
+            (hsPkgs."bytestring" or (errorHandler.buildDepError "bytestring"))
+            (hsPkgs."case-insensitive" or (errorHandler.buildDepError "case-insensitive"))
+            (hsPkgs."cereal" or (errorHandler.buildDepError "cereal"))
+            (hsPkgs."conduit" or (errorHandler.buildDepError "conduit"))
+            (hsPkgs."containers" or (errorHandler.buildDepError "containers"))
+            (hsPkgs."data-default" or (errorHandler.buildDepError "data-default"))
+            (hsPkgs."deepseq" or (errorHandler.buildDepError "deepseq"))
+            (hsPkgs."directory" or (errorHandler.buildDepError "directory"))
+            (hsPkgs."file-embed" or (errorHandler.buildDepError "file-embed"))
+            (hsPkgs."filepath" or (errorHandler.buildDepError "filepath"))
+            (hsPkgs."hashable" or (errorHandler.buildDepError "hashable"))
+            (hsPkgs."hashtables" or (errorHandler.buildDepError "hashtables"))
+            (hsPkgs."haskoin-core" or (errorHandler.buildDepError "haskoin-core"))
+            (hsPkgs."haskoin-node" or (errorHandler.buildDepError "haskoin-node"))
+            (hsPkgs."haskoin-store" or (errorHandler.buildDepError "haskoin-store"))
+            (hsPkgs."haskoin-store-data" or (errorHandler.buildDepError "haskoin-store-data"))
+            (hsPkgs."hedis" or (errorHandler.buildDepError "hedis"))
+            (hsPkgs."http-types" or (errorHandler.buildDepError "http-types"))
+            (hsPkgs."haskoin-store".components.sublibs.integration or (errorHandler.buildDepError "haskoin-store:integration"))
+            (hsPkgs."lens" or (errorHandler.buildDepError "lens"))
+            (hsPkgs."monad-control" or (errorHandler.buildDepError "monad-control"))
+            (hsPkgs."mtl" or (errorHandler.buildDepError "mtl"))
+            (hsPkgs."network" or (errorHandler.buildDepError "network"))
+            (hsPkgs."nqe" or (errorHandler.buildDepError "nqe"))
+            (hsPkgs."random" or (errorHandler.buildDepError "random"))
+            (hsPkgs."rocksdb-haskell-jprupp" or (errorHandler.buildDepError "rocksdb-haskell-jprupp"))
+            (hsPkgs."rocksdb-query" or (errorHandler.buildDepError "rocksdb-query"))
+            (hsPkgs."statsd-rupp" or (errorHandler.buildDepError "statsd-rupp"))
+            (hsPkgs."stm" or (errorHandler.buildDepError "stm"))
+            (hsPkgs."string-conversions" or (errorHandler.buildDepError "string-conversions"))
+            (hsPkgs."text" or (errorHandler.buildDepError "text"))
+            (hsPkgs."time" or (errorHandler.buildDepError "time"))
+            (hsPkgs."time-manager" or (errorHandler.buildDepError "time-manager"))
+            (hsPkgs."transformers" or (errorHandler.buildDepError "transformers"))
+            (hsPkgs."unix" or (errorHandler.buildDepError "unix"))
+            (hsPkgs."unordered-containers" or (errorHandler.buildDepError "unordered-containers"))
+            (hsPkgs."vault" or (errorHandler.buildDepError "vault"))
+            (hsPkgs."vector" or (errorHandler.buildDepError "vector"))
+            (hsPkgs."wai" or (errorHandler.buildDepError "wai"))
+            (hsPkgs."wai-extra" or (errorHandler.buildDepError "wai-extra"))
+            (hsPkgs."wai-websockets" or (errorHandler.buildDepError "wai-websockets"))
+            (hsPkgs."warp" or (errorHandler.buildDepError "warp"))
+            (hsPkgs."warp-tls" or (errorHandler.buildDepError "warp-tls"))
+            (hsPkgs."websockets" or (errorHandler.buildDepError "websockets"))
+            (hsPkgs."wreq" or (errorHandler.buildDepError "wreq"))
+          ];
+          buildable = true;
+        };
+      };
+    };
+  }

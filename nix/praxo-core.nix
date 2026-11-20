@@ -76,4 +76,15 @@
       default = "r0";
     };
   };
+  "0.8.0" = {
+    sha256 = "3b14b76fae210841526326d1785266a66cd958a3146c16aed2f0568f3169fd9c";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/praxo-core-0.8.0-r0-5d485984c8375bdfb741d3a9dc37efdf7e27cef4d4684c28c4052de42b1213d8.nix;
+        revNum = 0;
+        sha256 = "5d485984c8375bdfb741d3a9dc37efdf7e27cef4d4684c28c4052de42b1213d8";
+      };
+      default = "r0";
+    };
+  };
 }

@@ -3529,6 +3529,14 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "cef3-raw" = import ./nix/cef3-raw.nix;
   "cef3-simple" = import ./nix/cef3-simple.nix;
   "ceilometer-common" = import ./nix/ceilometer-common.nix;
+  "cek-core" = import ./nix/cek-core.nix;
+  "cek-dhall" = import ./nix/cek-dhall.nix;
+  "cek-examples" = import ./nix/cek-examples.nix;
+  "cek-mercury" = import ./nix/cek-mercury.nix;
+  "cek-oneml" = import ./nix/cek-oneml.nix;
+  "cek-polytropos" = import ./nix/cek-polytropos.nix;
+  "cek-pykinos" = import ./nix/cek-pykinos.nix;
+  "cek-scheme" = import ./nix/cek-scheme.nix;
   "cellrenderer-cairo" = import ./nix/cellrenderer-cairo.nix;
   "celtchar" = import ./nix/celtchar.nix;
   "cerberus" = import ./nix/cerberus.nix;
@@ -14231,6 +14239,8 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "pxsl-tools" = import ./nix/pxsl-tools.nix;
   "pyffi" = import ./nix/pyffi.nix;
   "pyfi" = import ./nix/pyfi.nix;
+  "pykinos-core" = import ./nix/pykinos-core.nix;
+  "pykinos-penelope" = import ./nix/pykinos-penelope.nix;
   "python-pickle" = import ./nix/python-pickle.nix;
   "q4c12-twofinger" = import ./nix/q4c12-twofinger.nix;
   "qbe" = import ./nix/qbe.nix;
@@ -14449,6 +14459,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "rank-product" = import ./nix/rank-product.nix;
   "rank1dynamic" = import ./nix/rank1dynamic.nix;
   "rank2classes" = import ./nix/rank2classes.nix;
+  "rap" = import ./nix/rap.nix;
   "rapid" = import ./nix/rapid.nix;
   "rapid-term" = import ./nix/rapid-term.nix;
   "rapidhash" = import ./nix/rapidhash.nix;

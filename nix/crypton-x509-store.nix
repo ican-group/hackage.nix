@@ -21,6 +21,22 @@
       default = "r0";
     };
   };
+  "1.10.2" = {
+    sha256 = "7d1cb8faf003361cbf654fcba9921b5de493d0c3e113948486359964036db6c9";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/crypton-x509-store-1.10.2-r0-c3463f79588e3ecc6c468bc841edb7fc5822ff43a341845bf361892d1d7a8426.nix;
+        revNum = 0;
+        sha256 = "c3463f79588e3ecc6c468bc841edb7fc5822ff43a341845bf361892d1d7a8426";
+      };
+      r1 = {
+        nix = import ../hackage/crypton-x509-store-1.10.2-r1-1bc536e5f6b30aa37d56d69b0e8ba4d5ea6929179deea6cbad4ad3c870339f45.nix;
+        revNum = 1;
+        sha256 = "1bc536e5f6b30aa37d56d69b0e8ba4d5ea6929179deea6cbad4ad3c870339f45";
+      };
+      default = "r1";
+    };
+  };
   "1.6.10" = {
     sha256 = "cef0631c0dad9ca43984e51140f030e7de9a1f4bfd0b2223ed9c6d41fe4238b0";
     revisions = {

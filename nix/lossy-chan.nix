@@ -21,4 +21,15 @@
       default = "r0";
     };
   };
+  "0.2.0.0" = {
+    sha256 = "550094ef765fe86e4d919a84c4942d49dd8c1b40b0998e56c8f2bb4c1ebc03f1";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/lossy-chan-0.2.0.0-r0-5ad359508cc4ee16ee844450012000b39aa799830e57b56d490b0dc41c4ecb76.nix;
+        revNum = 0;
+        sha256 = "5ad359508cc4ee16ee844450012000b39aa799830e57b56d490b0dc41c4ecb76";
+      };
+      default = "r0";
+    };
+  };
 }
