@@ -124,7 +124,12 @@
         revNum = 0;
         sha256 = "f909da34713f94b251a29c6588f0a47e81d576f255ad1b47000924aef4169a2f";
       };
-      default = "r0";
+      r1 = {
+        nix = import ../hackage/crypto-token-0.2.1-r1-c24d8863bb4937feccf8cdb7944cdb57be7629aa58c8efd62d6d8c41e228dc90.nix;
+        revNum = 1;
+        sha256 = "c24d8863bb4937feccf8cdb7944cdb57be7629aa58c8efd62d6d8c41e228dc90";
+      };
+      default = "r1";
     };
   };
 }

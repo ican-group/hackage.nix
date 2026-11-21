@@ -3750,6 +3750,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "classyplate" = import ./nix/classyplate.nix;
   "claude" = import ./nix/claude.nix;
   "claude-gate" = import ./nix/claude-gate.nix;
+  "claude-hs" = import ./nix/claude-hs.nix;
   "clay" = import ./nix/clay.nix;
   "clckwrks" = import ./nix/clckwrks.nix;
   "clckwrks-cli" = import ./nix/clckwrks-cli.nix;
@@ -10352,6 +10353,15 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "keiro-pgmq" = import ./nix/keiro-pgmq.nix;
   "keiro-test-support" = import ./nix/keiro-test-support.nix;
   "kempe" = import ./nix/kempe.nix;
+  "kenshou-check" = import ./nix/kenshou-check.nix;
+  "kenshou-cli" = import ./nix/kenshou-cli.nix;
+  "kenshou-core" = import ./nix/kenshou-core.nix;
+  "kenshou-diagnose" = import ./nix/kenshou-diagnose.nix;
+  "kenshou-evidence" = import ./nix/kenshou-evidence.nix;
+  "kenshou-measure" = import ./nix/kenshou-measure.nix;
+  "kenshou-remote" = import ./nix/kenshou-remote.nix;
+  "kenshou-synthetic" = import ./nix/kenshou-synthetic.nix;
+  "kenshou-telemetry" = import ./nix/kenshou-telemetry.nix;
   "kerry" = import ./nix/kerry.nix;
   "kesha" = import ./nix/kesha.nix;
   "keter" = import ./nix/keter.nix;
@@ -15785,6 +15795,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "shine-varying" = import ./nix/shine-varying.nix;
   "shivers-cfg" = import ./nix/shivers-cfg.nix;
   "shoap" = import ./nix/shoap.nix;
+  "shodan" = import ./nix/shodan.nix;
   "shomei-client" = import ./nix/shomei-client.nix;
   "shomei-core" = import ./nix/shomei-core.nix;
   "shomei-jwt" = import ./nix/shomei-jwt.nix;

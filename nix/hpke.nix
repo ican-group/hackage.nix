@@ -72,7 +72,12 @@
         revNum = 0;
         sha256 = "8a48338c7ba01c1a6c9df695f5841efa80d60a452e63b86464f922f535252cbb";
       };
-      default = "r0";
+      r1 = {
+        nix = import ../hackage/hpke-0.4.0-r1-cb67e334dc43ac548a7a537e49bd13ed12cf4574dd05e8bc946365e37e5638e7.nix;
+        revNum = 1;
+        sha256 = "cb67e334dc43ac548a7a537e49bd13ed12cf4574dd05e8bc946365e37e5638e7";
+      };
+      default = "r1";
     };
   };
 }
