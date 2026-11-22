@@ -11424,6 +11424,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "mbox-utility" = import ./nix/mbox-utility.nix;
   "mbtiles" = import ./nix/mbtiles.nix;
   "mbug" = import ./nix/mbug.nix;
+  "mc" = import ./nix/mc.nix;
   "mcaeson" = import ./nix/mcaeson.nix;
   "mcl" = import ./nix/mcl.nix;
   "mcm" = import ./nix/mcm.nix;

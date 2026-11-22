@@ -54,4 +54,15 @@
       default = "r0";
     };
   };
+  "0.6.3" = {
+    sha256 = "5bc8c82aac9bac5c75b0aba7a12c245ad7c81fa557650d83cbfb83ae3ad6d8c0";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/ppad-censor-0.6.3-r0-235520cd858fdca13ed499d3c70b7da51cd45ea9f8937b2f3124427d8f5d4503.nix;
+        revNum = 0;
+        sha256 = "235520cd858fdca13ed499d3c70b7da51cd45ea9f8937b2f3124427d8f5d4503";
+      };
+      default = "r0";
+    };
+  };
 }
