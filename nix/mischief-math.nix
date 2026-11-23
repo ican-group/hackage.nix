@@ -10,4 +10,15 @@
       default = "r0";
     };
   };
+  "0.1.1.0" = {
+    sha256 = "84205addfbaad5d6af3468f746b54118ebb10b95a3e0fdae4f4139f8551f51db";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/mischief-math-0.1.1.0-r0-03ba3fc14b50c3b45353f7fc671671737ef8abcc46a078ca384b2388ae219e6f.nix;
+        revNum = 0;
+        sha256 = "03ba3fc14b50c3b45353f7fc671671737ef8abcc46a078ca384b2388ae219e6f";
+      };
+      default = "r0";
+    };
+  };
 }

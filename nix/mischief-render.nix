@@ -10,4 +10,15 @@
       default = "r0";
     };
   };
+  "0.1.1.0" = {
+    sha256 = "830d23897034bbaaf435dc3a289ffe25cce1801326425558f0cdf63c47608349";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/mischief-render-0.1.1.0-r0-9ddde1a69f5024675f6115c4b2550de1b0b352c867cbc9369fb556f268b9a337.nix;
+        revNum = 0;
+        sha256 = "9ddde1a69f5024675f6115c4b2550de1b0b352c867cbc9369fb556f268b9a337";
+      };
+      default = "r0";
+    };
+  };
 }

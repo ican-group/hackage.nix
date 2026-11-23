@@ -14474,6 +14474,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "rapid" = import ./nix/rapid.nix;
   "rapid-term" = import ./nix/rapid-term.nix;
   "rapidhash" = import ./nix/rapidhash.nix;
+  "rapidhash-aeson" = import ./nix/rapidhash-aeson.nix;
   "rasa" = import ./nix/rasa.nix;
   "rasa-example-config" = import ./nix/rasa-example-config.nix;
   "rasa-ext-bufs" = import ./nix/rasa-ext-bufs.nix;
@@ -18760,6 +18761,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "vinyl-utils" = import ./nix/vinyl-utils.nix;
   "vinyl-vectors" = import ./nix/vinyl-vectors.nix;
   "virthualenv" = import ./nix/virthualenv.nix;
+  "virustotal" = import ./nix/virustotal.nix;
   "visibility" = import ./nix/visibility.nix;
   "visie" = import ./nix/visie.nix;
   "vision" = import ./nix/vision.nix;

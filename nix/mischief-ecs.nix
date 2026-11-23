@@ -42,4 +42,15 @@
       default = "r0";
     };
   };
+  "0.2.2.0" = {
+    sha256 = "a01b091651fb874cc0506bf9467a12760c8f377cb41dedb3602436c28c110660";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/mischief-ecs-0.2.2.0-r0-ff0463c9b21ba13f043830483f795db3e4648283941ea59f6500980babaac39d.nix;
+        revNum = 0;
+        sha256 = "ff0463c9b21ba13f043830483f795db3e4648283941ea59f6500980babaac39d";
+      };
+      default = "r0";
+    };
+  };
 }

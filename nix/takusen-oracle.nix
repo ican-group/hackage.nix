@@ -1,4 +1,15 @@
 {
+  "0.10.0.0" = {
+    sha256 = "9aeeb6b979d9f3f358cc5808b8504b862fda45a181c94542bd72ea8506495391";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/takusen-oracle-0.10.0.0-r0-f6773f1932aed775bc2444b5cadc1ef939f341443f946124cd86459d3b056b88.nix;
+        revNum = 0;
+        sha256 = "f6773f1932aed775bc2444b5cadc1ef939f341443f946124cd86459d3b056b88";
+      };
+      default = "r0";
+    };
+  };
   "0.9.0" = {
     sha256 = "218049e372d49ec767ce6a59bc24b87368e2478da735b40b35f9187f6eedfe49";
     revisions = {
