@@ -109,4 +109,15 @@
       default = "r0";
     };
   };
+  "0.3.4" = {
+    sha256 = "2c6ac86b2c3e4740ea9e3252561bed80f00d3021e91701de2ff88b06debdac3b";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/hsjuiz-0.3.4-r0-5a787c48fed95fe2766026eb5bb047df342500572d4da79867fd1701e0417aa0.nix;
+        revNum = 0;
+        sha256 = "5a787c48fed95fe2766026eb5bb047df342500572d4da79867fd1701e0417aa0";
+      };
+      default = "r0";
+    };
+  };
 }

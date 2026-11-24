@@ -54,4 +54,15 @@
       default = "r0";
     };
   };
+  "0.2.2" = {
+    sha256 = "513f2253b44d06f9efe653d10be81db2f96003178cb22e753615e76a3c2e6bee";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/pagure-0.2.2-r0-8594b176278d8cce8c086d66ca3850b182afbd6b9875d365547b15a0d078ce8c.nix;
+        revNum = 0;
+        sha256 = "8594b176278d8cce8c086d66ca3850b182afbd6b9875d365547b15a0d078ce8c";
+      };
+      default = "r0";
+    };
+  };
 }

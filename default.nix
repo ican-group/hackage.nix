@@ -6326,6 +6326,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "forest" = import ./nix/forest.nix;
   "forest-fire" = import ./nix/forest-fire.nix;
   "forex2ledger" = import ./nix/forex2ledger.nix;
+  "forgejo" = import ./nix/forgejo.nix;
   "forger" = import ./nix/forger.nix;
   "forkable-monad" = import ./nix/forkable-monad.nix;
   "forma" = import ./nix/forma.nix;
@@ -11655,6 +11656,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "mischief-assets" = import ./nix/mischief-assets.nix;
   "mischief-ecs" = import ./nix/mischief-ecs.nix;
   "mischief-input" = import ./nix/mischief-input.nix;
+  "mischief-live" = import ./nix/mischief-live.nix;
   "mischief-math" = import ./nix/mischief-math.nix;
   "mischief-render" = import ./nix/mischief-render.nix;
   "mischief-sdl" = import ./nix/mischief-sdl.nix;
@@ -15786,6 +15788,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "shikumi-cache-redis" = import ./nix/shikumi-cache-redis.nix;
   "shikumi-compile" = import ./nix/shikumi-compile.nix;
   "shikumi-eval" = import ./nix/shikumi-eval.nix;
+  "shikumi-evidence" = import ./nix/shikumi-evidence.nix;
   "shikumi-okf" = import ./nix/shikumi-okf.nix;
   "shikumi-optimize" = import ./nix/shikumi-optimize.nix;
   "shikumi-tools" = import ./nix/shikumi-tools.nix;
@@ -17884,6 +17887,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "tonatona-persistent-postgresql" = import ./nix/tonatona-persistent-postgresql.nix;
   "tonatona-persistent-sqlite" = import ./nix/tonatona-persistent-sqlite.nix;
   "tonatona-servant" = import ./nix/tonatona-servant.nix;
+  "tone" = import ./nix/tone.nix;
   "too-many-cells" = import ./nix/too-many-cells.nix;
   "toodles" = import ./nix/toodles.nix;
   "toolbox" = import ./nix/toolbox.nix;

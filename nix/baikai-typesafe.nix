@@ -21,4 +21,15 @@
       default = "r0";
     };
   };
+  "0.1.0.2" = {
+    sha256 = "d90d1e6cb1054a6bd31cc9a4e3623c851a626389a27915e0e2f80061a72398a0";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/baikai-typesafe-0.1.0.2-r0-0db6b5c7853d0a5567c7a919663bac666eebeac323475e91b2f75109c8047a3a.nix;
+        revNum = 0;
+        sha256 = "0db6b5c7853d0a5567c7a919663bac666eebeac323475e91b2f75109c8047a3a";
+      };
+      default = "r0";
+    };
+  };
 }

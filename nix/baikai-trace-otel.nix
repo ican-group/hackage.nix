@@ -120,4 +120,15 @@
       default = "r0";
     };
   };
+  "0.4.1.2" = {
+    sha256 = "f13bafcdf78ebc6161c0f8d67bf70cacacc5949199866c8c641befa7e0a5c29c";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/baikai-trace-otel-0.4.1.2-r0-09241b03438d6587fd5e75d58439c882a579cc5fcb7d325d85856380d315481d.nix;
+        revNum = 0;
+        sha256 = "09241b03438d6587fd5e75d58439c882a579cc5fcb7d325d85856380d315481d";
+      };
+      default = "r0";
+    };
+  };
 }

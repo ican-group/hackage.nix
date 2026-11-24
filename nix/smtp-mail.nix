@@ -342,7 +342,12 @@
         revNum = 0;
         sha256 = "4c78cec6d016598bc87c7de8df12eb5971b64c5bef69219838877d2551fb8c6f";
       };
-      default = "r0";
+      r1 = {
+        nix = import ../hackage/smtp-mail-0.5.1.0-r1-3d587dc0350c93382ec13f27315f1cdc2d271a61c8d13f061a0a793004720305.nix;
+        revNum = 1;
+        sha256 = "3d587dc0350c93382ec13f27315f1cdc2d271a61c8d13f061a0a793004720305";
+      };
+      default = "r1";
     };
   };
 }
