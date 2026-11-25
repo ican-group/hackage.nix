@@ -10826,6 +10826,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "liboath-hs" = import ./nix/liboath-hs.nix;
   "liboleg" = import ./nix/liboleg.nix;
   "libpafe" = import ./nix/libpafe.nix;
+  "libpg-query" = import ./nix/libpg-query.nix;
   "libphonenumber" = import ./nix/libphonenumber.nix;
   "libpq" = import ./nix/libpq.nix;
   "libraft" = import ./nix/libraft.nix;
@@ -11904,6 +11905,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "monoidmap-examples" = import ./nix/monoidmap-examples.nix;
   "monoidmap-hashable" = import ./nix/monoidmap-hashable.nix;
   "monoidmap-internal" = import ./nix/monoidmap-internal.nix;
+  "monoidmap-nothunks" = import ./nix/monoidmap-nothunks.nix;
   "monoidmap-quickcheck" = import ./nix/monoidmap-quickcheck.nix;
   "monoidplus" = import ./nix/monoidplus.nix;
   "monoids" = import ./nix/monoids.nix;
@@ -15082,6 +15084,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "rowdy" = import ./nix/rowdy.nix;
   "rowdy-yesod" = import ./nix/rowdy-yesod.nix;
   "rowrecord" = import ./nix/rowrecord.nix;
+  "rozbir" = import ./nix/rozbir.nix;
   "rp-tree" = import ./nix/rp-tree.nix;
   "rpc" = import ./nix/rpc.nix;
   "rpc-framework" = import ./nix/rpc-framework.nix;
@@ -16346,6 +16349,8 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "sq" = import ./nix/sq.nix;
   "sqel" = import ./nix/sqel.nix;
   "sqids" = import ./nix/sqids.nix;
+  "sqint" = import ./nix/sqint.nix;
+  "sqitch-plan" = import ./nix/sqitch-plan.nix;
   "sql-simple" = import ./nix/sql-simple.nix;
   "sql-simple-mysql" = import ./nix/sql-simple-mysql.nix;
   "sql-simple-pool" = import ./nix/sql-simple-pool.nix;
@@ -18438,6 +18443,9 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "unix-simple" = import ./nix/unix-simple.nix;
   "unix-time" = import ./nix/unix-time.nix;
   "unjson" = import ./nix/unjson.nix;
+  "unkai" = import ./nix/unkai.nix;
+  "unkai-core" = import ./nix/unkai-core.nix;
+  "unkai-storage" = import ./nix/unkai-storage.nix;
   "unlambda" = import ./nix/unlambda.nix;
   "unleash-client-haskell" = import ./nix/unleash-client-haskell.nix;
   "unleash-client-haskell-core" = import ./nix/unleash-client-haskell-core.nix;

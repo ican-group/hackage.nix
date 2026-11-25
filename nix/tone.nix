@@ -10,4 +10,15 @@
       default = "r0";
     };
   };
+  "0.2.0.0" = {
+    sha256 = "687adb833ffc7f5d70803441808756500933a231a36aa12616894d4abc9d0587";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/tone-0.2.0.0-r0-3ca9cf41a182acc1baff4b84f40ca6e93e1c5a250b32fa91eb25f2fa36fc3e2d.nix;
+        revNum = 0;
+        sha256 = "3ca9cf41a182acc1baff4b84f40ca6e93e1c5a250b32fa91eb25f2fa36fc3e2d";
+      };
+      default = "r0";
+    };
+  };
 }

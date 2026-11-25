@@ -65,6 +65,17 @@
       default = "r0";
     };
   };
+  "0.2.10.1" = {
+    sha256 = "1f42cdcaa8513eb25e90d423f6482adbcf0cc71679cd056438d15940059bc066";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/effectful-cli-0.2.10.1-r0-dc1f2916fbb39c4e4995c5a3c26880d1c09513546fc9da1a624b181c39d4ee6e.nix;
+        revNum = 0;
+        sha256 = "dc1f2916fbb39c4e4995c5a3c26880d1c09513546fc9da1a624b181c39d4ee6e";
+      };
+      default = "r0";
+    };
+  };
   "0.2.2.0" = {
     sha256 = "acdda72905fa7804838be6da52a85ee138835a64886d4e52b406e1b1be970316";
     revisions = {

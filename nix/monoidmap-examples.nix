@@ -87,4 +87,15 @@
       default = "r0";
     };
   };
+  "0.1.1.1" = {
+    sha256 = "dd97abba61b3b940de5ec2464e58a74ce85da55d94b5094f387491513e47425e";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/monoidmap-examples-0.1.1.1-r0-a975d29e13a95dd334e84b1127c519aeff3915dba7b46893d6d5743958f3a49e.nix;
+        revNum = 0;
+        sha256 = "a975d29e13a95dd334e84b1127c519aeff3915dba7b46893d6d5743958f3a49e";
+      };
+      default = "r0";
+    };
+  };
 }

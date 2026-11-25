@@ -10,4 +10,15 @@
       default = "r0";
     };
   };
+  "0.2.0" = {
+    sha256 = "52e26f718089ea47568531d2e2cf34d42c6d34868d4109e929e9ffc32057ac62";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/forgejo-0.2.0-r0-bea6d02f1dfb654c242985a760bac8dc83a27eed395299f60183f3df57985341.nix;
+        revNum = 0;
+        sha256 = "bea6d02f1dfb654c242985a760bac8dc83a27eed395299f60183f3df57985341";
+      };
+      default = "r0";
+    };
+  };
 }
