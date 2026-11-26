@@ -8195,6 +8195,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "hasql-streams-streamly" = import ./nix/hasql-streams-streamly.nix;
   "hasql-th" = import ./nix/hasql-th.nix;
   "hasql-th-format" = import ./nix/hasql-th-format.nix;
+  "hasql-th-kronor" = import ./nix/hasql-th-kronor.nix;
   "hasql-transaction" = import ./nix/hasql-transaction.nix;
   "hasql-transaction-io" = import ./nix/hasql-transaction-io.nix;
   "hasql-url" = import ./nix/hasql-url.nix;
@@ -13593,6 +13594,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "pocket" = import ./nix/pocket.nix;
   "pocket-dns" = import ./nix/pocket-dns.nix;
   "podenv" = import ./nix/podenv.nix;
+  "podman-test" = import ./nix/podman-test.nix;
   "point-octree" = import ./nix/point-octree.nix;
   "pointed" = import ./nix/pointed.nix;
   "pointedalternative" = import ./nix/pointedalternative.nix;
@@ -13815,6 +13817,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "postgresql-simple-typed" = import ./nix/postgresql-simple-typed.nix;
   "postgresql-simple-url" = import ./nix/postgresql-simple-url.nix;
   "postgresql-syntax" = import ./nix/postgresql-syntax.nix;
+  "postgresql-syntax-kronor" = import ./nix/postgresql-syntax-kronor.nix;
   "postgresql-transactional" = import ./nix/postgresql-transactional.nix;
   "postgresql-tx" = import ./nix/postgresql-tx.nix;
   "postgresql-tx-monad-logger" = import ./nix/postgresql-tx-monad-logger.nix;
@@ -15783,6 +15786,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "shibuya-kiroku-adapter" = import ./nix/shibuya-kiroku-adapter.nix;
   "shibuya-metrics" = import ./nix/shibuya-metrics.nix;
   "shibuya-pgmq-adapter" = import ./nix/shibuya-pgmq-adapter.nix;
+  "shibuya-redis-adapter" = import ./nix/shibuya-redis-adapter.nix;
   "shift" = import ./nix/shift.nix;
   "shikensu" = import ./nix/shikensu.nix;
   "shikumi" = import ./nix/shikumi.nix;
@@ -19063,6 +19067,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "websockets-simple-extra" = import ./nix/websockets-simple-extra.nix;
   "websockets-snap" = import ./nix/websockets-snap.nix;
   "webwire" = import ./nix/webwire.nix;
+  "wec" = import ./nix/wec.nix;
   "wedding-announcement" = import ./nix/wedding-announcement.nix;
   "wedged" = import ./nix/wedged.nix;
   "weeder" = import ./nix/weeder.nix;

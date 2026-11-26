@@ -63,6 +63,17 @@
       default = "r1";
     };
   };
+  "0.1.10" = {
+    sha256 = "e0737a89bc6a121ed01b8450908ce97e8fe07f84b815859ee08eb67fe79fe578";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/network-byte-order-0.1.10-r0-d3fad360ad85b0ed468e66f0c1c791bae525afccff008d1820bc619e343972e8.nix;
+        revNum = 0;
+        sha256 = "d3fad360ad85b0ed468e66f0c1c791bae525afccff008d1820bc619e343972e8";
+      };
+      default = "r0";
+    };
+  };
   "0.1.2.0" = {
     sha256 = "9eb1837c59077d9cddcd4b5ba9109ef74d52d5f1b543b048dcbff9f58bfb4af8";
     revisions = {

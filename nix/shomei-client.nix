@@ -21,4 +21,15 @@
       default = "r0";
     };
   };
+  "0.4.0.0" = {
+    sha256 = "076f24191dc5984c3aa8693a439526623df3a10a871c5105e1c88f4313cc4ae1";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/shomei-client-0.4.0.0-r0-ee07754220ffb10d82008bb264c10745cf041bf8a0440a8e1cbe86eada6e5a2f.nix;
+        revNum = 0;
+        sha256 = "ee07754220ffb10d82008bb264c10745cf041bf8a0440a8e1cbe86eada6e5a2f";
+      };
+      default = "r0";
+    };
+  };
 }

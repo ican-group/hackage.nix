@@ -10,4 +10,15 @@
       default = "r0";
     };
   };
+  "0.2.0.0" = {
+    sha256 = "63963a6699ca72b7bf7bcc09cc74af25750a7b292413b51616ed8514b7ce4d2e";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/jsonlogic-hs-0.2.0.0-r0-874072d86fa3d8712558da5b52b06b2f37496776a34cbbacfd60b3562e3486c7.nix;
+        revNum = 0;
+        sha256 = "874072d86fa3d8712558da5b52b06b2f37496776a34cbbacfd60b3562e3486c7";
+      };
+      default = "r0";
+    };
+  };
 }
