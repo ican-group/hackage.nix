@@ -3438,6 +3438,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "carbonara" = import ./nix/carbonara.nix;
   "carboncopy" = import ./nix/carboncopy.nix;
   "cardano-addresses" = import ./nix/cardano-addresses.nix;
+  "cardano-c-clib" = import ./nix/cardano-c-clib.nix;
   "cardano-coin-selection" = import ./nix/cardano-coin-selection.nix;
   "cardano-crypto" = import ./nix/cardano-crypto.nix;
   "cardano-transactions" = import ./nix/cardano-transactions.nix;
@@ -3954,6 +3955,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "combinatorics" = import ./nix/combinatorics.nix;
   "combinators" = import ./nix/combinators.nix;
   "combobuffer" = import ./nix/combobuffer.nix;
+  "cometa" = import ./nix/cometa.nix;
   "comfort-array" = import ./nix/comfort-array.nix;
   "comfort-array-shape" = import ./nix/comfort-array-shape.nix;
   "comfort-blas" = import ./nix/comfort-blas.nix;
@@ -5856,6 +5858,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "exceptions" = import ./nix/exceptions.nix;
   "exceptiot" = import ./nix/exceptiot.nix;
   "exchangealgebra" = import ./nix/exchangealgebra.nix;
+  "exchangealgebra-einvoice" = import ./nix/exchangealgebra-einvoice.nix;
   "exchangerates" = import ./nix/exchangerates.nix;
   "execs" = import ./nix/execs.nix;
   "executable-hash" = import ./nix/executable-hash.nix;
@@ -10926,6 +10929,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "linear-tests" = import ./nix/linear-tests.nix;
   "linear-vect" = import ./nix/linear-vect.nix;
   "linearEqSolver" = import ./nix/linear_Eq_Solver.nix;
+  "linearizable" = import ./nix/linearizable.nix;
   "linearmap-category" = import ./nix/linearmap-category.nix;
   "linearscan" = import ./nix/linearscan.nix;
   "linearscan-hoopl" = import ./nix/linearscan-hoopl.nix;
@@ -12550,6 +12554,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "nri-test-encoding" = import ./nix/nri-test-encoding.nix;
   "nsis" = import ./nix/nsis.nix;
   "nspace" = import ./nix/nspace.nix;
+  "ntfs" = import ./nix/ntfs.nix;
   "nth-prime" = import ./nix/nth-prime.nix;
   "ntha" = import ./nix/ntha.nix;
   "nthable" = import ./nix/nthable.nix;
@@ -14420,6 +14425,9 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "radixtree" = import ./nix/radixtree.nix;
   "rados-haskell" = import ./nix/rados-haskell.nix;
   "raft" = import ./nix/raft.nix;
+  "raft-consensus" = import ./nix/raft-consensus.nix;
+  "raft-consensus-distributed-process" = import ./nix/raft-consensus-distributed-process.nix;
+  "raft-consensus-wal" = import ./nix/raft-consensus-wal.nix;
   "rail-compiler-editor" = import ./nix/rail-compiler-editor.nix;
   "railroad" = import ./nix/railroad.nix;
   "rails-session" = import ./nix/rails-session.nix;
@@ -16353,6 +16361,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "sq" = import ./nix/sq.nix;
   "sqel" = import ./nix/sqel.nix;
   "sqids" = import ./nix/sqids.nix;
+  "sqiff" = import ./nix/sqiff.nix;
   "sqint" = import ./nix/sqint.nix;
   "sqitch-plan" = import ./nix/sqitch-plan.nix;
   "sql-simple" = import ./nix/sql-simple.nix;
@@ -18945,6 +18954,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "waitra" = import ./nix/waitra.nix;
   "waiz" = import ./nix/waiz.nix;
   "wakame" = import ./nix/wakame.nix;
+  "wal" = import ./nix/wal.nix;
   "waldo" = import ./nix/waldo.nix;
   "wallpaper" = import ./nix/wallpaper.nix;
   "warc" = import ./nix/warc.nix;

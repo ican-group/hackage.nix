@@ -43,4 +43,15 @@
       default = "r0";
     };
   };
+  "1.4.0" = {
+    sha256 = "1e27c6d2319a37921a7f93c24f2a245267fa438c66e1c7011fdc6d25d05a51ff";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/smcdel-1.4.0-r0-1370a67203e62bb0d131d412a0ce4207b38c53854254dbe43569fb7159a350f8.nix;
+        revNum = 0;
+        sha256 = "1370a67203e62bb0d131d412a0ce4207b38c53854254dbe43569fb7159a350f8";
+      };
+      default = "r0";
+    };
+  };
 }

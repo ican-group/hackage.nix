@@ -99,7 +99,12 @@
         revNum = 2;
         sha256 = "5417b7c33b4e449c8518cc2ae97292c04732eba1c6fffda9aeedde81982a0875";
       };
-      default = "r2";
+      r3 = {
+        nix = import ../hackage/spacecookie-1.0.0.3-r3-ad84e6dc247cb7eedc64c4bf89828869519240f1bdd97865211807178fe0741c.nix;
+        revNum = 3;
+        sha256 = "ad84e6dc247cb7eedc64c4bf89828869519240f1bdd97865211807178fe0741c";
+      };
+      default = "r3";
     };
   };
   "1.1.0.0" = {
@@ -115,7 +120,12 @@
         revNum = 1;
         sha256 = "de865e2e01e9650cfb43c58897391ef83a7888dfe099af225d4bb0947c455d0a";
       };
-      default = "r1";
+      r2 = {
+        nix = import ../hackage/spacecookie-1.1.0.0-r2-05503a1ee80a9f34e90f156c8d0c510c7bc52a5c7b5522fa909b8181d4e4070e.nix;
+        revNum = 2;
+        sha256 = "05503a1ee80a9f34e90f156c8d0c510c7bc52a5c7b5522fa909b8181d4e4070e";
+      };
+      default = "r2";
     };
   };
   "1.1.0.1" = {

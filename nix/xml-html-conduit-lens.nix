@@ -129,4 +129,15 @@
       default = "r0";
     };
   };
+  "0.4" = {
+    sha256 = "41861a0a12ac0d3b4e6275f2a46792ceb62494c795769b87d81af4544ca0ee53";
+    revisions = {
+      r0 = {
+        nix = import ../hackage/xml-html-conduit-lens-0.4-r0-1563942be6c02c1646e5be0865318941dab634a0898beba381e29822297ef05b.nix;
+        revNum = 0;
+        sha256 = "1563942be6c02c1646e5be0865318941dab634a0898beba381e29822297ef05b";
+      };
+      default = "r0";
+    };
+  };
 }
