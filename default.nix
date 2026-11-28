@@ -8820,6 +8820,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "hooks-dir" = import ./nix/hooks-dir.nix;
   "hooks-exe" = import ./nix/hooks-exe.nix;
   "hookup" = import ./nix/hookup.nix;
+  "hooky" = import ./nix/hooky.nix;
   "hoop" = import ./nix/hoop.nix;
   "hoopl" = import ./nix/hoopl.nix;
   "hoovie" = import ./nix/hoovie.nix;
@@ -13352,6 +13353,7 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "pgrep" = import ./nix/pgrep.nix;
   "pgsql-simple" = import ./nix/pgsql-simple.nix;
   "pgstream" = import ./nix/pgstream.nix;
+  "pgstyle" = import ./nix/pgstyle.nix;
   "pgvector" = import ./nix/pgvector.nix;
   "phantom-state" = import ./nix/phantom-state.nix;
   "phasechange" = import ./nix/phasechange.nix;
@@ -15843,6 +15845,9 @@ with builtins; mapAttrs (_: mapAttrs (_: data: rec {
   "shpider" = import ./nix/shpider.nix;
   "shplit" = import ./nix/shplit.nix;
   "shqq" = import ./nix/shqq.nix;
+  "shroom" = import ./nix/shroom.nix;
+  "shroom-baikai" = import ./nix/shroom-baikai.nix;
+  "shroom-class" = import ./nix/shroom-class.nix;
   "shuffle" = import ./nix/shuffle.nix;
   "shunya-library" = import ./nix/shunya-library.nix;
   "shunyalib" = import ./nix/shunyalib.nix;
